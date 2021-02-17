@@ -32,4 +32,6 @@ You can see a complete example in the ```Example/info/``` repertory
 6. **Warning**: If your working with paired-end sequencing data **don't do the step 11** of the protocol. It is no longer necessary because, since the writing of the protocol, an option has been added to specify that the data are paired.
 
 ### Working on a subset of samples for parameter testing
-7. Do the steps 
+7. Do the step 14 of the protocol. I suggest you choose a subset of individuals representative of your entire dataset (like individuals from different locations) and take the ones with a high number of retained reads. You can find an example here: ```Example/info/popmap.test_samples.tsv```
+
+8. Do the steps (i) to (iv) from the step 15 of the protocol (warning: **A** is for **de novo** analysis and **B** for **reference-based** analysis).
