@@ -3,6 +3,7 @@
 ### By Enora Geslain on 16/02/21
 ### Reference: Rochette & Catchen (2017), Deriving genotypes from RAD-seq short-read data using Stacks (refered as **"the protocol"** below)
 
+## Preparing the working directory and the data
 1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts```. At the end you should have the same tree structure as the one of the ```Example/``` folder with your raw data looking like the ones in the ```Example/raw/``` folder.
 
 2. Do the step 3 of the protocol. Depending on the technique you used in order to sequenced your samples you can have indexes in addition to your barcodes. If it is the case you should have barcodes files looking like this (without the first line):
@@ -31,4 +32,4 @@ You can see a complete example in the ```Example/info/``` repertory
 6. **Warning**: If your working with paired-end sequencing data **don't do the step 11** of the protocol. It is no longer necessary because, since the writing of the protocol, an option has been added to specify that the data are paired.
 
 ### Working on a subset of samples for parameter testing
-7. 
+7. Do the steps 
