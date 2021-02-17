@@ -19,4 +19,5 @@ You can see a complete example in the ```Example/info/``` repertory
 3. Do the step 4 of the protocol. You will find an example of a popmap file in ```Example/info/```
 
 4. Do the step 7 and 8 of the protocol. In order to run the *process_radtags* command on the VSC you can use a script looking like ```Example/scripts/process_radtags_trem.pbs``` and you can launch it by writing the following command in your working directory:
+
 ```qsub ./scripts/process_radtags_trem.pbs```
