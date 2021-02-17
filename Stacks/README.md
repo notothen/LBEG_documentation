@@ -34,4 +34,12 @@ You can see a complete example in the ```Example/info/``` repertory
 ### Working on a subset of samples for parameter testing
 7. Do the step 14 of the protocol. I suggest you choose a subset of individuals representative of your entire dataset (like individuals from different locations) and take the ones with a high number of retained reads. You can find an example here: ```Example/info/popmap.test_samples.tsv```
 
-8. Do the steps (i) to (iv) from the step 15 of the protocol (warning: **A** is for **de novo** analysis and **B** for **reference-based** analysis).
+8. Do the steps (i) to (iv) from the step 15 of the protocol (warning: **A** is for **de novo** analysis and **B** for **reference-based** analysis). You will find the scripts in order to run the 9 denovo_map command in ```Example/scripts/``` (You can launch them with the same command as the step 4 with ```qsub``` before the name of the script.
+
+(steps (v) and (vi) are not mandatory)
+
+9. Do the steps (vii) and (viii) from the step 15 of the protocol.
+/!\ Warning: the explainations in the protocol are longer working. You need to follow this steps instead:
+- copy and paste the scripts present in the folder ```/staging/leuven/stg_00026/Useful_scripts/Stacks``` in your own ```scripts/``` folder
+- open the script ```Make_plot_number_loci_shared.sh``` and follow the instructions at the beginning of the script (changing the path for the input data and the path to the script ```plot_R_graphs_number_loci_shared.r```)
+- open the script ```Make_plot_snps_per_locus.sh```
