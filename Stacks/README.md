@@ -7,7 +7,8 @@
 1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts```. At the end you should have the same tree structure as the one of the ```Example/``` folder with your raw data looking like the ones in the ```Example/raw/``` folder.
 
 2. Do the step 3 of the protocol. Depending on the technique you used in order to sequenced your samples you can have indexes in addition to your barcodes. If it is the case you should have barcodes files looking like this (without the first line):
-```Barcode	Index	Sample_name
+```python
+Barcode	Index	Sample_name
 GCATG	ATCACG	T_eul_PS82_313
 AACCA	ATCACG	T_eul_PS82_314
 CGATC	ATCACG	T_eul_PS82_315
