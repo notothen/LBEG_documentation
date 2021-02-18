@@ -34,7 +34,7 @@ qsub ./scripts/process_radtags_trem.pbs
 
 6. **Warning**: If your working with paired-end sequencing data **don't do the step 11** of the protocol. It is no longer necessary because, since the writing of the protocol, an option has been added to specify that the data are paired.
 
-### Working on a subset of samples for parameter testing
+## Working on a subset of samples for parameter testing
 7. Do the step 14 of the protocol. I suggest you choose a subset of individuals representative of your entire dataset (like individuals from different locations) and take the ones with a high number of retained reads. You can find an example here: ```Example/info/popmap.test_samples.tsv```
 
 8. Do the steps (i) to (iv) from the step 15 of the protocol (warning: **A** is for **de novo** analysis and **B** for **reference-based** analysis). You will find the scripts in order to run the 9 denovo_map command and the 9 populations command in ```Example/scripts/``` (You can launch them with the same command as the step 4 with ```qsub``` before the name of the script).
@@ -50,3 +50,20 @@ qsub ./scripts/process_radtags_trem.pbs
 ```bash
 bash script_name
 ```
+- look at the 2 graphs generated and choose the better value of the parameters for your dataset
+
+## Running Stacks on the full dataset
+10. Do the steps 16 and 17-A-(i) of the protocol.
+
+11. For the rest of the steps (17-A-(ii) to (vii)) you can choose to follow the protocol or to run only one command for the integrality of the steps. Indeed, in the protocol the authors use the commands in a decomposed way: ustacks, cstacks and sstacks but it's the same as running the denovo_map command (it's just easier to parallelize the jobs). If you want to run directly the denovo_map command you can do a script as the one called ```denovo_map_all_trem.pbs``` in the ```Example/scripts/``` folder.
+
+(You can do steps 18 to 20 of the protocol but they are not necessary)
+
+## Filtering genotypes and exporting the data
+12. Do the step 21 of the protocol. You can add a lot of different options in order to filter the genotypes or to have different output formats. You will find all these options and their descriptions at this link: https://catchenlab.life.illinois.edu/stacks/comp/populations.php
+Some interesting options are:
+- --min-mac
+- --min-maf
+- --write-single-snp
+And, of course, choose carefully the file output options in order to have the files you need for your downstream analysis.
+You can find a script example in the ```Example/scripts/``` folder, it is named ```populations_all_trem.pbs```
