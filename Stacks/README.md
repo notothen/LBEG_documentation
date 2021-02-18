@@ -2,6 +2,7 @@
 
 ### By Enora Geslain on 16/02/21
 ### Reference: Rochette & Catchen (2017), Deriving genotypes from RAD-seq short-read data using Stacks (refered as **"the protocol"** below)
+### You can find the script and data examples at this link: https://github.com/Enorya/LBEG_documentation/tree/main/Stacks
 
 # *De novo* analysis
 ## Preparing the working directory and the data
