@@ -3,6 +3,7 @@
 ### By Enora Geslain on 16/02/21
 ### Reference: Rochette & Catchen (2017), Deriving genotypes from RAD-seq short-read data using Stacks (refered as **"the protocol"** below)
 
+# *De novo* analysis
 ## Preparing the working directory and the data
 1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts```. At the end you should have the same tree structure as the one of the ```Example/``` folder with your raw data looking like the ones in the ```Example/raw/``` folder.
 
@@ -33,6 +34,7 @@ qsub ./scripts/process_radtags_trem.pbs
 5. As suggested in the step 9 of the protocol you can check the proportion of retained reads (and the number of retained reads per sample) in the log file in order to see if some samples should be discarded (because of too low or too high retained reads). You will find it in the ```cleaned/``` directory along with the fastq files of your cleaned reads (= demultiplexed and filtered) like in the ```Example/cleaned/``` folder.
 
 6. **Warning**: If your working with paired-end sequencing data **don't do the step 11** of the protocol. It is no longer necessary because, since the writing of the protocol, an option has been added to specify that the data are paired.
+Also, don't do the steps 12 and 13 of the protocol as you are working on *de novo* analysis.
 
 ## Working on a subset of samples for parameter testing
 7. Do the step 14 of the protocol. I suggest you choose a subset of individuals representative of your entire dataset (like individuals from different locations) and take the ones with a high number of retained reads. You can find an example here: ```Example/info/popmap.test_samples.tsv```
@@ -67,3 +69,22 @@ Some interesting options are:
 - --write-single-snp
 And, of course, choose carefully the file output options in order to have the files you need for your downstream analysis.
 You can find a script example in the ```Example/scripts/``` folder, it is named ```populations_all_trem.pbs```
+
+# Reference-based analysis
+## Preparing, demultiplexing and filtering the data
+1. Do the steps 1 to 9 of the protocol as explained above (points 1 to 5 of the *De novo* analysis part of this document).
+
+2. Do the steps 12 and 13 of the protocol. In order to run the *bwa index* command on the VSC you can use a script looking like ```Example/scripts/index_bwa_trem.pbs```
+
+## Working on a subset of samples for parameter testing
+3. It was the step 15-B of the protocol but the pstacks command that is needed no longer works. So, the only way to test the parameters is to do it with the *de novo* method as above (points 7 to 9).
+
+## Running Stacks on the full dataset
+4. Do the steps 16 and 17-B-(i). In order to align your samples on your reference genome with the *bwa mem* command on the VSC you can use a script looking like ```Example/scripts/alignment_bwa_trem.pbs```
+
+5. Do the steps 17-B-(ii) and (iii) of the protocol.
+
+6. As I explained above the *pstacks* command no longer exist. Hence, you can not do the steps 17-B-(iv) to (vii) of the protocol. Instead you need to use the *gstacks* command like in the script ```Example/scripts/stacks_bwa_trem.pbs```.
+
+## Filtering genotypes and exporting the data
+7. Finally, as the *De nove* analysis, you can do the step 21 of the protocol (points 12 of the *De novo* analysis part of this document).
