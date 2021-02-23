@@ -1,0 +1,38 @@
+gstacks v2.5, executed 2021-02-03 21:33:38 (zlib-1.2.11)
+/apps/leuven/skylake/2018a/software/Stacks/2.5-foss-2018a/bin/gstacks -P . -M /staging/leuven/stg_00026/enora/run_test2/info/popmap.tsv -t 108
+Locus/sample distributions will be written to './gstacks.log.distribs'.
+
+Configuration for this run:
+  Input mode: denovo
+  Population map: '/staging/leuven/stg_00026/enora/run_test2/info/popmap.tsv'
+  Input files: 609, e.g. './P_bor_JRI_01.matches.bam'
+  Output to: './'
+  Model: marukilow (var_alpha: 0.01, gt_alpha: 0.05)
+
+Reading BAM headers...
+Processing all loci...
+1%...
+2%...
+5%...
+10%...
+20%...
+50%...
+100%
+
+Attempted to assemble and align paired-end reads for 1114758 loci:
+  0 loci had no or almost no paired-end reads (0.0%);
+  43512 loci had paired-end reads that couldn't be assembled into a contig (3.9%);
+  For the remaining 1071246 loci (96.1%), a paired-end contig was assembled;
+    Average contig size was 244.0 bp;
+  503547 paired-end contigs overlapped the forward region (47.0%)
+    Mean overlap: 25.4bp; mean size of overlapped loci after merging: 223.4;
+  Out of 1027851228 paired-end reads in these loci (mean 914.7 reads per locus),
+    979834936 were successfuly aligned (95.3%);
+  Mean insert length was 230.8, stdev: 33.3 (based on aligned reads in overlapped loci).
+
+Genotyped 1071182 loci:
+  effective per-sample coverage: mean=30.9x, stdev=14.9x, min=6.1x, max=83.7x
+  mean number of sites per locus: 238.6
+  a consistent phasing was found for 2168922 of out 2952134 (73.5%) diploid loci needing phasing
+
+gstacks is done.
