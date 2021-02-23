@@ -1,13 +1,13 @@
 #! /bin/bash -l
 #PBS -l nodes=1:ppn=10
-#PBS -l walltime=24:00:00
+#PBS -l walltime=10:00:00
 #PBS -l pmem=10gb
 #PBS -m abe
 #PBS -M enora.geslain@student.kuleuven.be
 #PBS -N process_radtags_trem_lib1
 #PBS -A llp_lbeg
 
-cd /staging/leuven/stg_00026/enora/run_test1/cleaned;
+cd Example/;
 
 # Programs needed
 module purge
@@ -17,13 +17,12 @@ date;
 
 # Variable initialisation
 LIB=lib1
-RAW_DIR=/staging/leuven/stg_00026/henrik/trem/raw/
-BARCODES_FILE=/staging/leuven/stg_00026/henrik/trem/info/barcodes.$LIB.tsv
+RAW_DIR=./raw/
+BARCODES_FILE=./info/barcodes.${LIB}.tsv
 FILE1=`find $RAW_DIR/$LIB/ -name '*R1*'`;
 FILE2=`find $RAW_DIR/$LIB/ -name '*R2*'`;
 
 # Script
-
 process_radtags \
 -1 $FILE1 \
 -2 $FILE2 \
@@ -32,7 +31,7 @@ process_radtags \
 --renz_1 ecoRI \
 --renz_2 mspI \
 --inline_index \
--r -c -q &> radtags.$LIB.oe;
+-r -c -q &> radtags.${LIB}.oe;
 
 date;
 
