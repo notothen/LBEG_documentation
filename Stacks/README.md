@@ -6,7 +6,7 @@
 
 # *De novo* analysis
 ## Preparing the working directory and the data
-1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts```. At the end you should have the same tree structure as the one of the ```Example/``` folder with your raw data looking like the ones in the ```Example/raw/``` folder.
+1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts```. At the end you should have the same tree structure as the one of the ```Example/``` folder. Your raw data should look like the ones in the ```Example/raw/``` folder if they are not demultiplexed, otherwise you should have 2 files per sample (one for forward reads R1 and one for reverse reads R2).
 
 2. Do the step 3 of the protocol. Depending on the technique you used in order to sequenced your samples you can have indexes in addition to your barcodes. If it is the case you should have barcodes files looking like this (without the first line):
 ```python
@@ -23,24 +23,24 @@ You can see a complete example in the ```Example/info/``` repertory
 3. Do the step 4 of the protocol. You will find an example of a popmap file in ```Example/info/```
 
 ## Demultiplexing and filtering (trimming) the reads
-4. Do the step 7 and 8 of the protocol. In order to run the *process_radtags* command on the VSC you can use a script looking like ```Example/scripts/process_radtags_trem.pbs``` and you can launch it by writing the following command in your working directory:
+4. Do the step 7 and 8 of the protocol. In order to run the *process_radtags* command on the VSC you can use a script looking like ```Example/scripts/process_radtags_trem_lib1.pbs``` and you can launch it by writing the following command in your working directory:
 
 ```bash
-qsub ./scripts/process_radtags_trem.pbs
+qsub ./scripts/process_radtags_trem_lib1.pbs
 ```
 (you will need to run this command as many times as you have libraries)
 
 /!\ **Depending of the number of samples in your libraries this step can be long and heavy thus you might need to change the number of nodes and cores requested as well as the walltime and the memory indicated in the lines 3, 4 and 5 of the script**
 
-5. As suggested in the step 9 of the protocol you can check the proportion of retained reads (and the number of retained reads per sample) in the log file in order to see if some samples should be discarded (because of too low or too high retained reads). You will find it in the ```cleaned/``` directory along with the fastq files of your cleaned reads (= demultiplexed and filtered) like in the ```Example/cleaned/``` folder.
+5. As suggested in the step 9 of the protocol you can check the proportion of retained reads (and the number of retained reads per sample) in the log file in order to see if some samples should be discarded (because of too low or too high retained reads). You will find it in the ```cleaned/``` directory along with the fastq files of your cleaned reads (= demultiplexed + filtered) like in the ```Example/cleaned/``` folder.
 
-6. **Warning**: If your working with paired-end sequencing data **don't do the step 11** of the protocol. It is no longer necessary because, since the writing of the protocol, an option has been added to specify that the data are paired.
+6. **Warning**: If you are working with paired-end sequencing data **don't do the step 11** of the protocol. It is no longer necessary because, since the writing of the protocol, an option has been added to specify that the data are paired.
 Also, don't do the steps 12 and 13 of the protocol as you are working on *de novo* analysis.
 
 ## Working on a subset of samples for parameter testing
 7. Do the step 14 of the protocol. I suggest you choose a subset of individuals representative of your entire dataset (like individuals from different locations) and take the ones with a high number of retained reads. You can find an example here: ```Example/info/popmap.test_samples.tsv```
 
-8. Do the steps (i) to (iv) from the step 15 of the protocol (warning: **A** is for **de novo** analysis and **B** for **reference-based** analysis). You will find the scripts in order to run the 9 denovo_map command and the 9 populations command in ```Example/scripts/``` (You can launch them with the same command as the step 4 with ```qsub``` before the name of the script).
+8. Do the steps (i) to (iv) from the step 15 of the protocol (warning: **A** is for **de novo** analysis and **B** for **reference-based** analysis). You will find the scripts in order to run the denovo_map command and the populations command (for M=n=1 and 2) in ```Example/scripts/``` (You can launch them with the same command as the step 4 with ```qsub``` before the name of the script).
 
 (steps (v) and (vi) are not mandatory)
 
