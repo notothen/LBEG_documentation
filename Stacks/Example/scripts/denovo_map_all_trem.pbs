@@ -1,0 +1,36 @@
+#! /bin/bash -l
+#PBS -l nodes=3:ppn=36
+#PBS -l walltime=72:00:00
+#PBS -l pmem=5gb
+#PBS -m abe
+#PBS -M enora.geslain@student.kuleuven.be
+#PBS -N denovo_map_all_trem
+#PBS -A llp_lbeg
+
+cd Example/stacks.denovo/;
+
+# Programs needed
+module purge
+module load Stacks/2.5-foss-2018a
+
+date;
+
+# Variable initialisation
+CLEANED_DIR=../cleaned/
+POP_MAP=../info/popmap.tsv
+
+# Script
+denovo_map.pl \
+--samples $CLEANED_DIR \
+--popmap $POP_MAP \
+-o ./ \
+-M 4 \
+-n 4 \
+-m 3 \
+-T 108 \
+--paired \
+&> denovomap_trem.oe;
+
+date;
+
+exit 0;
