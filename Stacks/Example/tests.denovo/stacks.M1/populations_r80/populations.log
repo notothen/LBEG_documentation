@@ -1,0 +1,57 @@
+populations v2.5, executed 2021-01-21 10:50:42 (zlib-1.2.11)
+populations -P ./stacks_M1 -O ./stacks_M1/populations.r80_bis -r 0.80 -t 10
+Locus/sample distributions will be written to './stacks_M1/populations.r80_bis/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 1
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  Fstats kernel smoothing: off
+  Bootstrap resampling: off
+
+A population map was not specified, all samples will be read from './stacks_M1/' as a single popultaion.
+No population map specified, using all samples...
+Working on 87 samples.
+Working on 1 population(s):
+    defaultpop: P_bor_JRI_01, P_bor_KGI_03, TA_499_TRNE_11_RS, TA_499_TRNE_13_RS, T_ber_JRI_03, T_ber_JRI_04, T_ber_JRI_07_b_RS, T_ber_JRI_08_b_RS, 
+                T_ber_JRI_14, T_ber_JRI_17, T_ber_JRI_19, T_ber_PS82_0113, T_eul_EA_49_RS, T_eul_PS82_0005, T_eul_PS82_0536, T_eul_PS82_217, 
+                T_eul_PS82_306, T_eul_PS82_311_b, T_eul_PS82_45, T_eul_SO_01, T_han_Desvignes_01, T_han_Desvignes_02, T_han_JRI_08, T_han_JRI_14, 
+                T_han_JRI_15, T_han_PS82_344, T_han_SG1_23, T_han_SG_30, T_lep_EA_59, T_lep_PS82_246, T_lep_PS82_254, T_lep_PS82_255, T_lep_PS82_346, 
+                T_lep_PS82_356, T_lep_PS82_397, T_lep_PS82_89, T_lep_PS96_149, T_lep_ULg1_051, T_loe_Desvignes_02, T_loe_PS82_412, T_loe_PS82_416, 
+                T_loe_PS82_514, T_loe_PS82_99, T_loe_PS96_080, T_loe_PS96_363, T_loe_PS96_366, T_loe_PS96_368, T_loe_PS96_369, T_loe_PS96_370, 
+                T_loe_PS96_371, T_loe_PS96_372, T_loe_PS96_373, T_loe_PS96_376, T_loe_PS96_377, T_loe_PS96_380, T_loe_PS96_385, T_loe_ROS_1489, 
+                T_loe_ROS_1715_RS, T_new_BW17_18_002_25_RS, T_new_BW17_18_007_15_RS, T_new_BW17_18_010_16, T_new_JRI_11, T_new_JRI_15, T_new_KG1_01_RS, 
+                T_pen_JRI_01, T_pen_PS82_513, T_pen_PS96_130, T_pen_PS96_167, T_pen_PS96_168, T_pen_ULg1_068, T_pen_ULg1_069_RS, T_pen_ULg1_076, 
+                T_pen_ULg1_078, T_sco_Desvignes_06_RS, T_sco_Desvignes_07, T_sco_PS82_371, T_sco_PS82_485, T_sco_PS96_036, T_sco_PS96_041, 
+                T_sco_PS96_077, T_sco_PS96_118, T_sco_PS96_153, T_tok_PS96_173, T_tok_PS96_345, Tre_Ber_JR_CDI_08_02, Tre_new_JR_NKG_15_08, 
+                Tre_new_JR_SO_52_08
+Working on 1 group(s) of populations:
+    defaultgrp: defaultpop
+
+Raw haplotypes will be written to './stacks_M1/populations.r80_bis/populations.haplotypes.tsv'
+Population-level summary statistics will be written to './stacks_M1/populations.r80_bis/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to './stacks_M1/populations.r80_bis/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in './stacks_M1/populations.r80_bis/populations.log.distribs'.
+Now processing...
+Batch 1 
+
+Removed 633732 loci that did not pass sample/population constraints from 643290 loci.
+Kept 9558 loci, composed of 2699498 sites; 65158 of those sites were filtered, 125080 variant sites remained.
+Number of loci with PE contig: 9558.00 (100.0%);
+  Mean length of loci: 272.43bp (stderr 0.34);
+Number of loci with SE/PE overlap: 4759.00 (49.8%);
+  Mean length of overlapping loci: 269.36bp (stderr 0.33); mean overlap: 26.72bp (stderr 0.08);
+Mean genotyped sites per locus: 278.12bp (stderr 0.33).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  defaultpop: 78.049 samples per locus; pi: 0.083202; all/variant/polymorphic sites: 2658249/125080/125080; private alleles: 0
+Populations is done.
