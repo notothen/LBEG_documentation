@@ -45,7 +45,7 @@ Also, don't do the steps 12 and 13 of the protocol as you are working on *de nov
 (steps (v) and (vi) are not mandatory)
 
 9. Do the steps (vii) and (viii) from the step 15 of the protocol.
-/!\ Warning: the explainations in the protocol are longer working. You need to follow this steps instead:
+/!\ Warning: the explainations in the protocol are longer working. You need to follow these steps instead:
 - copy and paste the scripts present in the folder ```/staging/leuven/stg_00026/Useful_scripts/Stacks``` in your own ```scripts/``` folder
 - open the script ```Make_plot_number_loci_shared.sh``` and follow the instructions at the beginning of the script (changing the path for the input data and the path to the script ```plot_R_graphs_number_loci_shared.r```)
 - open the script ```Make_plot_snps_per_locus.sh``` and do the same manipulation as above
@@ -53,12 +53,23 @@ Also, don't do the steps 12 and 13 of the protocol as you are working on *de nov
 ```bash
 bash script_name
 ```
-- look at the 2 graphs generated and choose the better value of the parameters for your dataset
+- look at the 2 graphs generated and choose the better value for the parameters of your dataset
+At the end you should have 4 files:
+- 2 PDF files corresponding to the graphs
+- 2 text files containing the tables used to generate the graphs
 
 ## Running Stacks on the full dataset
 10. Do the steps 16 and 17-A-(i) of the protocol.
 
 11. For the rest of the steps (17-A-(ii) to (vii)) you can choose to follow the protocol or to run only one command for the integrality of the steps. Indeed, in the protocol the authors use the commands in a decomposed way: ustacks, cstacks and sstacks but it's the same as running the denovo_map command (it's just easier to parallelize the jobs). If you want to run directly the denovo_map command you can do a script as the one called ```denovo_map_all_trem.pbs``` in the ```Example/scripts/``` folder.
+At the end you will have:
+- 5 files called ```catalog....```
+- 2 files called ```gstacks....```
+- 1 file called ```denovo_map.log```
+- 1 file called ```tsv2bam.log```
+- 6 files called ```populations....```
+- 5 files for each sample
+You can see some of the results files in the ```Example/stacks.denovo/``` folder
 
 (You can do steps 18 to 20 of the protocol but they are not necessary)
 
