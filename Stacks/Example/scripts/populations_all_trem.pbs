@@ -1,0 +1,37 @@
+#! /bin/bash -l
+#PBS -l nodes=1:ppn=18
+#PBS -l walltime=6:00:00
+#PBS -l pmem=10gb
+#PBS -m abe
+#PBS -M enora.geslain@student.kuleuven.be
+#PBS -N populations_all_trem
+#PBS -A llp_lbeg
+
+cd /Example/populations/;
+
+# Programs needed
+module purge
+module load Stacks/2.5-foss-2018a
+
+date;
+
+# Variable initialisation
+OUTDIR=./
+STACKS_DIR=../stacks.denovo
+POPMAP=../info/popmap.tsv
+
+# Script
+populations \
+-P $STACKS_DIR \
+-O $OUTDIR \
+-M $POPMAP \
+-r 0.70 \
+--min-mac 5 \
+--fstats \
+--fasta-loci --fasta-samples --vcf --genepop --structure --phylip --radpainter --hzar \
+-t 18 \
+&> populations_all_trem.oe;
+
+date;
+
+exit 0;
