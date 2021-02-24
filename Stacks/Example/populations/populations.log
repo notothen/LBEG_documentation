@@ -1,0 +1,843 @@
+populations v2.5, executed 2021-02-17 08:47:57 (zlib-1.2.11)
+populations -P ../../stacks.ref/stacks_ber_vs_all/ -O ./r70_min-mac5 -M ../../info/popmap_correct.tsv -r 0.70 --min-mac 5 --fstats --fasta-loci --fasta-samples --vcf --genepop --structure --phylip --radpainter --hzar -t 18
+Locus/sample distributions will be written to './r70_min-mac5/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.7
+  Locus Population limit: 1
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  Fstats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 609 samples, 10 population(s), 1 group(s).
+Working on 609 samples.
+Working on 10 population(s):
+    bor: P_bor_JRI_01, P_bor_KGI_03
+    ber: T_ber_JRI_02, T_ber_JRI_03, T_ber_JRI_04, T_ber_JRI_05, T_ber_JRI_06_RS, T_ber_JRI_06_b_RS, T_ber_JRI_07_RS, T_ber_JRI_07_b_RS, 
+         T_ber_JRI_08_RS, T_ber_JRI_08_b_RS, T_ber_JRI_10, T_ber_JRI_11, T_ber_JRI_12, T_ber_JRI_13, T_ber_JRI_14, T_ber_JRI_15, T_ber_JRI_16, 
+         T_ber_JRI_17, T_ber_JRI_18, T_ber_JRI_19, T_ber_JRI_20, T_ber_JRI_21, T_ber_JRI_22, T_ber_JRI_23, T_ber_JRI_24, T_ber_JRI_25, 
+         T_ber_JRI_26, T_ber_JRI_27, T_ber_JRI_28, T_ber_JRI_29, T_ber_JRI_30, T_ber_PS82_0113, T_loe_PS96_377, Tre_Ber_JR_CDI_08_02
+    eul: Standart_2_lib1, Standart_2_lib2, Standart_2_lib3, Standart_2_lib4, Standart_2_lib5, Standart_2_lib6, Standart_2_lib7, Standart_2_lib8, 
+         T_eul_EA_49_RS, T_eul_PS82_0001, T_eul_PS82_0002, T_eul_PS82_0003, T_eul_PS82_0004, T_eul_PS82_0005, T_eul_PS82_0006, T_eul_PS82_0007, 
+         T_eul_PS82_0007_b, T_eul_PS82_0008, T_eul_PS82_0008_b, T_eul_PS82_0009, T_eul_PS82_0010, T_eul_PS82_0011, T_eul_PS82_0012, 
+         T_eul_PS82_0013, T_eul_PS82_0014, T_eul_PS82_0015, T_eul_PS82_0017, T_eul_PS82_0018, T_eul_PS82_0019, T_eul_PS82_0020, T_eul_PS82_0021, 
+         T_eul_PS82_0022, T_eul_PS82_0023, T_eul_PS82_0024, T_eul_PS82_0025, T_eul_PS82_0027, T_eul_PS82_0028, T_eul_PS82_0029, T_eul_PS82_0030, 
+         T_eul_PS82_0031, T_eul_PS82_0032, T_eul_PS82_0293, T_eul_PS82_0474, T_eul_PS82_0479, T_eul_PS82_0481, T_eul_PS82_0495, T_eul_PS82_0501, 
+         T_eul_PS82_0507, T_eul_PS82_0515, T_eul_PS82_0516, T_eul_PS82_0523, T_eul_PS82_0529, T_eul_PS82_0536, T_eul_PS82_215, T_eul_PS82_216, 
+         T_eul_PS82_217, T_eul_PS82_217_b, T_eul_PS82_218, T_eul_PS82_218_b, T_eul_PS82_219, T_eul_PS82_219_b, T_eul_PS82_220, T_eul_PS82_221, 
+         T_eul_PS82_223, T_eul_PS82_224, T_eul_PS82_225, T_eul_PS82_226, T_eul_PS82_227, T_eul_PS82_228, T_eul_PS82_229, T_eul_PS82_230, 
+         T_eul_PS82_232, T_eul_PS82_233, T_eul_PS82_234, T_eul_PS82_235, T_eul_PS82_237, T_eul_PS82_238, T_eul_PS82_2610, T_eul_PS82_298, 
+         T_eul_PS82_303, T_eul_PS82_305, T_eul_PS82_306, T_eul_PS82_307, T_eul_PS82_308, T_eul_PS82_310_RS, T_eul_PS82_310_c, T_eul_PS82_311, 
+         T_eul_PS82_311_b, T_eul_PS82_312_RS, T_eul_PS82_313, T_eul_PS82_314, T_eul_PS82_3145, T_eul_PS82_315, T_eul_PS82_317, T_eul_PS82_318, 
+         T_eul_PS82_319, T_eul_PS82_320, T_eul_PS82_322, T_eul_PS82_323, T_eul_PS82_324, T_eul_PS82_325, T_eul_PS82_326, T_eul_PS82_327, 
+         T_eul_PS82_33, T_eul_PS82_3351, T_eul_PS82_3368, T_eul_PS82_34, T_eul_PS82_3488, T_eul_PS82_35, T_eul_PS82_357, T_eul_PS82_36, 
+         T_eul_PS82_360, T_eul_PS82_361, T_eul_PS82_37, T_eul_PS82_38, T_eul_PS82_42, T_eul_PS82_43, T_eul_PS82_44, T_eul_PS82_45, 
+         T_eul_PS82_46, T_eul_PS82_47, T_eul_PS82_474, T_eul_PS82_479, T_eul_PS82_481, T_eul_PS82_495, T_eul_PS82_497, T_eul_PS82_497_b, 
+         T_eul_PS82_501, T_eul_PS82_501_b, T_eul_PS82_507, T_eul_PS82_507_b, T_eul_PS82_515, T_eul_PS82_516, T_eul_PS82_523, T_eul_PS82_529, 
+         T_eul_PS82_536, T_eul_PS82_70, T_eul_PS96_096, T_eul_PS96_143, T_eul_PS96_148, T_eul_PS96_210, T_eul_PS96_210_b, T_eul_PS96_218, 
+         T_eul_PS96_219, T_eul_PS96_223, T_eul_PS96_338, T_eul_PS96_344, T_eul_SO_01, T_eul_SO_03, T_eul_SO_04, T_eul_SO_05, T_eul_SO_06, 
+         T_eul_SO_07, T_eul_SO_08, T_eul_SO_486, T_eul_SO_487_RS, T_eul_SO_489, T_eul_ULg1_064, T_loe_PS96_355_RS, T_loe_PS96_368, 
+         T_loe_PS96_379, T_loe_PS96_380, T_loe_PS96_381, T_loe_PS96_382, T_loe_PS96_383, T_loe_PS96_384, T_loe_PS96_386, T_loe_PS96_387, 
+         T_loe_PS96_388, T_loe_PS96_389, T_loe_PS96_390
+    han: T_han_Desvignes_01, T_han_Desvignes_02, T_han_JRI_02, T_han_JRI_03, T_han_JRI_04, T_han_JRI_05, T_han_JRI_06, T_han_JRI_07, 
+         T_han_JRI_08, T_han_JRI_09, T_han_JRI_10, T_han_JRI_11, T_han_JRI_12, T_han_JRI_13, T_han_JRI_14, T_han_JRI_15, T_han_JRI_16, 
+         T_han_JRI_17, T_han_JRI_18, T_han_JRI_19, T_han_JRI_20, T_han_JRI_21, T_han_JRI_22, T_han_JRI_23, T_han_JRI_24, T_han_JRI_25, 
+         T_han_JRI_26, T_han_JRI_28, T_han_JRI_29, T_han_JRI_30, T_han_PS82_344, T_han_SG1_01_RS, T_han_SG1_04, T_han_SG1_08_RS, T_han_SG1_11_RS, 
+         T_han_SG1_16, T_han_SG1_17, T_han_SG1_19, T_han_SG1_21, T_han_SG1_23, T_han_SG1_24, T_han_SG1_25, T_han_SG_30, T_loe_PS96_373, 
+         T_loe_PS96_374, T_loe_PS96_375, T_loe_PS96_376
+    lep: T_lep_EA_59_RS, T_lep_PS82_118, T_lep_PS82_119, T_lep_PS82_120, T_lep_PS82_120_b, T_lep_PS82_121, T_lep_PS82_121_b, T_lep_PS82_246, 
+         T_lep_PS82_247, T_lep_PS82_254, T_lep_PS82_255, T_lep_PS82_256, T_lep_PS82_292, T_lep_PS82_321, T_lep_PS82_346, T_lep_PS82_356, 
+         T_lep_PS82_397, T_lep_PS82_439, T_lep_PS82_70, T_lep_PS82_89, T_lep_PS82_96, T_lep_PS96_042, T_lep_PS96_149, T_lep_PS96_202, 
+         T_lep_PS96_202_b, T_lep_ULg1_051
+    loe: T_loe_Desvignes_01, T_loe_Desvignes_02, T_loe_PS82_212, T_loe_PS82_213_RS, T_loe_PS82_214_RS, T_loe_PS82_264, T_loe_PS82_275, 
+         T_loe_PS82_348, T_loe_PS82_365, T_loe_PS82_386, T_loe_PS82_387, T_loe_PS82_389, T_loe_PS82_394, T_loe_PS82_395, T_loe_PS82_395_b, 
+         T_loe_PS82_396, T_loe_PS82_400, T_loe_PS82_402, T_loe_PS82_403, T_loe_PS82_404, T_loe_PS82_405, T_loe_PS82_408, T_loe_PS82_411, 
+         T_loe_PS82_412, T_loe_PS82_413, T_loe_PS82_416, T_loe_PS82_418, T_loe_PS82_420, T_loe_PS82_424, T_loe_PS82_432, T_loe_PS82_440, 
+         T_loe_PS82_454, T_loe_PS82_469, T_loe_PS82_492, T_loe_PS82_498, T_loe_PS82_514, T_loe_PS82_531, T_loe_PS82_533, T_loe_PS82_97, 
+         T_loe_PS82_99, T_loe_PS96_080, T_loe_PS96_087, T_loe_PS96_102, T_loe_PS96_102_b, T_loe_PS96_108, T_loe_PS96_109, T_loe_PS96_171, 
+         T_loe_PS96_172, T_loe_PS96_213, T_loe_PS96_239, T_loe_PS96_240, T_loe_PS96_323, T_loe_PS96_334, T_loe_PS96_335, T_loe_PS96_342, 
+         T_loe_PS96_346, T_loe_PS96_347, T_loe_PS96_348, T_loe_PS96_350, T_loe_PS96_352, T_loe_PS96_353, T_loe_PS96_354, T_loe_PS96_366, 
+         T_loe_PS96_367, T_loe_PS96_372, T_loe_PS96_393, T_loe_PS96_395, T_loe_PS96_396, T_loe_ROS_1352, T_loe_ROS_1353, T_loe_ROS_1354, 
+         T_loe_ROS_1417, T_loe_ROS_1418, T_loe_ROS_1419, T_loe_ROS_1420, T_loe_ROS_1421, T_loe_ROS_1484, T_loe_ROS_1485, T_loe_ROS_1486, 
+         T_loe_ROS_1487, T_loe_ROS_1488, T_loe_ROS_1489, T_loe_ROS_1490, T_loe_ROS_1491, T_loe_ROS_1492, T_loe_ROS_1493, T_loe_ROS_1571, 
+         T_loe_ROS_1572, T_loe_ROS_1573, T_loe_ROS_1574, T_loe_ROS_1575, T_loe_ROS_1711, T_loe_ROS_1712, T_loe_ROS_1714, T_loe_ROS_1715_RS, 
+         T_loe_ROS_1753, T_loe_ROS_1754, T_loe_ROS_1755, T_loe_ROS_1756, T_loe_ROS_1757, T_loe_ROS_1758, T_loe_ROS_1759, T_loe_ROS_1760_RS, 
+         T_loe_ROS_1761, T_loe_ROS_1762
+    sco: Standart_1_lib1, Standart_1_lib2, Standart_1_lib3, Standart_1_lib4, Standart_1_lib5, Standart_1_lib6, Standart_1_lib7, Standart_1_lib8, 
+         T_loe_PS96_361, T_loe_PS96_362, T_loe_PS96_363, T_loe_PS96_364, T_loe_PS96_365, T_sco_Desvignes_02_RS, T_sco_Desvignes_03, 
+         T_sco_Desvignes_06_RS, T_sco_Desvignes_07, T_sco_PS82_16, T_sco_PS82_26, T_sco_PS82_328, T_sco_PS82_371, T_sco_PS82_372, 
+         T_sco_PS82_373, T_sco_PS82_374, T_sco_PS82_375, T_sco_PS82_376, T_sco_PS82_377, T_sco_PS82_378, T_sco_PS82_379, T_sco_PS82_380, 
+         T_sco_PS82_381, T_sco_PS82_382, T_sco_PS82_383, T_sco_PS82_476, T_sco_PS82_485, T_sco_PS82_487, T_sco_PS82_489, T_sco_PS82_490, 
+         T_sco_PS82_493, T_sco_PS82_496, T_sco_PS82_509, T_sco_PS82_511, T_sco_PS82_52, T_sco_PS82_53, T_sco_PS82_534, T_sco_PS82_54, 
+         T_sco_PS82_55, T_sco_PS82_56, T_sco_PS82_57, T_sco_PS82_58, T_sco_PS82_60, T_sco_PS82_61, T_sco_PS82_62, T_sco_PS82_63, T_sco_PS82_74, 
+         T_sco_PS82_74_b, T_sco_PS82_75, T_sco_PS82_77, T_sco_PS82_85, T_sco_PS82_88, T_sco_PS82_90, T_sco_PS96_002, T_sco_PS96_003, 
+         T_sco_PS96_036, T_sco_PS96_040, T_sco_PS96_041, T_sco_PS96_044, T_sco_PS96_077, T_sco_PS96_078, T_sco_PS96_092, T_sco_PS96_092_b, 
+         T_sco_PS96_093, T_sco_PS96_117, T_sco_PS96_118, T_sco_PS96_144, T_sco_PS96_145, T_sco_PS96_146, T_sco_PS96_147, T_sco_PS96_152, 
+         T_sco_PS96_153, T_sco_PS96_163, T_sco_PS96_164, T_sco_PS96_211, T_sco_PS96_211_b, T_sco_PS96_212, T_sco_PS96_221, T_sco_PS96_229, 
+         T_sco_PS96_343, T_sco_ULg1_072, T_sco_ULg1_073
+    tok: T_loe_PS96_369, T_loe_PS96_370, T_loe_PS96_371, T_tok_PS96_173, T_tok_PS96_345
+    pen: T_loe_PS96_385, T_pen_JRI_01, T_pen_PS82_513, T_pen_PS96_006, T_pen_PS96_006_b, T_pen_PS96_130, T_pen_PS96_167, T_pen_PS96_168, 
+         T_pen_ULg1_066, T_pen_ULg1_068, T_pen_ULg1_069_RS, T_pen_ULg1_071, T_pen_ULg1_075, T_pen_ULg1_076, T_pen_ULg1_077, T_pen_ULg1_078, 
+         T_pen_ULg1_079
+    new: Standart_3_lib1, Standart_3_lib2, Standart_3_lib3, Standart_3_lib4, Standart_3_lib5, Standart_3_lib6, Standart_3_lib7, Standart_3_lib8, 
+         TA_399_TRNE_10, TA_399_TRNE_11, TA_399_TRNE_7, TA_400_TRNE_1, TA_400_TRNE_2, TA_400_TRNE_3, TA_401_TRNE_07, TA_401_TRNE_10, 
+         TA_401_TRNE_11, TA_401_TRNE_12, TA_401_TRNE_13, TA_401_TRNE_4, TA_401_TRNE_6, TA_401_TRNE_7, TA_401_TRNE_8, TA_401_TRNE_9, 
+         TA_499_TRNE_10_RS, TA_499_TRNE_11_RS, TA_499_TRNE_13_RS, TA_499_TRNE_18, TA_499_TRNE_6_RS, TA_499_TRNE_7_RS, TA_499_TRNE_8, 
+         TA_499_TRNE_9_RS, TA_506_TRNE_10, TA_506_TRNE_11_RS, TA_506_TRNE_12, TA_506_TRNE_1_RS, TA_506_TRNE_3_RS, TA_506_TRNE_4_RS, 
+         TA_506_TRNE_5_RS, TA_506_TRNE_7_RS, TA_506_TRNE_8, TA_506_TRNE_9_RS, TA_507_TRNE_6, TA_508_TRNE_10, TA_508_TRNE_19, TA_508_TRNE_1_RS, 
+         TA_508_TRNE_2, TA_508_TRNE_3_RS, TA_508_TRNE_4, TA_508_TRNE_6_RS, TA_508_TRNE_7_RS, TA_508_TRNE_9, T_new_BW17_18_002_25_RS, 
+         T_new_BW17_18_002_29, T_new_BW17_18_006_02_RS, T_new_BW17_18_007_15_RS, T_new_BW17_18_010_16, T_new_BW17_18_010_17, T_new_JRI_01, 
+         T_new_JRI_03, T_new_JRI_04, T_new_JRI_05, T_new_JRI_06, T_new_JRI_07, T_new_JRI_08, T_new_JRI_09, T_new_JRI_10, T_new_JRI_11, 
+         T_new_JRI_12, T_new_JRI_13, T_new_JRI_14, T_new_JRI_15, T_new_JRI_16, T_new_JRI_17, T_new_JRI_18, T_new_JRI_19, T_new_JRI_20, 
+         T_new_JRI_21, T_new_JRI_22, T_new_JRI_23, T_new_KG1_01_RS, T_new_KG1_02, Tre_new_JR_NKG_15_01, Tre_new_JR_NKG_15_02, Tre_new_JR_NKG_15_03, 
+         Tre_new_JR_NKG_15_04, Tre_new_JR_NKG_15_05_RS, Tre_new_JR_NKG_15_06, Tre_new_JR_NKG_15_07, Tre_new_JR_NKG_15_08, Tre_new_JR_NKG_15_09, 
+         Tre_new_JR_NKG_15_10, Tre_new_JR_NKG_15_11, Tre_new_JR_NKG_15_12, Tre_new_JR_NKG_15_14, Tre_new_JR_NKG_15_15, Tre_new_JR_NKG_15_16, 
+         Tre_new_JR_NKG_15_3, Tre_new_JR_SO_52_01, Tre_new_JR_SO_52_03, Tre_new_JR_SO_52_04, Tre_new_JR_SO_52_06, Tre_new_JR_SO_52_07, 
+         Tre_new_JR_SO_52_08, Tre_new_JR_SO_52_25, Tre_new_JR_SO_52_26, Tre_new_JR_SO_52_27_RS, Tre_new_JR_SO_52_29_RS, Tre_new_JR_SO_52_30, 
+         Tre_new_JR_SO_52_33_RS, Tre_new_JR_SO_52_35, Tre_new_JR_SO_52_36
+Working on 1 group(s) of populations:
+    defaultgrp: bor, ber, eul, han, lep, loe, sco, tok, pen, new
+
+FASTA consensus sequences for each locus in the metapopulation  will be written to './r70_min-mac5/populations.loci.fa'
+FASTA consensus sequences for each sample will be written to './r70_min-mac5/populations.samples.fa'
+SNPs and calls will be written in VCF format to './r70_min-mac5/populations.snps.vcf'
+Haplotypes will be written in VCF format to './r70_min-mac5/populations.haps.vcf'
+Polymorphic sites in GenePop format will be written to './r70_min-mac5/populations.snps.genepop'
+Warning: Genepop: The order in which samples appear was modified (as the input population map is not sorted).Polymorphic loci in GenePop format will be written to './r70_min-mac5/populations.haps.genepop'
+Polymorphic sites in Structure format will be written to './r70_min-mac5/populations.structure'
+Fixed difference sites in Phylip format will be written to './r70_min-mac5/populations.fixed.phylip'
+Polymorphic loci in RADpainter/fineRADstructure format will be written to './r70_min-mac5/populations.haps.radpainter'
+Polymorphic sites in HZAR format will be written to './r70_min-mac5/populations.hzar.csv'
+Raw haplotypes will be written to './r70_min-mac5/populations.haplotypes.tsv'
+Population-level summary statistics will be written to './r70_min-mac5/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to './r70_min-mac5/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in './r70_min-mac5/populations.log.distribs'.
+Now processing...
+Scaff10x_0_arrow_ctg1 
+Scaff10x_1000_arrow_ctg1 
+Scaff10x_1002_arrow_ctg1 
+Scaff10x_1004_arrow_ctg1 
+Scaff10x_1005_arrow_ctg1 
+Scaff10x_1007_arrow_ctg1 
+Scaff10x_1010_arrow_ctg1 
+Scaff10x_1012_arrow_ctg1 
+Scaff10x_1013_arrow_ctg1 
+Scaff10x_1015_arrow_ctg1 
+Scaff10x_1018_arrow_ctg1 
+Scaff10x_1019_arrow_ctg1 
+Scaff10x_101_arrow_ctg1 
+Scaff10x_1024_arrow_ctg1 
+Scaff10x_1025_arrow_ctg1 
+Scaff10x_1027_arrow_ctg1 
+Scaff10x_1028_arrow_ctg1 
+Scaff10x_102_arrow_ctg1 
+Scaff10x_1031_arrow_ctg1 
+Scaff10x_1033_arrow_ctg1 
+Scaff10x_1034_arrow_ctg1 
+Scaff10x_1040_arrow_ctg1 
+Scaff10x_1042_arrow_ctg1 
+Scaff10x_1044_arrow_ctg1 
+Scaff10x_1045_arrow_ctg1 
+Scaff10x_1047_arrow_ctg1 
+Scaff10x_1049_arrow_ctg1 
+Scaff10x_1052_arrow_ctg1 
+Scaff10x_1056_arrow_ctg1 
+Scaff10x_1057_arrow_ctg1 
+Scaff10x_1060_arrow_ctg1 
+Scaff10x_1062_arrow_ctg1 
+Scaff10x_1065_arrow_ctg1 
+Scaff10x_1066_arrow_ctg1 
+Scaff10x_1067_arrow_ctg1 
+Scaff10x_1068_arrow_ctg1 
+Scaff10x_1069_arrow_ctg1 
+Scaff10x_106_arrow_ctg1 
+Scaff10x_1076_arrow_ctg1 
+Scaff10x_1078_arrow_ctg1 
+Scaff10x_1082_arrow_ctg1 
+Scaff10x_1086_arrow_ctg1 
+Scaff10x_1087_arrow_ctg1 
+Scaff10x_108_arrow_ctg1 
+Scaff10x_1091_arrow_ctg1 
+Scaff10x_1094_arrow_ctg1 
+Scaff10x_1095_arrow_ctg1 
+Scaff10x_109_arrow_ctg1 
+Scaff10x_10_arrow_ctg1 
+Scaff10x_1104_arrow_ctg1 
+Scaff10x_110_arrow_ctg1 
+Scaff10x_1111_arrow_ctg1 
+Scaff10x_1119_arrow_ctg1 
+Scaff10x_111_arrow_ctg1 
+Scaff10x_1121_arrow_ctg1 
+Scaff10x_1123_arrow_ctg1 
+Scaff10x_1125_arrow_ctg1 
+Scaff10x_1126_arrow_ctg1 
+Scaff10x_1127_arrow_ctg1 
+Scaff10x_1128_arrow_ctg1 
+Scaff10x_1129_arrow_ctg1 
+Scaff10x_112_arrow_ctg1 
+Scaff10x_1134_arrow_ctg1 
+Scaff10x_1136_arrow_ctg1 
+Scaff10x_1137_arrow_ctg1 
+Scaff10x_1138_arrow_ctg1 
+Scaff10x_113_arrow_ctg1 
+Scaff10x_1141_arrow_ctg1 
+Scaff10x_1145_arrow_ctg1 
+Scaff10x_1146_arrow_ctg1 
+Scaff10x_1148_arrow_ctg1 
+Scaff10x_114_arrow_ctg1 
+Scaff10x_1151_arrow_ctg1 
+Scaff10x_1157_arrow_ctg1 
+Scaff10x_115_arrow_ctg1 
+Scaff10x_1160_arrow_ctg1 
+Scaff10x_1168_arrow_ctg1 
+Scaff10x_1170_arrow_ctg1 
+Scaff10x_1175_arrow_ctg1 
+Scaff10x_1176_arrow_ctg1 
+Scaff10x_1184_arrow_ctg1 
+Scaff10x_1185_arrow_ctg1 
+Scaff10x_1189_arrow_ctg1 
+Scaff10x_118_arrow_ctg1 
+Scaff10x_1190_arrow_ctg1 
+Scaff10x_1197_arrow_ctg1 
+Scaff10x_1199_arrow_ctg1 
+Scaff10x_11_arrow_ctg1 
+Scaff10x_1202_arrow_ctg1 
+Scaff10x_1203_arrow_ctg1 
+Scaff10x_1205_arrow_ctg1 
+Scaff10x_1207_arrow_ctg1 
+Scaff10x_1211_arrow_ctg1 
+Scaff10x_1214_arrow_ctg1 
+Scaff10x_1218_arrow_ctg1 
+Scaff10x_1219_arrow_ctg1 
+Scaff10x_1220_arrow_ctg1 
+Scaff10x_1221_arrow_ctg1 
+Scaff10x_1223_arrow_ctg1 
+Scaff10x_1228_arrow_ctg1 
+Scaff10x_1229_arrow_ctg1 
+Scaff10x_1230_arrow_ctg1 
+Scaff10x_1231_arrow_ctg1 
+Scaff10x_1236_arrow_ctg1 
+Scaff10x_1237_arrow_ctg1 
+Scaff10x_1243_arrow_ctg1 
+Scaff10x_1251_arrow_ctg1 
+Scaff10x_1252_arrow_ctg1 
+Scaff10x_1257_arrow_ctg1 
+Scaff10x_1259_arrow_ctg1 
+Scaff10x_125_arrow_ctg1 
+Scaff10x_1260_arrow_ctg1 
+Scaff10x_1262_arrow_ctg1 
+Scaff10x_1263_arrow_ctg1 
+Scaff10x_1264_arrow_ctg1 
+Scaff10x_1265_arrow_ctg1 
+Scaff10x_1267_arrow_ctg1 
+Scaff10x_1268_arrow_ctg1 
+Scaff10x_1269_arrow_ctg1 
+Scaff10x_126_arrow_ctg1 
+Scaff10x_1270_arrow_ctg1 
+Scaff10x_1273_arrow_ctg1 
+Scaff10x_1277_arrow_ctg1 
+Scaff10x_127_arrow_ctg1 
+Scaff10x_1280_arrow_ctg1 
+Scaff10x_1281_arrow_ctg1 
+Scaff10x_1282_arrow_ctg1 
+Scaff10x_1283_arrow_ctg1 
+Scaff10x_1285_arrow_ctg1 
+Scaff10x_1288_arrow_ctg1 
+Scaff10x_1291_arrow_ctg1 
+Scaff10x_1293_arrow_ctg1 
+Scaff10x_1294_arrow_ctg1 
+Scaff10x_1296_arrow_ctg1 
+Scaff10x_1297_arrow_ctg1 
+Scaff10x_1298_arrow_ctg1 
+Scaff10x_129_arrow_ctg1 
+Scaff10x_12_arrow_ctg1 
+Scaff10x_1302_arrow_ctg1 
+Scaff10x_1307_arrow_ctg1 
+Scaff10x_1308_arrow_ctg1 
+Scaff10x_1309_arrow_ctg1 
+Scaff10x_130_arrow_ctg1 
+Scaff10x_1310_arrow_ctg1 
+Scaff10x_1311_arrow_ctg1 
+Scaff10x_1312_arrow_ctg1 
+Scaff10x_1313_arrow_ctg1 
+Scaff10x_1314_arrow_ctg1 
+Scaff10x_1317_arrow_ctg1 
+Scaff10x_1319_arrow_ctg1 
+Scaff10x_131_arrow_ctg1 
+Scaff10x_137_arrow_ctg1 
+Scaff10x_138_arrow_ctg1 
+Scaff10x_139_arrow_ctg1 
+Scaff10x_13_arrow_ctg1 
+Scaff10x_140_arrow_ctg1 
+Scaff10x_141_arrow_ctg1 
+Scaff10x_143_arrow_ctg1 
+Scaff10x_144_arrow_ctg1 
+Scaff10x_145_arrow_ctg1 
+Scaff10x_149_arrow_ctg1 
+Scaff10x_14_arrow_ctg1 
+Scaff10x_150_arrow_ctg1 
+Scaff10x_151_arrow_ctg1 
+Scaff10x_154_arrow_ctg1 
+Scaff10x_15_arrow_ctg1 
+Scaff10x_163_arrow_ctg1 
+Scaff10x_164_arrow_ctg1 
+Scaff10x_165_arrow_ctg1 
+Scaff10x_166_arrow_ctg1 
+Scaff10x_167_arrow_ctg1 
+Scaff10x_171_arrow_ctg1 
+Scaff10x_172_arrow_ctg1 
+Scaff10x_174_arrow_ctg1 
+Scaff10x_175_arrow_ctg1 
+Scaff10x_176_arrow_ctg1 
+Scaff10x_177_arrow_ctg1 
+Scaff10x_178_arrow_ctg1 
+Scaff10x_17_arrow_ctg1 
+Scaff10x_180_arrow_ctg1 
+Scaff10x_182_arrow_ctg1 
+Scaff10x_186_arrow_ctg1 
+Scaff10x_187_arrow_ctg1 
+Scaff10x_188_arrow_ctg1 
+Scaff10x_189_arrow_ctg1 
+Scaff10x_190_arrow_ctg1 
+Scaff10x_193_arrow_ctg1 
+Scaff10x_194_arrow_ctg1 
+Scaff10x_196_arrow_ctg1 
+Scaff10x_198_arrow_ctg1 
+Scaff10x_199_arrow_ctg1 
+Scaff10x_1_arrow_ctg1 
+Scaff10x_202_arrow_ctg1 
+Scaff10x_203_arrow_ctg1 
+Scaff10x_204_arrow_ctg1 
+Scaff10x_206_arrow_ctg1 
+Scaff10x_207_arrow_ctg1 
+Scaff10x_20_arrow_ctg1 
+Scaff10x_210_arrow_ctg1 
+Scaff10x_214_arrow_ctg1 
+Scaff10x_216_arrow_ctg1 
+Scaff10x_217_arrow_ctg1 
+Scaff10x_218_arrow_ctg1 
+Scaff10x_219_arrow_ctg1 
+Scaff10x_221_arrow_ctg1 
+Scaff10x_223_arrow_ctg1 
+Scaff10x_224_arrow_ctg1 
+Scaff10x_225_arrow_ctg1 
+Scaff10x_227_arrow_ctg1 
+Scaff10x_22_arrow_ctg1 
+Scaff10x_230_arrow_ctg1 
+Scaff10x_232_arrow_ctg1 
+Scaff10x_233_arrow_ctg1 
+Scaff10x_236_arrow_ctg1 
+Scaff10x_238_arrow_ctg1 
+Scaff10x_239_arrow_ctg1 
+Scaff10x_23_arrow_ctg1 
+Scaff10x_241_arrow_ctg1 
+Scaff10x_242_arrow_ctg1 
+Scaff10x_243_arrow_ctg1 
+Scaff10x_244_arrow_ctg1 
+Scaff10x_245_arrow_ctg1 
+Scaff10x_249_arrow_ctg1 
+Scaff10x_251_arrow_ctg1 
+Scaff10x_253_arrow_ctg1 
+Scaff10x_254_arrow_ctg1 
+Scaff10x_255_arrow_ctg1 
+Scaff10x_256_arrow_ctg1 
+Scaff10x_257_arrow_ctg1 
+Scaff10x_258_arrow_ctg1 
+Scaff10x_260_arrow_ctg1 
+Scaff10x_261_arrow_ctg1 
+Scaff10x_262_arrow_ctg1 
+Scaff10x_263_arrow_ctg1 
+Scaff10x_266_arrow_ctg1 
+Scaff10x_267_arrow_ctg1 
+Scaff10x_269_arrow_ctg1 
+Scaff10x_26_arrow_ctg1 
+Scaff10x_270_arrow_ctg1 
+Scaff10x_272_arrow_ctg1 
+Scaff10x_273_arrow_ctg1 
+Scaff10x_275_arrow_ctg1 
+Scaff10x_276_arrow_ctg1 
+Scaff10x_279_arrow_ctg1 
+Scaff10x_27_arrow_ctg1 
+Scaff10x_280_arrow_ctg1 
+Scaff10x_281_arrow_ctg1 
+Scaff10x_282_arrow_ctg1 
+Scaff10x_287_arrow_ctg1 
+Scaff10x_288_arrow_ctg1 
+Scaff10x_289_arrow_ctg1 
+Scaff10x_290_arrow_ctg1 
+Scaff10x_291_arrow_ctg1 
+Scaff10x_292_arrow_ctg1 
+Scaff10x_294_arrow_ctg1 
+Scaff10x_296_arrow_ctg1 
+Scaff10x_297_arrow_ctg1 
+Scaff10x_298_arrow_ctg1 
+Scaff10x_299_arrow_ctg1 
+Scaff10x_2_arrow_ctg1 
+Scaff10x_300_arrow_ctg1 
+Scaff10x_301_arrow_ctg1 
+Scaff10x_302_arrow_ctg1 
+Scaff10x_304_arrow_ctg1 
+Scaff10x_308_arrow_ctg1 
+Scaff10x_309_arrow_ctg1 
+Scaff10x_310_arrow_ctg1 
+Scaff10x_311_arrow_ctg1 
+Scaff10x_315_arrow_ctg1 
+Scaff10x_316_arrow_ctg1 
+Scaff10x_318_arrow_ctg1 
+Scaff10x_319_arrow_ctg1 
+Scaff10x_321_arrow_ctg1 
+Scaff10x_323_arrow_ctg1 
+Scaff10x_324_arrow_ctg1 
+Scaff10x_326_arrow_ctg1 
+Scaff10x_329_arrow_ctg1 
+Scaff10x_32_arrow_ctg1 
+Scaff10x_330_arrow_ctg1 
+Scaff10x_332_arrow_ctg1 
+Scaff10x_333_arrow_ctg1 
+Scaff10x_334_arrow_ctg1 
+Scaff10x_335_arrow_ctg1 
+Scaff10x_336_arrow_ctg1 
+Scaff10x_338_arrow_ctg1 
+Scaff10x_339_arrow_ctg1 
+Scaff10x_33_arrow_ctg1 
+Scaff10x_342_arrow_ctg1 
+Scaff10x_343_arrow_ctg1 
+Scaff10x_345_arrow_ctg1 
+Scaff10x_347_arrow_ctg1 
+Scaff10x_348_arrow_ctg1 
+Scaff10x_349_arrow_ctg1 
+Scaff10x_34_arrow_ctg1 
+Scaff10x_350_arrow_ctg1 
+Scaff10x_351_arrow_ctg1 
+Scaff10x_353_arrow_ctg1 
+Scaff10x_354_arrow_ctg1 
+Scaff10x_355_arrow_ctg1 
+Scaff10x_357_arrow_ctg1 
+Scaff10x_358_arrow_ctg1 
+Scaff10x_359_arrow_ctg1 
+Scaff10x_35_arrow_ctg1 
+Scaff10x_361_arrow_ctg1 
+Scaff10x_365_arrow_ctg1 
+Scaff10x_366_arrow_ctg1 
+Scaff10x_367_arrow_ctg1 
+Scaff10x_36_arrow_ctg1 
+Scaff10x_371_arrow_ctg1 
+Scaff10x_373_arrow_ctg1 
+Scaff10x_374_arrow_ctg1 
+Scaff10x_375_arrow_ctg1 
+Scaff10x_377_arrow_ctg1 
+Scaff10x_378_arrow_ctg1 
+Scaff10x_37_arrow_ctg1 
+Scaff10x_380_arrow_ctg1 
+Scaff10x_382_arrow_ctg1 
+Scaff10x_385_arrow_ctg1 
+Scaff10x_386_arrow_ctg1 
+Scaff10x_387_arrow_ctg1 
+Scaff10x_388_arrow_ctg1 
+Scaff10x_38_arrow_ctg1 
+Scaff10x_391_arrow_ctg1 
+Scaff10x_394_arrow_ctg1 
+Scaff10x_397_arrow_ctg1 
+Scaff10x_3_arrow_ctg1 
+Scaff10x_400_arrow_ctg1 
+Scaff10x_402_arrow_ctg1 
+Scaff10x_403_arrow_ctg1 
+Scaff10x_405_arrow_ctg1 
+Scaff10x_406_arrow_ctg1 
+Scaff10x_408_arrow_ctg1 
+Scaff10x_409_arrow_ctg1 
+Scaff10x_40_arrow_ctg1 
+Scaff10x_410_arrow_ctg1 
+Scaff10x_413_arrow_ctg1 
+Scaff10x_414_arrow_ctg1 
+Scaff10x_415_arrow_ctg1 
+Scaff10x_416_arrow_ctg1 
+Scaff10x_418_arrow_ctg1 
+Scaff10x_419_arrow_ctg1 
+Scaff10x_420_arrow_ctg1 
+Scaff10x_421_arrow_ctg1 
+Scaff10x_423_arrow_ctg1 
+Scaff10x_424_arrow_ctg1 
+Scaff10x_425_arrow_ctg1 
+Scaff10x_426_arrow_ctg1 
+Scaff10x_427_arrow_ctg1 
+Scaff10x_432_arrow_ctg1 
+Scaff10x_433_arrow_ctg1 
+Scaff10x_436_arrow_ctg1 
+Scaff10x_438_arrow_ctg1 
+Scaff10x_43_arrow_ctg1 
+Scaff10x_441_arrow_ctg1 
+Scaff10x_443_arrow_ctg1 
+Scaff10x_444_arrow_ctg1 
+Scaff10x_448_arrow_ctg1 
+Scaff10x_44_arrow_ctg1 
+Scaff10x_450_arrow_ctg1 
+Scaff10x_452_arrow_ctg1 
+Scaff10x_454_arrow_ctg1 
+Scaff10x_455_arrow_ctg1 
+Scaff10x_456_arrow_ctg1 
+Scaff10x_45_arrow_ctg1 
+Scaff10x_461_arrow_ctg1 
+Scaff10x_465_arrow_ctg1 
+Scaff10x_466_arrow_ctg1 
+Scaff10x_468_arrow_ctg1 
+Scaff10x_469_arrow_ctg1 
+Scaff10x_46_arrow_ctg1 
+Scaff10x_472_arrow_ctg1 
+Scaff10x_473_arrow_ctg1 
+Scaff10x_475_arrow_ctg1 
+Scaff10x_476_arrow_ctg1 
+Scaff10x_477_arrow_ctg1 
+Scaff10x_480_arrow_ctg1 
+Scaff10x_482_arrow_ctg1 
+Scaff10x_483_arrow_ctg1 
+Scaff10x_484_arrow_ctg1 
+Scaff10x_486_arrow_ctg1 
+Scaff10x_487_arrow_ctg1 
+Scaff10x_488_arrow_ctg1 
+Scaff10x_48_arrow_ctg1 
+Scaff10x_490_arrow_ctg1 
+Scaff10x_492_arrow_ctg1 
+Scaff10x_494_arrow_ctg1 
+Scaff10x_495_arrow_ctg1 
+Scaff10x_496_arrow_ctg1 
+Scaff10x_4_arrow_ctg1 
+Scaff10x_500_arrow_ctg1 
+Scaff10x_501_arrow_ctg1 
+Scaff10x_503_arrow_ctg1 
+Scaff10x_504_arrow_ctg1 
+Scaff10x_505_arrow_ctg1 
+Scaff10x_506_arrow_ctg1 
+Scaff10x_508_arrow_ctg1 
+Scaff10x_509_arrow_ctg1 
+Scaff10x_510_arrow_ctg1 
+Scaff10x_513_arrow_ctg1 
+Scaff10x_514_arrow_ctg1 
+Scaff10x_516_arrow_ctg1 
+Scaff10x_517_arrow_ctg1 
+Scaff10x_518_arrow_ctg1 
+Scaff10x_51_arrow_ctg1 
+Scaff10x_520_arrow_ctg1 
+Scaff10x_522_arrow_ctg1 
+Scaff10x_523_arrow_ctg1 
+Scaff10x_524_arrow_ctg1 
+Scaff10x_526_arrow_ctg1 
+Scaff10x_529_arrow_ctg1 
+Scaff10x_52_arrow_ctg1 
+Scaff10x_530_arrow_ctg1 
+Scaff10x_533_arrow_ctg1 
+Scaff10x_535_arrow_ctg1 
+Scaff10x_539_arrow_ctg1 
+Scaff10x_540_arrow_ctg1 
+Scaff10x_541_arrow_ctg1 
+Scaff10x_542_arrow_ctg1 
+Scaff10x_544_arrow_ctg1 
+Scaff10x_546_arrow_ctg1 
+Scaff10x_547_arrow_ctg1 
+Scaff10x_549_arrow_ctg1 
+Scaff10x_54_arrow_ctg1 
+Scaff10x_553_arrow_ctg1 
+Scaff10x_555_arrow_ctg1 
+Scaff10x_556_arrow_ctg1 
+Scaff10x_557_arrow_ctg1 
+Scaff10x_558_arrow_ctg1 
+Scaff10x_561_arrow_ctg1 
+Scaff10x_565_arrow_ctg1 
+Scaff10x_566_arrow_ctg1 
+Scaff10x_569_arrow_ctg1 
+Scaff10x_573_arrow_ctg1 
+Scaff10x_574_arrow_ctg1 
+Scaff10x_575_arrow_ctg1 
+Scaff10x_578_arrow_ctg1 
+Scaff10x_580_arrow_ctg1 
+Scaff10x_581_arrow_ctg1 
+Scaff10x_582_arrow_ctg1 
+Scaff10x_583_arrow_ctg1 
+Scaff10x_585_arrow_ctg1 
+Scaff10x_586_arrow_ctg1 
+Scaff10x_592_arrow_ctg1 
+Scaff10x_593_arrow_ctg1 
+Scaff10x_596_arrow_ctg1 
+Scaff10x_598_arrow_ctg1 
+Scaff10x_59_arrow_ctg1 
+Scaff10x_5_arrow_ctg1 
+Scaff10x_601_arrow_ctg1 
+Scaff10x_602_arrow_ctg1 
+Scaff10x_604_arrow_ctg1 
+Scaff10x_608_arrow_ctg1 
+Scaff10x_60_arrow_ctg1 
+Scaff10x_612_arrow_ctg1 
+Scaff10x_615_arrow_ctg1 
+Scaff10x_618_arrow_ctg1 
+Scaff10x_61_arrow_ctg1 
+Scaff10x_620_arrow_ctg1 
+Scaff10x_622_arrow_ctg1 
+Scaff10x_623_arrow_ctg1 
+Scaff10x_624_arrow_ctg1 
+Scaff10x_626_arrow_ctg1 
+Scaff10x_627_arrow_ctg1 
+Scaff10x_628_arrow_ctg1 
+Scaff10x_629_arrow_ctg1 
+Scaff10x_62_arrow_ctg1 
+Scaff10x_630_arrow_ctg1 
+Scaff10x_633_arrow_ctg1 
+Scaff10x_634_arrow_ctg1 
+Scaff10x_636_arrow_ctg1 
+Scaff10x_639_arrow_ctg1 
+Scaff10x_63_arrow_ctg1 
+Scaff10x_640_arrow_ctg1 
+Scaff10x_641_arrow_ctg1 
+Scaff10x_642_arrow_ctg1 
+Scaff10x_64_arrow_ctg1 
+Scaff10x_654_arrow_ctg1 
+Scaff10x_655_arrow_ctg1 
+Scaff10x_656_arrow_ctg1 
+Scaff10x_65_arrow_ctg1 
+Scaff10x_660_arrow_ctg1 
+Scaff10x_661_arrow_ctg1 
+Scaff10x_662_arrow_ctg1 
+Scaff10x_665_arrow_ctg1 
+Scaff10x_668_arrow_ctg1 
+Scaff10x_669_arrow_ctg1 
+Scaff10x_670_arrow_ctg1 
+Scaff10x_673_arrow_ctg1 
+Scaff10x_674_arrow_ctg1 
+Scaff10x_675_arrow_ctg1 
+Scaff10x_676_arrow_ctg1 
+Scaff10x_677_arrow_ctg1 
+Scaff10x_678_arrow_ctg1 
+Scaff10x_679_arrow_ctg1 
+Scaff10x_680_arrow_ctg1 
+Scaff10x_681_arrow_ctg1 
+Scaff10x_682_arrow_ctg1 
+Scaff10x_684_arrow_ctg1 
+Scaff10x_685_arrow_ctg1 
+Scaff10x_686_arrow_ctg1 
+Scaff10x_687_arrow_ctg1 
+Scaff10x_688_arrow_ctg1 
+Scaff10x_692_arrow_ctg1 
+Scaff10x_695_arrow_ctg1 
+Scaff10x_697_arrow_ctg1 
+Scaff10x_699_arrow_ctg1 
+Scaff10x_69_arrow_ctg1 
+Scaff10x_703_arrow_ctg1 
+Scaff10x_706_arrow_ctg1 
+Scaff10x_707_arrow_ctg1 
+Scaff10x_709_arrow_ctg1 
+Scaff10x_70_arrow_ctg1 
+Scaff10x_710_arrow_ctg1 
+Scaff10x_713_arrow_ctg1 
+Scaff10x_714_arrow_ctg1 
+Scaff10x_715_arrow_ctg1 
+Scaff10x_717_arrow_ctg1 
+Scaff10x_718_arrow_ctg1 
+Scaff10x_720_arrow_ctg1 
+Scaff10x_722_arrow_ctg1 
+Scaff10x_727_arrow_ctg1 
+Scaff10x_728_arrow_ctg1 
+Scaff10x_72_arrow_ctg1 
+Scaff10x_732_arrow_ctg1 
+Scaff10x_733_arrow_ctg1 
+Scaff10x_736_arrow_ctg1 
+Scaff10x_737_arrow_ctg1 
+Scaff10x_73_arrow_ctg1 
+Scaff10x_742_arrow_ctg1 
+Scaff10x_744_arrow_ctg1 
+Scaff10x_745_arrow_ctg1 
+Scaff10x_747_arrow_ctg1 
+Scaff10x_748_arrow_ctg1 
+Scaff10x_749_arrow_ctg1 
+Scaff10x_751_arrow_ctg1 
+Scaff10x_753_arrow_ctg1 
+Scaff10x_756_arrow_ctg1 
+Scaff10x_760_arrow_ctg1 
+Scaff10x_761_arrow_ctg1 
+Scaff10x_764_arrow_ctg1 
+Scaff10x_766_arrow_ctg1 
+Scaff10x_767_arrow_ctg1 
+Scaff10x_768_arrow_ctg1 
+Scaff10x_769_arrow_ctg1 
+Scaff10x_76_arrow_ctg1 
+Scaff10x_772_arrow_ctg1 
+Scaff10x_774_arrow_ctg1 
+Scaff10x_777_arrow_ctg1 
+Scaff10x_778_arrow_ctg1 
+Scaff10x_779_arrow_ctg1 
+Scaff10x_77_arrow_ctg1 
+Scaff10x_780_arrow_ctg1 
+Scaff10x_781_arrow_ctg1 
+Scaff10x_782_arrow_ctg1 
+Scaff10x_783_arrow_ctg1 
+Scaff10x_785_arrow_ctg1 
+Scaff10x_787_arrow_ctg1 
+Scaff10x_789_arrow_ctg1 
+Scaff10x_791_arrow_ctg1 
+Scaff10x_794_arrow_ctg1 
+Scaff10x_797_arrow_ctg1 
+Scaff10x_7_arrow_ctg1 
+Scaff10x_804_arrow_ctg1 
+Scaff10x_806_arrow_ctg1 
+Scaff10x_811_arrow_ctg1 
+Scaff10x_813_arrow_ctg1 
+Scaff10x_814_arrow_ctg1 
+Scaff10x_815_arrow_ctg1 
+Scaff10x_816_arrow_ctg1 
+Scaff10x_818_arrow_ctg1 
+Scaff10x_820_arrow_ctg1 
+Scaff10x_821_arrow_ctg1 
+Scaff10x_827_arrow_ctg1 
+Scaff10x_828_arrow_ctg1 
+Scaff10x_829_arrow_ctg1 
+Scaff10x_82_arrow_ctg1 
+Scaff10x_833_arrow_ctg1 
+Scaff10x_834_arrow_ctg1 
+Scaff10x_835_arrow_ctg1 
+Scaff10x_836_arrow_ctg1 
+Scaff10x_83_arrow_ctg1 
+Scaff10x_842_arrow_ctg1 
+Scaff10x_843_arrow_ctg1 
+Scaff10x_845_arrow_ctg1 
+Scaff10x_846_arrow_ctg1 
+Scaff10x_847_arrow_ctg1 
+Scaff10x_849_arrow_ctg1 
+Scaff10x_84_arrow_ctg1 
+Scaff10x_853_arrow_ctg1 
+Scaff10x_854_arrow_ctg1 
+Scaff10x_858_arrow_ctg1 
+Scaff10x_85_arrow_ctg1 
+Scaff10x_861_arrow_ctg1 
+Scaff10x_863_arrow_ctg1 
+Scaff10x_864_arrow_ctg1 
+Scaff10x_866_arrow_ctg1 
+Scaff10x_869_arrow_ctg1 
+Scaff10x_872_arrow_ctg1 
+Scaff10x_876_arrow_ctg1 
+Scaff10x_878_arrow_ctg1 
+Scaff10x_87_arrow_ctg1 
+Scaff10x_881_arrow_ctg1 
+Scaff10x_883_arrow_ctg1 
+Scaff10x_889_arrow_ctg1 
+Scaff10x_890_arrow_ctg1 
+Scaff10x_892_arrow_ctg1 
+Scaff10x_894_arrow_ctg1 
+Scaff10x_895_arrow_ctg1 
+Scaff10x_897_arrow_ctg1 
+Scaff10x_89_arrow_ctg1 
+Scaff10x_8_arrow_ctg1 
+Scaff10x_901_arrow_ctg1 
+Scaff10x_904_arrow_ctg1 
+Scaff10x_906_arrow_ctg1 
+Scaff10x_914_arrow_ctg1 
+Scaff10x_915_arrow_ctg1 
+Scaff10x_918_arrow_ctg1 
+Scaff10x_91_arrow_ctg1 
+Scaff10x_922_arrow_ctg1 
+Scaff10x_925_arrow_ctg1 
+Scaff10x_926_arrow_ctg1 
+Scaff10x_927_arrow_ctg1 
+Scaff10x_928_arrow_ctg1 
+Scaff10x_930_arrow_ctg1 
+Scaff10x_932_arrow_ctg1 
+Scaff10x_933_arrow_ctg1 
+Scaff10x_935_arrow_ctg1 
+Scaff10x_938_arrow_ctg1 
+Scaff10x_939_arrow_ctg1 
+Scaff10x_93_arrow_ctg1 
+Scaff10x_941_arrow_ctg1 
+Scaff10x_947_arrow_ctg1 
+Scaff10x_950_arrow_ctg1 
+Scaff10x_953_arrow_ctg1 
+Scaff10x_954_arrow_ctg1 
+Scaff10x_956_arrow_ctg1 
+Scaff10x_958_arrow_ctg1 
+Scaff10x_95_arrow_ctg1 
+Scaff10x_975_arrow_ctg1 
+Scaff10x_976_arrow_ctg1 
+Scaff10x_979_arrow_ctg1 
+Scaff10x_97_arrow_ctg1 
+Scaff10x_981_arrow_ctg1 
+Scaff10x_982_arrow_ctg1 
+Scaff10x_985_arrow_ctg1 
+Scaff10x_989_arrow_ctg1 
+Scaff10x_990_arrow_ctg1 
+Scaff10x_994_arrow_ctg1 
+Scaff10x_996_arrow_ctg1 
+Scaff10x_999_arrow_ctg1 
+Scaff10x_99_arrow_ctg1 
+
+Removed 562710 loci that did not pass sample/population constraints from 637396 loci.
+Kept 74686 loci, composed of 22557168 sites; 838314 of those sites were filtered, 541462 variant sites remained.
+    21561700 genomic sites, of which 918325 were covered by multiple loci (4.3%).
+Mean genotyped sites per locus: 290.82bp (stderr 0.26).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  bor: 2 samples per locus; pi: 0.071274; all/variant/polymorphic sites: 11580856/389268/48273; private alleles: 1763
+  ber: 31.6 samples per locus; pi: 0.057613; all/variant/polymorphic sites: 14002346/439191/156752; private alleles: 14195
+  eul: 158.68 samples per locus; pi: 0.058167; all/variant/polymorphic sites: 12493783/411565/270701; private alleles: 26639
+  han: 44.192 samples per locus; pi: 0.039797; all/variant/polymorphic sites: 13556025/396521/101285; private alleles: 10778
+  lep: 23.992 samples per locus; pi: 0.061488; all/variant/polymorphic sites: 13186869/406364/168190; private alleles: 2955
+  loe: 96.289 samples per locus; pi: 0.054059; all/variant/polymorphic sites: 13102099/420881/230756; private alleles: 20913
+  sco: 82.304 samples per locus; pi: 0.059908; all/variant/polymorphic sites: 13102635/384277/201520; private alleles: 21951
+  tok: 4.7428 samples per locus; pi: 0.037497; all/variant/polymorphic sites: 15131926/414652/44625; private alleles: 7133
+  pen: 15.48 samples per locus; pi: 0.067519; all/variant/polymorphic sites: 13364250/405710/116083; private alleles: 6763
+  new: 104.01 samples per locus; pi: 0.05941; all/variant/polymorphic sites: 12309254/386077/177739; private alleles: 25816
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+  bor-ber: mean Fst: 0.036479; mean Phi_st: 0.070501; mean Fst': 0.076662; mean Dxy: 0.0041382
+  bor-eul: mean Fst: 0.033157; mean Phi_st: 0.3018; mean Fst': 0.40058; mean Dxy: 0.0051899
+  bor-han: mean Fst: 0.15081; mean Phi_st: 0.44119; mean Fst': 0.44613; mean Dxy: 0.005122
+  bor-lep: mean Fst: 0.066307; mean Phi_st: 0.20208; mean Fst': 0.3003; mean Dxy: 0.0049312
+  bor-loe: mean Fst: 0.037622; mean Phi_st: 0.2204; mean Fst': 0.2382; mean Dxy: 0.0049672
+  bor-sco: mean Fst: 0.068509; mean Phi_st: 0.40834; mean Fst': 0.53851; mean Dxy: 0.0068673
+  bor-tok: mean Fst: 0.27653; mean Phi_st: 0.36963; mean Fst': 0.47261; mean Dxy: 0.004953
+  bor-pen: mean Fst: 0.12339; mean Phi_st: 0.28045; mean Fst': 0.42979; mean Dxy: 0.0063015
+  bor-new: mean Fst: 0.077887; mean Phi_st: 0.47677; mean Fst': 0.59953; mean Dxy: 0.0066905
+  ber-eul: mean Fst: 0.069821; mean Phi_st: 0.35186; mean Fst': 0.46478; mean Dxy: 0.007054
+  ber-han: mean Fst: 0.15104; mean Phi_st: 0.39501; mean Fst': 0.49072; mean Dxy: 0.0069294
+  ber-lep: mean Fst: 0.10155; mean Phi_st: 0.33006; mean Fst': 0.48243; mean Dxy: 0.0072726
+  ber-loe: mean Fst: 0.085341; mean Phi_st: 0.35166; mean Fst': 0.47408; mean Dxy: 0.0076546
+  ber-sco: mean Fst: 0.12837; mean Phi_st: 0.45533; mean Fst': 0.61059; mean Dxy: 0.0088799
+  ber-tok: mean Fst: 0.1177; mean Phi_st: 0.34861; mean Fst': 0.47621; mean Dxy: 0.0061824
+  ber-pen: mean Fst: 0.12756; mean Phi_st: 0.34493; mean Fst': 0.50221; mean Dxy: 0.0081947
+  ber-new: mean Fst: 0.16399; mean Phi_st: 0.51071; mean Fst': 0.66378; mean Dxy: 0.0088631
+  eul-han: mean Fst: 0.096695; mean Phi_st: 0.41681; mean Fst': 0.54791; mean Dxy: 0.0073298
+  eul-lep: mean Fst: 0.041879; mean Phi_st: 0.28352; mean Fst': 0.37391; mean Dxy: 0.0065978
+  eul-loe: mean Fst: 0.06274; mean Phi_st: 0.31216; mean Fst': 0.4191; mean Dxy: 0.0072476
+  eul-sco: mean Fst: 0.11406; mean Phi_st: 0.46423; mean Fst': 0.59235; mean Dxy: 0.0087887
+  eul-tok: mean Fst: 0.038415; mean Phi_st: 0.29675; mean Fst': 0.37886; mean Dxy: 0.0055265
+  eul-pen: mean Fst: 0.067639; mean Phi_st: 0.36479; mean Fst': 0.46357; mean Dxy: 0.007765
+  eul-new: mean Fst: 0.14739; mean Phi_st: 0.51552; mean Fst': 0.66559; mean Dxy: 0.008888
+  han-lep: mean Fst: 0.13913; mean Phi_st: 0.42677; mean Fst': 0.54233; mean Dxy: 0.0074718
+  han-loe: mean Fst: 0.11228; mean Phi_st: 0.41108; mean Fst': 0.52735; mean Dxy: 0.0076991
+  han-sco: mean Fst: 0.16274; mean Phi_st: 0.51659; mean Fst': 0.66398; mean Dxy: 0.0090349
+  han-tok: mean Fst: 0.1874; mean Phi_st: 0.47496; mean Fst': 0.53515; mean Dxy: 0.0062355
+  han-pen: mean Fst: 0.17795; mean Phi_st: 0.45553; mean Fst': 0.56359; mean Dxy: 0.0082204
+  han-new: mean Fst: 0.19814; mean Phi_st: 0.54294; mean Fst': 0.65806; mean Dxy: 0.0086111
+  lep-loe: mean Fst: 0.017663; mean Phi_st: 0.081551; mean Fst': 0.10381; mean Dxy: 0.0060818
+  lep-sco: mean Fst: 0.1133; mean Phi_st: 0.43323; mean Fst': 0.57942; mean Dxy: 0.0085989
+  lep-tok: mean Fst: 0.1022; mean Phi_st: 0.3325; mean Fst': 0.48221; mean Dxy: 0.006292
+  lep-pen: mean Fst: 0.11405; mean Phi_st: 0.32905; mean Fst': 0.50007; mean Dxy: 0.007995
+  lep-new: mean Fst: 0.1409; mean Phi_st: 0.5028; mean Fst': 0.6562; mean Dxy: 0.0087876
+  loe-sco: mean Fst: 0.11979; mean Phi_st: 0.45578; mean Fst': 0.59683; mean Dxy: 0.0091051
+  loe-tok: mean Fst: 0.06663; mean Phi_st: 0.36268; mean Fst': 0.47275; mean Dxy: 0.006559
+  loe-pen: mean Fst: 0.091148; mean Phi_st: 0.38309; mean Fst': 0.50922; mean Dxy: 0.0084524
+  loe-new: mean Fst: 0.15062; mean Phi_st: 0.50376; mean Fst': 0.64622; mean Dxy: 0.008964
+  sco-tok: mean Fst: 0.099396; mean Phi_st: 0.46654; mean Fst': 0.61833; mean Dxy: 0.007978
+  sco-pen: mean Fst: 0.11924; mean Phi_st: 0.43549; mean Fst': 0.55466; mean Dxy: 0.0088626
+  sco-new: mean Fst: 0.17894; mean Phi_st: 0.55713; mean Fst': 0.71634; mean Dxy: 0.01001
+  tok-pen: mean Fst: 0.1598; mean Phi_st: 0.3532; mean Fst': 0.51361; mean Dxy: 0.0072067
+  tok-new: mean Fst: 0.12004; mean Phi_st: 0.53091; mean Fst': 0.67206; mean Dxy: 0.007975
+  pen-new: mean Fst: 0.15699; mean Phi_st: 0.53428; mean Fst': 0.68812; mean Dxy: 0.0096894
+
+Populations is done.
