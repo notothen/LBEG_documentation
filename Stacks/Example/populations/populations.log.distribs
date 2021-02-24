@@ -1,0 +1,4615 @@
+# Note: Individual distributions can be extracted using the `stacks-dist-extract` utility.
+#       e.g. `stacks-dist-extract populations.log.distribs dist_name`
+
+BEGIN batch_progress
+Scaff10x_0_arrow_ctg1: analyzed 1347 loci; filtered 9908 loci; 11255 loci seen.
+    384033 genomic sites, of which 16382 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_1000_arrow_ctg1: analyzed 3 loci; filtered 7 loci; 10 loci seen.
+    950 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_1002_arrow_ctg1: analyzed 3 loci; filtered 13 loci; 16 loci seen.
+    999 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_1004_arrow_ctg1: analyzed 2 loci; filtered 11 loci; 13 loci seen.
+    647 genomic sites, of which 4 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_1005_arrow_ctg1: analyzed 2 loci; filtered 27 loci; 29 loci seen.
+    419 genomic sites, of which 4 were covered by multiple loci (1.0%).
+    Calculating F statistics...done.
+Scaff10x_1007_arrow_ctg1: analyzed 4 loci; filtered 33 loci; 37 loci seen.
+    1093 genomic sites, of which 140 were covered by multiple loci (12.8%).
+    Calculating F statistics...done.
+Scaff10x_1010_arrow_ctg1: analyzed 2 loci; filtered 26 loci; 28 loci seen.
+    663 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1012_arrow_ctg1: analyzed 7 loci; filtered 37 loci; 44 loci seen.
+    2090 genomic sites, of which 580 were covered by multiple loci (27.8%).
+    Calculating F statistics...done.
+Scaff10x_1013_arrow_ctg1: analyzed 2 loci; filtered 2 loci; 4 loci seen.
+    555 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1015_arrow_ctg1: analyzed 5 loci; filtered 33 loci; 38 loci seen.
+    1609 genomic sites, of which 23 were covered by multiple loci (1.4%).
+    Calculating F statistics...done.
+Scaff10x_1018_arrow_ctg1: analyzed 2 loci; filtered 25 loci; 27 loci seen.
+    737 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1019_arrow_ctg1: analyzed 5 loci; filtered 35 loci; 40 loci seen.
+    1241 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_101_arrow_ctg1: analyzed 187 loci; filtered 1195 loci; 1382 loci seen.
+    54436 genomic sites, of which 1493 were covered by multiple loci (2.7%).
+    Calculating F statistics...done.
+Scaff10x_1024_arrow_ctg1: analyzed 5 loci; filtered 42 loci; 47 loci seen.
+    1695 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_1025_arrow_ctg1: analyzed 6 loci; filtered 26 loci; 32 loci seen.
+    1624 genomic sites, of which 320 were covered by multiple loci (19.7%).
+    Calculating F statistics...done.
+Scaff10x_1027_arrow_ctg1: analyzed 2 loci; filtered 53 loci; 55 loci seen.
+    494 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1028_arrow_ctg1: analyzed 3 loci; filtered 32 loci; 35 loci seen.
+    758 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_102_arrow_ctg1: analyzed 844 loci; filtered 6057 loci; 6901 loci seen.
+    248475 genomic sites, of which 7021 were covered by multiple loci (2.8%).
+    Calculating F statistics...done.
+Scaff10x_1031_arrow_ctg1: analyzed 3 loci; filtered 42 loci; 45 loci seen.
+    694 genomic sites, of which 298 were covered by multiple loci (42.9%).
+    Calculating F statistics...done.
+Scaff10x_1033_arrow_ctg1: analyzed 2 loci; filtered 10 loci; 12 loci seen.
+    506 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1034_arrow_ctg1: analyzed 2 loci; filtered 23 loci; 25 loci seen.
+    585 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1040_arrow_ctg1: analyzed 4 loci; filtered 23 loci; 27 loci seen.
+    1231 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_1042_arrow_ctg1: analyzed 4 loci; filtered 31 loci; 35 loci seen.
+    1219 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1044_arrow_ctg1: analyzed 3 loci; filtered 15 loci; 18 loci seen.
+    750 genomic sites, of which 69 were covered by multiple loci (9.2%).
+    Calculating F statistics...done.
+Scaff10x_1045_arrow_ctg1: analyzed 5 loci; filtered 19 loci; 24 loci seen.
+    1664 genomic sites, of which 8 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_1047_arrow_ctg1: analyzed 2 loci; filtered 10 loci; 12 loci seen.
+    742 genomic sites, of which 4 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_1049_arrow_ctg1: analyzed 6 loci; filtered 31 loci; 37 loci seen.
+    1800 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1052_arrow_ctg1: analyzed 3 loci; filtered 20 loci; 23 loci seen.
+    1101 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1056_arrow_ctg1: analyzed 3 loci; filtered 13 loci; 16 loci seen.
+    802 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1057_arrow_ctg1: analyzed 2 loci; filtered 17 loci; 19 loci seen.
+    596 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1060_arrow_ctg1: analyzed 5 loci; filtered 30 loci; 35 loci seen.
+    1281 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_1062_arrow_ctg1: analyzed 3 loci; filtered 18 loci; 21 loci seen.
+    1004 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_1065_arrow_ctg1: analyzed 2 loci; filtered 20 loci; 22 loci seen.
+    602 genomic sites, of which 129 were covered by multiple loci (21.4%).
+    Calculating F statistics...done.
+Scaff10x_1066_arrow_ctg1: analyzed 2 loci; filtered 8 loci; 10 loci seen.
+    697 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1067_arrow_ctg1: analyzed 3 loci; filtered 16 loci; 19 loci seen.
+    732 genomic sites, of which 360 were covered by multiple loci (49.2%).
+    Calculating F statistics...done.
+Scaff10x_1068_arrow_ctg1: analyzed 2 loci; filtered 27 loci; 29 loci seen.
+    535 genomic sites, of which 4 were covered by multiple loci (0.7%).
+    Calculating F statistics...done.
+Scaff10x_1069_arrow_ctg1: analyzed 2 loci; filtered 87 loci; 89 loci seen.
+    593 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_106_arrow_ctg1: analyzed 169 loci; filtered 1656 loci; 1825 loci seen.
+    50291 genomic sites, of which 1871 were covered by multiple loci (3.7%).
+    Calculating F statistics...done.
+Scaff10x_1076_arrow_ctg1: analyzed 6 loci; filtered 22 loci; 28 loci seen.
+    2050 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_1078_arrow_ctg1: analyzed 2 loci; filtered 19 loci; 21 loci seen.
+    584 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1082_arrow_ctg1: analyzed 2 loci; filtered 28 loci; 30 loci seen.
+    581 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1086_arrow_ctg1: analyzed 2 loci; filtered 18 loci; 20 loci seen.
+    613 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1087_arrow_ctg1: analyzed 5 loci; filtered 23 loci; 28 loci seen.
+    1388 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_108_arrow_ctg1: analyzed 275 loci; filtered 1800 loci; 2075 loci seen.
+    82440 genomic sites, of which 1708 were covered by multiple loci (2.1%).
+    Calculating F statistics...done.
+Scaff10x_1091_arrow_ctg1: analyzed 2 loci; filtered 9 loci; 11 loci seen.
+    509 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1094_arrow_ctg1: analyzed 3 loci; filtered 6 loci; 9 loci seen.
+    888 genomic sites, of which 4 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_1095_arrow_ctg1: analyzed 2 loci; filtered 34 loci; 36 loci seen.
+    489 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_109_arrow_ctg1: analyzed 127 loci; filtered 678 loci; 805 loci seen.
+    36474 genomic sites, of which 2070 were covered by multiple loci (5.7%).
+    Calculating F statistics...done.
+Scaff10x_10_arrow_ctg1: analyzed 43 loci; filtered 415 loci; 458 loci seen.
+    11805 genomic sites, of which 510 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_1104_arrow_ctg1: analyzed 2 loci; filtered 45 loci; 47 loci seen.
+    446 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_110_arrow_ctg1: analyzed 103 loci; filtered 611 loci; 714 loci seen.
+    29397 genomic sites, of which 892 were covered by multiple loci (3.0%).
+    Calculating F statistics...done.
+Scaff10x_1111_arrow_ctg1: analyzed 3 loci; filtered 39 loci; 42 loci seen.
+    1016 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1119_arrow_ctg1: analyzed 6 loci; filtered 42 loci; 48 loci seen.
+    1151 genomic sites, of which 194 were covered by multiple loci (16.9%).
+    Calculating F statistics...done.
+Scaff10x_111_arrow_ctg1: analyzed 476 loci; filtered 4054 loci; 4530 loci seen.
+    135973 genomic sites, of which 3743 were covered by multiple loci (2.8%).
+    Calculating F statistics...done.
+Scaff10x_1121_arrow_ctg1: analyzed 3 loci; filtered 10 loci; 13 loci seen.
+    917 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_1123_arrow_ctg1: analyzed 2 loci; filtered 13 loci; 15 loci seen.
+    848 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1125_arrow_ctg1: analyzed 4 loci; filtered 10 loci; 14 loci seen.
+    1260 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1126_arrow_ctg1: analyzed 3 loci; filtered 15 loci; 18 loci seen.
+    980 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1127_arrow_ctg1: analyzed 4 loci; filtered 21 loci; 25 loci seen.
+    1129 genomic sites, of which 10 were covered by multiple loci (0.9%).
+    Calculating F statistics...done.
+Scaff10x_1128_arrow_ctg1: analyzed 3 loci; filtered 3 loci; 6 loci seen.
+    920 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_1129_arrow_ctg1: analyzed 2 loci; filtered 20 loci; 22 loci seen.
+    621 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_112_arrow_ctg1: analyzed 72 loci; filtered 613 loci; 685 loci seen.
+    21975 genomic sites, of which 413 were covered by multiple loci (1.9%).
+    Calculating F statistics...done.
+Scaff10x_1134_arrow_ctg1: analyzed 2 loci; filtered 29 loci; 31 loci seen.
+    1142 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1136_arrow_ctg1: analyzed 2 loci; filtered 18 loci; 20 loci seen.
+    856 genomic sites, of which 4 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_1137_arrow_ctg1: analyzed 2 loci; filtered 4 loci; 6 loci seen.
+    577 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1138_arrow_ctg1: analyzed 3 loci; filtered 33 loci; 36 loci seen.
+    761 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_113_arrow_ctg1: analyzed 287 loci; filtered 2259 loci; 2546 loci seen.
+    82677 genomic sites, of which 4149 were covered by multiple loci (5.0%).
+    Calculating F statistics...done.
+Scaff10x_1141_arrow_ctg1: analyzed 2 loci; filtered 13 loci; 15 loci seen.
+    762 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1145_arrow_ctg1: analyzed 2 loci; filtered 13 loci; 15 loci seen.
+    682 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1146_arrow_ctg1: analyzed 3 loci; filtered 23 loci; 26 loci seen.
+    879 genomic sites, of which 182 were covered by multiple loci (20.7%).
+    Calculating F statistics...done.
+Scaff10x_1148_arrow_ctg1: analyzed 2 loci; filtered 10 loci; 12 loci seen.
+    388 genomic sites, of which 4 were covered by multiple loci (1.0%).
+    Calculating F statistics...done.
+Scaff10x_114_arrow_ctg1: analyzed 38 loci; filtered 328 loci; 366 loci seen.
+    10810 genomic sites, of which 865 were covered by multiple loci (8.0%).
+    Calculating F statistics...done.
+Scaff10x_1151_arrow_ctg1: analyzed 8 loci; filtered 33 loci; 41 loci seen.
+    2181 genomic sites, of which 413 were covered by multiple loci (18.9%).
+    Calculating F statistics...done.
+Scaff10x_1157_arrow_ctg1: analyzed 3 loci; filtered 42 loci; 45 loci seen.
+    967 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_115_arrow_ctg1: analyzed 160 loci; filtered 1021 loci; 1181 loci seen.
+    46506 genomic sites, of which 1260 were covered by multiple loci (2.7%).
+    Calculating F statistics...done.
+Scaff10x_1160_arrow_ctg1: analyzed 2 loci; filtered 15 loci; 17 loci seen.
+    631 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1168_arrow_ctg1: analyzed 2 loci; filtered 17 loci; 19 loci seen.
+    564 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1170_arrow_ctg1: analyzed 2 loci; filtered 10 loci; 12 loci seen.
+    680 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1175_arrow_ctg1: analyzed 4 loci; filtered 31 loci; 35 loci seen.
+    1208 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1176_arrow_ctg1: analyzed 2 loci; filtered 14 loci; 16 loci seen.
+    613 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1184_arrow_ctg1: analyzed 2 loci; filtered 28 loci; 30 loci seen.
+    297 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1185_arrow_ctg1: analyzed 2 loci; filtered 11 loci; 13 loci seen.
+    531 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1189_arrow_ctg1: analyzed 5 loci; filtered 32 loci; 37 loci seen.
+    1158 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_118_arrow_ctg1: analyzed 456 loci; filtered 3169 loci; 3625 loci seen.
+    132097 genomic sites, of which 4139 were covered by multiple loci (3.1%).
+    Calculating F statistics...done.
+Scaff10x_1190_arrow_ctg1: analyzed 2 loci; filtered 7 loci; 9 loci seen.
+    525 genomic sites, of which 4 were covered by multiple loci (0.8%).
+    Calculating F statistics...done.
+Scaff10x_1197_arrow_ctg1: analyzed 10 loci; filtered 40 loci; 50 loci seen.
+    2105 genomic sites, of which 719 were covered by multiple loci (34.2%).
+    Calculating F statistics...done.
+Scaff10x_1199_arrow_ctg1: analyzed 3 loci; filtered 14 loci; 17 loci seen.
+    843 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_11_arrow_ctg1: analyzed 1009 loci; filtered 7772 loci; 8781 loci seen.
+    288653 genomic sites, of which 11708 were covered by multiple loci (4.1%).
+    Calculating F statistics...done.
+Scaff10x_1202_arrow_ctg1: analyzed 4 loci; filtered 4 loci; 8 loci seen.
+    1235 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_1203_arrow_ctg1: analyzed 4 loci; filtered 9 loci; 13 loci seen.
+    1212 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_1205_arrow_ctg1: analyzed 4 loci; filtered 21 loci; 25 loci seen.
+    1177 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1207_arrow_ctg1: analyzed 3 loci; filtered 30 loci; 33 loci seen.
+    883 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1211_arrow_ctg1: analyzed 2 loci; filtered 19 loci; 21 loci seen.
+    601 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1214_arrow_ctg1: analyzed 3 loci; filtered 11 loci; 14 loci seen.
+    984 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_1218_arrow_ctg1: analyzed 2 loci; filtered 20 loci; 22 loci seen.
+    562 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1219_arrow_ctg1: analyzed 2 loci; filtered 5 loci; 7 loci seen.
+    435 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1220_arrow_ctg1: analyzed 8 loci; filtered 31 loci; 39 loci seen.
+    1645 genomic sites, of which 674 were covered by multiple loci (41.0%).
+    Calculating F statistics...done.
+Scaff10x_1221_arrow_ctg1: analyzed 2 loci; filtered 10 loci; 12 loci seen.
+    638 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1223_arrow_ctg1: analyzed 2 loci; filtered 22 loci; 24 loci seen.
+    518 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1228_arrow_ctg1: analyzed 3 loci; filtered 34 loci; 37 loci seen.
+    946 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1229_arrow_ctg1: analyzed 2 loci; filtered 13 loci; 15 loci seen.
+    369 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1230_arrow_ctg1: analyzed 2 loci; filtered 7 loci; 9 loci seen.
+    438 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1231_arrow_ctg1: analyzed 4 loci; filtered 27 loci; 31 loci seen.
+    989 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1236_arrow_ctg1: analyzed 4 loci; filtered 8 loci; 12 loci seen.
+    900 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1237_arrow_ctg1: analyzed 2 loci; filtered 24 loci; 26 loci seen.
+    683 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1243_arrow_ctg1: analyzed 853 loci; filtered 5997 loci; 6850 loci seen.
+    243704 genomic sites, of which 6535 were covered by multiple loci (2.7%).
+    Calculating F statistics...done.
+Scaff10x_1251_arrow_ctg1: analyzed 32 loci; filtered 319 loci; 351 loci seen.
+    9438 genomic sites, of which 325 were covered by multiple loci (3.4%).
+    Calculating F statistics...done.
+Scaff10x_1252_arrow_ctg1: analyzed 41 loci; filtered 369 loci; 410 loci seen.
+    11175 genomic sites, of which 660 were covered by multiple loci (5.9%).
+    Calculating F statistics...done.
+Scaff10x_1257_arrow_ctg1: analyzed 32 loci; filtered 256 loci; 288 loci seen.
+    10031 genomic sites, of which 261 were covered by multiple loci (2.6%).
+    Calculating F statistics...done.
+Scaff10x_1259_arrow_ctg1: analyzed 34 loci; filtered 249 loci; 283 loci seen.
+    9261 genomic sites, of which 305 were covered by multiple loci (3.3%).
+    Calculating F statistics...done.
+Scaff10x_125_arrow_ctg1: analyzed 48 loci; filtered 259 loci; 307 loci seen.
+    13270 genomic sites, of which 508 were covered by multiple loci (3.8%).
+    Calculating F statistics...done.
+Scaff10x_1260_arrow_ctg1: analyzed 67 loci; filtered 439 loci; 506 loci seen.
+    20861 genomic sites, of which 696 were covered by multiple loci (3.3%).
+    Calculating F statistics...done.
+Scaff10x_1262_arrow_ctg1: analyzed 28 loci; filtered 255 loci; 283 loci seen.
+    9534 genomic sites, of which 108 were covered by multiple loci (1.1%).
+    Calculating F statistics...done.
+Scaff10x_1263_arrow_ctg1: analyzed 106 loci; filtered 927 loci; 1033 loci seen.
+    32352 genomic sites, of which 908 were covered by multiple loci (2.8%).
+    Calculating F statistics...done.
+Scaff10x_1264_arrow_ctg1: analyzed 8 loci; filtered 64 loci; 72 loci seen.
+    2445 genomic sites, of which 8 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_1265_arrow_ctg1: analyzed 27 loci; filtered 195 loci; 222 loci seen.
+    8275 genomic sites, of which 345 were covered by multiple loci (4.2%).
+    Calculating F statistics...done.
+Scaff10x_1267_arrow_ctg1: analyzed 470 loci; filtered 3068 loci; 3538 loci seen.
+    138496 genomic sites, of which 5102 were covered by multiple loci (3.7%).
+    Calculating F statistics...done.
+Scaff10x_1268_arrow_ctg1: analyzed 22 loci; filtered 134 loci; 156 loci seen.
+    6662 genomic sites, of which 194 were covered by multiple loci (2.9%).
+    Calculating F statistics...done.
+Scaff10x_1269_arrow_ctg1: analyzed 11 loci; filtered 158 loci; 169 loci seen.
+    3472 genomic sites, of which 4 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_126_arrow_ctg1: analyzed 73 loci; filtered 633 loci; 706 loci seen.
+    21055 genomic sites, of which 507 were covered by multiple loci (2.4%).
+    Calculating F statistics...done.
+Scaff10x_1270_arrow_ctg1: analyzed 66 loci; filtered 552 loci; 618 loci seen.
+    20331 genomic sites, of which 938 were covered by multiple loci (4.6%).
+    Calculating F statistics...done.
+Scaff10x_1273_arrow_ctg1: analyzed 14 loci; filtered 86 loci; 100 loci seen.
+    4301 genomic sites, of which 482 were covered by multiple loci (11.2%).
+    Calculating F statistics...done.
+Scaff10x_1277_arrow_ctg1: analyzed 23 loci; filtered 141 loci; 164 loci seen.
+    6729 genomic sites, of which 211 were covered by multiple loci (3.1%).
+    Calculating F statistics...done.
+Scaff10x_127_arrow_ctg1: analyzed 571 loci; filtered 3811 loci; 4382 loci seen.
+    164200 genomic sites, of which 6579 were covered by multiple loci (4.0%).
+    Calculating F statistics...done.
+Scaff10x_1280_arrow_ctg1: analyzed 7 loci; filtered 109 loci; 116 loci seen.
+    2209 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1281_arrow_ctg1: analyzed 14 loci; filtered 116 loci; 130 loci seen.
+    4000 genomic sites, of which 207 were covered by multiple loci (5.2%).
+    Calculating F statistics...done.
+Scaff10x_1282_arrow_ctg1: analyzed 3 loci; filtered 4 loci; 7 loci seen.
+    651 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1283_arrow_ctg1: analyzed 9 loci; filtered 89 loci; 98 loci seen.
+    2845 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1285_arrow_ctg1: analyzed 5 loci; filtered 69 loci; 74 loci seen.
+    1313 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1288_arrow_ctg1: analyzed 6 loci; filtered 87 loci; 93 loci seen.
+    1636 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1291_arrow_ctg1: analyzed 3 loci; filtered 51 loci; 54 loci seen.
+    848 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1293_arrow_ctg1: analyzed 7 loci; filtered 55 loci; 62 loci seen.
+    1798 genomic sites, of which 146 were covered by multiple loci (8.1%).
+    Calculating F statistics...done.
+Scaff10x_1294_arrow_ctg1: analyzed 67 loci; filtered 389 loci; 456 loci seen.
+    19015 genomic sites, of which 755 were covered by multiple loci (4.0%).
+    Calculating F statistics...done.
+Scaff10x_1296_arrow_ctg1: analyzed 4 loci; filtered 37 loci; 41 loci seen.
+    1138 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1297_arrow_ctg1: analyzed 2 loci; filtered 28 loci; 30 loci seen.
+    613 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1298_arrow_ctg1: analyzed 18 loci; filtered 59 loci; 77 loci seen.
+    3719 genomic sites, of which 1118 were covered by multiple loci (30.1%).
+    Calculating F statistics...done.
+Scaff10x_129_arrow_ctg1: analyzed 111 loci; filtered 726 loci; 837 loci seen.
+    29948 genomic sites, of which 2269 were covered by multiple loci (7.6%).
+    Calculating F statistics...done.
+Scaff10x_12_arrow_ctg1: analyzed 1305 loci; filtered 10407 loci; 11712 loci seen.
+    379665 genomic sites, of which 16740 were covered by multiple loci (4.4%).
+    Calculating F statistics...done.
+Scaff10x_1302_arrow_ctg1: analyzed 11 loci; filtered 38 loci; 49 loci seen.
+    2422 genomic sites, of which 1321 were covered by multiple loci (54.5%).
+    Calculating F statistics...done.
+Scaff10x_1307_arrow_ctg1: analyzed 133 loci; filtered 1069 loci; 1202 loci seen.
+    39318 genomic sites, of which 2000 were covered by multiple loci (5.1%).
+    Calculating F statistics...done.
+Scaff10x_1308_arrow_ctg1: analyzed 137 loci; filtered 1103 loci; 1240 loci seen.
+    41571 genomic sites, of which 953 were covered by multiple loci (2.3%).
+    Calculating F statistics...done.
+Scaff10x_1309_arrow_ctg1: analyzed 17 loci; filtered 220 loci; 237 loci seen.
+    4728 genomic sites, of which 303 were covered by multiple loci (6.4%).
+    Calculating F statistics...done.
+Scaff10x_130_arrow_ctg1: analyzed 172 loci; filtered 1360 loci; 1532 loci seen.
+    48883 genomic sites, of which 1367 were covered by multiple loci (2.8%).
+    Calculating F statistics...done.
+Scaff10x_1310_arrow_ctg1: analyzed 5 loci; filtered 30 loci; 35 loci seen.
+    1803 genomic sites, of which 8 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_1311_arrow_ctg1: analyzed 2 loci; filtered 37 loci; 39 loci seen.
+    918 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1312_arrow_ctg1: analyzed 3 loci; filtered 11 loci; 14 loci seen.
+    1055 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1313_arrow_ctg1: analyzed 7 loci; filtered 30 loci; 37 loci seen.
+    1662 genomic sites, of which 286 were covered by multiple loci (17.2%).
+    Calculating F statistics...done.
+Scaff10x_1314_arrow_ctg1: analyzed 2 loci; filtered 13 loci; 15 loci seen.
+    1141 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_1317_arrow_ctg1: analyzed 82 loci; filtered 737 loci; 819 loci seen.
+    25290 genomic sites, of which 624 were covered by multiple loci (2.5%).
+    Calculating F statistics...done.
+Scaff10x_1319_arrow_ctg1: analyzed 53 loci; filtered 423 loci; 476 loci seen.
+    15715 genomic sites, of which 229 were covered by multiple loci (1.5%).
+    Calculating F statistics...done.
+Scaff10x_131_arrow_ctg1: analyzed 117 loci; filtered 1075 loci; 1192 loci seen.
+    33019 genomic sites, of which 921 were covered by multiple loci (2.8%).
+    Calculating F statistics...done.
+Scaff10x_137_arrow_ctg1: analyzed 84 loci; filtered 570 loci; 654 loci seen.
+    24248 genomic sites, of which 1542 were covered by multiple loci (6.4%).
+    Calculating F statistics...done.
+Scaff10x_138_arrow_ctg1: analyzed 70 loci; filtered 685 loci; 755 loci seen.
+    20389 genomic sites, of which 440 were covered by multiple loci (2.2%).
+    Calculating F statistics...done.
+Scaff10x_139_arrow_ctg1: analyzed 5 loci; filtered 87 loci; 92 loci seen.
+    1316 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_13_arrow_ctg1: analyzed 2169 loci; filtered 15679 loci; 17848 loci seen.
+    627424 genomic sites, of which 25660 were covered by multiple loci (4.1%).
+    Calculating F statistics...done.
+Scaff10x_140_arrow_ctg1: analyzed 116 loci; filtered 932 loci; 1048 loci seen.
+    36529 genomic sites, of which 555 were covered by multiple loci (1.5%).
+    Calculating F statistics...done.
+Scaff10x_141_arrow_ctg1: analyzed 50 loci; filtered 476 loci; 526 loci seen.
+    14757 genomic sites, of which 24 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_143_arrow_ctg1: analyzed 930 loci; filtered 7076 loci; 8006 loci seen.
+    266510 genomic sites, of which 12585 were covered by multiple loci (4.7%).
+    Calculating F statistics...done.
+Scaff10x_144_arrow_ctg1: analyzed 61 loci; filtered 415 loci; 476 loci seen.
+    16181 genomic sites, of which 752 were covered by multiple loci (4.6%).
+    Calculating F statistics...done.
+Scaff10x_145_arrow_ctg1: analyzed 66 loci; filtered 513 loci; 579 loci seen.
+    18998 genomic sites, of which 1409 were covered by multiple loci (7.4%).
+    Calculating F statistics...done.
+Scaff10x_149_arrow_ctg1: analyzed 18 loci; filtered 123 loci; 141 loci seen.
+    5473 genomic sites, of which 173 were covered by multiple loci (3.2%).
+    Calculating F statistics...done.
+Scaff10x_14_arrow_ctg1: analyzed 263 loci; filtered 1597 loci; 1860 loci seen.
+    76055 genomic sites, of which 2868 were covered by multiple loci (3.8%).
+    Calculating F statistics...done.
+Scaff10x_150_arrow_ctg1: analyzed 2 loci; filtered 23 loci; 25 loci seen.
+    682 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_151_arrow_ctg1: analyzed 484 loci; filtered 3522 loci; 4006 loci seen.
+    137899 genomic sites, of which 6571 were covered by multiple loci (4.8%).
+    Calculating F statistics...done.
+Scaff10x_154_arrow_ctg1: analyzed 224 loci; filtered 1654 loci; 1878 loci seen.
+    65476 genomic sites, of which 2065 were covered by multiple loci (3.2%).
+    Calculating F statistics...done.
+Scaff10x_15_arrow_ctg1: analyzed 142 loci; filtered 888 loci; 1030 loci seen.
+    39391 genomic sites, of which 2698 were covered by multiple loci (6.8%).
+    Calculating F statistics...done.
+Scaff10x_163_arrow_ctg1: analyzed 2 loci; filtered 55 loci; 57 loci seen.
+    683 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_164_arrow_ctg1: analyzed 125 loci; filtered 968 loci; 1093 loci seen.
+    37528 genomic sites, of which 1903 were covered by multiple loci (5.1%).
+    Calculating F statistics...done.
+Scaff10x_165_arrow_ctg1: analyzed 24 loci; filtered 230 loci; 254 loci seen.
+    7852 genomic sites, of which 18 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_166_arrow_ctg1: analyzed 36 loci; filtered 228 loci; 264 loci seen.
+    10700 genomic sites, of which 413 were covered by multiple loci (3.9%).
+    Calculating F statistics...done.
+Scaff10x_167_arrow_ctg1: analyzed 143 loci; filtered 941 loci; 1084 loci seen.
+    40487 genomic sites, of which 2223 were covered by multiple loci (5.5%).
+    Calculating F statistics...done.
+Scaff10x_171_arrow_ctg1: analyzed 265 loci; filtered 2239 loci; 2504 loci seen.
+    76142 genomic sites, of which 3574 were covered by multiple loci (4.7%).
+    Calculating F statistics...done.
+Scaff10x_172_arrow_ctg1: analyzed 1339 loci; filtered 10056 loci; 11395 loci seen.
+    385434 genomic sites, of which 16783 were covered by multiple loci (4.4%).
+    Calculating F statistics...done.
+Scaff10x_174_arrow_ctg1: analyzed 7 loci; filtered 76 loci; 83 loci seen.
+    2126 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_175_arrow_ctg1: analyzed 88 loci; filtered 761 loci; 849 loci seen.
+    23211 genomic sites, of which 2066 were covered by multiple loci (8.9%).
+    Calculating F statistics...done.
+Scaff10x_176_arrow_ctg1: analyzed 41 loci; filtered 270 loci; 311 loci seen.
+    12684 genomic sites, of which 273 were covered by multiple loci (2.2%).
+    Calculating F statistics...done.
+Scaff10x_177_arrow_ctg1: analyzed 10 loci; filtered 79 loci; 89 loci seen.
+    3057 genomic sites, of which 15 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_178_arrow_ctg1: analyzed 32 loci; filtered 165 loci; 197 loci seen.
+    9955 genomic sites, of which 31 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_17_arrow_ctg1: analyzed 672 loci; filtered 5625 loci; 6297 loci seen.
+    194421 genomic sites, of which 7267 were covered by multiple loci (3.7%).
+    Calculating F statistics...done.
+Scaff10x_180_arrow_ctg1: analyzed 103 loci; filtered 990 loci; 1093 loci seen.
+    30694 genomic sites, of which 1905 were covered by multiple loci (6.2%).
+    Calculating F statistics...done.
+Scaff10x_182_arrow_ctg1: analyzed 45 loci; filtered 288 loci; 333 loci seen.
+    12377 genomic sites, of which 1327 were covered by multiple loci (10.7%).
+    Calculating F statistics...done.
+Scaff10x_186_arrow_ctg1: analyzed 73 loci; filtered 376 loci; 449 loci seen.
+    20916 genomic sites, of which 985 were covered by multiple loci (4.7%).
+    Calculating F statistics...done.
+Scaff10x_187_arrow_ctg1: analyzed 134 loci; filtered 924 loci; 1058 loci seen.
+    38549 genomic sites, of which 613 were covered by multiple loci (1.6%).
+    Calculating F statistics...done.
+Scaff10x_188_arrow_ctg1: analyzed 1762 loci; filtered 13905 loci; 15667 loci seen.
+    508466 genomic sites, of which 23990 were covered by multiple loci (4.7%).
+    Calculating F statistics...done.
+Scaff10x_189_arrow_ctg1: analyzed 77 loci; filtered 472 loci; 549 loci seen.
+    23032 genomic sites, of which 388 were covered by multiple loci (1.7%).
+    Calculating F statistics...done.
+Scaff10x_190_arrow_ctg1: analyzed 26 loci; filtered 210 loci; 236 loci seen.
+    7465 genomic sites, of which 8 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_193_arrow_ctg1: analyzed 76 loci; filtered 440 loci; 516 loci seen.
+    20178 genomic sites, of which 1638 were covered by multiple loci (8.1%).
+    Calculating F statistics...done.
+Scaff10x_194_arrow_ctg1: analyzed 26 loci; filtered 312 loci; 338 loci seen.
+    6445 genomic sites, of which 616 were covered by multiple loci (9.6%).
+    Calculating F statistics...done.
+Scaff10x_196_arrow_ctg1: analyzed 39 loci; filtered 368 loci; 407 loci seen.
+    11362 genomic sites, of which 176 were covered by multiple loci (1.5%).
+    Calculating F statistics...done.
+Scaff10x_198_arrow_ctg1: analyzed 31 loci; filtered 340 loci; 371 loci seen.
+    9807 genomic sites, of which 312 were covered by multiple loci (3.2%).
+    Calculating F statistics...done.
+Scaff10x_199_arrow_ctg1: analyzed 60 loci; filtered 488 loci; 548 loci seen.
+    16464 genomic sites, of which 1923 were covered by multiple loci (11.7%).
+    Calculating F statistics...done.
+Scaff10x_1_arrow_ctg1: analyzed 66 loci; filtered 502 loci; 568 loci seen.
+    20120 genomic sites, of which 405 were covered by multiple loci (2.0%).
+    Calculating F statistics...done.
+Scaff10x_202_arrow_ctg1: analyzed 43 loci; filtered 369 loci; 412 loci seen.
+    12902 genomic sites, of which 1276 were covered by multiple loci (9.9%).
+    Calculating F statistics...done.
+Scaff10x_203_arrow_ctg1: analyzed 48 loci; filtered 318 loci; 366 loci seen.
+    14465 genomic sites, of which 233 were covered by multiple loci (1.6%).
+    Calculating F statistics...done.
+Scaff10x_204_arrow_ctg1: analyzed 272 loci; filtered 1676 loci; 1948 loci seen.
+    78975 genomic sites, of which 2544 were covered by multiple loci (3.2%).
+    Calculating F statistics...done.
+Scaff10x_206_arrow_ctg1: analyzed 31 loci; filtered 266 loci; 297 loci seen.
+    9956 genomic sites, of which 418 were covered by multiple loci (4.2%).
+    Calculating F statistics...done.
+Scaff10x_207_arrow_ctg1: analyzed 417 loci; filtered 3077 loci; 3494 loci seen.
+    118966 genomic sites, of which 7967 were covered by multiple loci (6.7%).
+    Calculating F statistics...done.
+Scaff10x_20_arrow_ctg1: analyzed 849 loci; filtered 6446 loci; 7295 loci seen.
+    243972 genomic sites, of which 14743 were covered by multiple loci (6.0%).
+    Calculating F statistics...done.
+Scaff10x_210_arrow_ctg1: analyzed 440 loci; filtered 3564 loci; 4004 loci seen.
+    129304 genomic sites, of which 5168 were covered by multiple loci (4.0%).
+    Calculating F statistics...done.
+Scaff10x_214_arrow_ctg1: analyzed 113 loci; filtered 710 loci; 823 loci seen.
+    32581 genomic sites, of which 448 were covered by multiple loci (1.4%).
+    Calculating F statistics...done.
+Scaff10x_216_arrow_ctg1: analyzed 254 loci; filtered 1706 loci; 1960 loci seen.
+    75326 genomic sites, of which 1429 were covered by multiple loci (1.9%).
+    Calculating F statistics...done.
+Scaff10x_217_arrow_ctg1: analyzed 71 loci; filtered 371 loci; 442 loci seen.
+    20387 genomic sites, of which 533 were covered by multiple loci (2.6%).
+    Calculating F statistics...done.
+Scaff10x_218_arrow_ctg1: analyzed 36 loci; filtered 241 loci; 277 loci seen.
+    9862 genomic sites, of which 2104 were covered by multiple loci (21.3%).
+    Calculating F statistics...done.
+Scaff10x_219_arrow_ctg1: analyzed 205 loci; filtered 1776 loci; 1981 loci seen.
+    58615 genomic sites, of which 1640 were covered by multiple loci (2.8%).
+    Calculating F statistics...done.
+Scaff10x_221_arrow_ctg1: analyzed 82 loci; filtered 766 loci; 848 loci seen.
+    24568 genomic sites, of which 1031 were covered by multiple loci (4.2%).
+    Calculating F statistics...done.
+Scaff10x_223_arrow_ctg1: analyzed 780 loci; filtered 5733 loci; 6513 loci seen.
+    224752 genomic sites, of which 9550 were covered by multiple loci (4.2%).
+    Calculating F statistics...done.
+Scaff10x_224_arrow_ctg1: analyzed 47 loci; filtered 258 loci; 305 loci seen.
+    13620 genomic sites, of which 518 were covered by multiple loci (3.8%).
+    Calculating F statistics...done.
+Scaff10x_225_arrow_ctg1: analyzed 90 loci; filtered 756 loci; 846 loci seen.
+    27682 genomic sites, of which 741 were covered by multiple loci (2.7%).
+    Calculating F statistics...done.
+Scaff10x_227_arrow_ctg1: analyzed 5 loci; filtered 33 loci; 38 loci seen.
+    1681 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_22_arrow_ctg1: analyzed 245 loci; filtered 1867 loci; 2112 loci seen.
+    70542 genomic sites, of which 2047 were covered by multiple loci (2.9%).
+    Calculating F statistics...done.
+Scaff10x_230_arrow_ctg1: analyzed 139 loci; filtered 847 loci; 986 loci seen.
+    41774 genomic sites, of which 103 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_232_arrow_ctg1: analyzed 26 loci; filtered 209 loci; 235 loci seen.
+    7862 genomic sites, of which 8 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_233_arrow_ctg1: analyzed 83 loci; filtered 497 loci; 580 loci seen.
+    19711 genomic sites, of which 3890 were covered by multiple loci (19.7%).
+    Calculating F statistics...done.
+Scaff10x_236_arrow_ctg1: analyzed 14 loci; filtered 194 loci; 208 loci seen.
+    3533 genomic sites, of which 424 were covered by multiple loci (12.0%).
+    Calculating F statistics...done.
+Scaff10x_238_arrow_ctg1: analyzed 256 loci; filtered 1586 loci; 1842 loci seen.
+    76652 genomic sites, of which 2062 were covered by multiple loci (2.7%).
+    Calculating F statistics...done.
+Scaff10x_239_arrow_ctg1: analyzed 43 loci; filtered 379 loci; 422 loci seen.
+    12984 genomic sites, of which 279 were covered by multiple loci (2.1%).
+    Calculating F statistics...done.
+Scaff10x_23_arrow_ctg1: analyzed 15 loci; filtered 162 loci; 177 loci seen.
+    4202 genomic sites, of which 263 were covered by multiple loci (6.3%).
+    Calculating F statistics...done.
+Scaff10x_241_arrow_ctg1: analyzed 23 loci; filtered 126 loci; 149 loci seen.
+    6602 genomic sites, of which 12 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_242_arrow_ctg1: analyzed 18 loci; filtered 177 loci; 195 loci seen.
+    4800 genomic sites, of which 728 were covered by multiple loci (15.2%).
+    Calculating F statistics...done.
+Scaff10x_243_arrow_ctg1: analyzed 20 loci; filtered 198 loci; 218 loci seen.
+    6431 genomic sites, of which 143 were covered by multiple loci (2.2%).
+    Calculating F statistics...done.
+Scaff10x_244_arrow_ctg1: analyzed 58 loci; filtered 363 loci; 421 loci seen.
+    15777 genomic sites, of which 1046 were covered by multiple loci (6.6%).
+    Calculating F statistics...done.
+Scaff10x_245_arrow_ctg1: analyzed 42 loci; filtered 277 loci; 319 loci seen.
+    13817 genomic sites, of which 50 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_249_arrow_ctg1: analyzed 29 loci; filtered 193 loci; 222 loci seen.
+    8328 genomic sites, of which 20 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_251_arrow_ctg1: analyzed 48 loci; filtered 261 loci; 309 loci seen.
+    14443 genomic sites, of which 805 were covered by multiple loci (5.6%).
+    Calculating F statistics...done.
+Scaff10x_253_arrow_ctg1: analyzed 53 loci; filtered 250 loci; 303 loci seen.
+    14241 genomic sites, of which 1257 were covered by multiple loci (8.8%).
+    Calculating F statistics...done.
+Scaff10x_254_arrow_ctg1: analyzed 37 loci; filtered 235 loci; 272 loci seen.
+    10579 genomic sites, of which 216 were covered by multiple loci (2.0%).
+    Calculating F statistics...done.
+Scaff10x_255_arrow_ctg1: analyzed 14 loci; filtered 92 loci; 106 loci seen.
+    3824 genomic sites, of which 8 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_256_arrow_ctg1: analyzed 106 loci; filtered 628 loci; 734 loci seen.
+    30537 genomic sites, of which 1888 were covered by multiple loci (6.2%).
+    Calculating F statistics...done.
+Scaff10x_257_arrow_ctg1: analyzed 7 loci; filtered 35 loci; 42 loci seen.
+    2185 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_258_arrow_ctg1: analyzed 98 loci; filtered 760 loci; 858 loci seen.
+    28765 genomic sites, of which 1048 were covered by multiple loci (3.6%).
+    Calculating F statistics...done.
+Scaff10x_260_arrow_ctg1: analyzed 918 loci; filtered 6112 loci; 7030 loci seen.
+    259138 genomic sites, of which 13779 were covered by multiple loci (5.3%).
+    Calculating F statistics...done.
+Scaff10x_261_arrow_ctg1: analyzed 59 loci; filtered 498 loci; 557 loci seen.
+    17494 genomic sites, of which 1756 were covered by multiple loci (10.0%).
+    Calculating F statistics...done.
+Scaff10x_262_arrow_ctg1: analyzed 28 loci; filtered 220 loci; 248 loci seen.
+    7627 genomic sites, of which 12 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_263_arrow_ctg1: analyzed 217 loci; filtered 1886 loci; 2103 loci seen.
+    64467 genomic sites, of which 2372 were covered by multiple loci (3.7%).
+    Calculating F statistics...done.
+Scaff10x_266_arrow_ctg1: analyzed 70 loci; filtered 597 loci; 667 loci seen.
+    21081 genomic sites, of which 252 were covered by multiple loci (1.2%).
+    Calculating F statistics...done.
+Scaff10x_267_arrow_ctg1: analyzed 117 loci; filtered 1219 loci; 1336 loci seen.
+    32868 genomic sites, of which 922 were covered by multiple loci (2.8%).
+    Calculating F statistics...done.
+Scaff10x_269_arrow_ctg1: analyzed 30 loci; filtered 165 loci; 195 loci seen.
+    8871 genomic sites, of which 228 were covered by multiple loci (2.6%).
+    Calculating F statistics...done.
+Scaff10x_26_arrow_ctg1: analyzed 1754 loci; filtered 12621 loci; 14375 loci seen.
+    506081 genomic sites, of which 18454 were covered by multiple loci (3.6%).
+    Calculating F statistics...done.
+Scaff10x_270_arrow_ctg1: analyzed 172 loci; filtered 1048 loci; 1220 loci seen.
+    50345 genomic sites, of which 1886 were covered by multiple loci (3.7%).
+    Calculating F statistics...done.
+Scaff10x_272_arrow_ctg1: analyzed 34 loci; filtered 195 loci; 229 loci seen.
+    10444 genomic sites, of which 858 were covered by multiple loci (8.2%).
+    Calculating F statistics...done.
+Scaff10x_273_arrow_ctg1: analyzed 91 loci; filtered 715 loci; 806 loci seen.
+    27254 genomic sites, of which 836 were covered by multiple loci (3.1%).
+    Calculating F statistics...done.
+Scaff10x_275_arrow_ctg1: analyzed 25 loci; filtered 251 loci; 276 loci seen.
+    7357 genomic sites, of which 16 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_276_arrow_ctg1: analyzed 294 loci; filtered 2263 loci; 2557 loci seen.
+    82905 genomic sites, of which 4587 were covered by multiple loci (5.5%).
+    Calculating F statistics...done.
+Scaff10x_279_arrow_ctg1: analyzed 45 loci; filtered 317 loci; 362 loci seen.
+    12544 genomic sites, of which 689 were covered by multiple loci (5.5%).
+    Calculating F statistics...done.
+Scaff10x_27_arrow_ctg1: analyzed 842 loci; filtered 5678 loci; 6520 loci seen.
+    249201 genomic sites, of which 9755 were covered by multiple loci (3.9%).
+    Calculating F statistics...done.
+Scaff10x_280_arrow_ctg1: analyzed 25 loci; filtered 194 loci; 219 loci seen.
+    7119 genomic sites, of which 212 were covered by multiple loci (3.0%).
+    Calculating F statistics...done.
+Scaff10x_281_arrow_ctg1: analyzed 44 loci; filtered 290 loci; 334 loci seen.
+    12024 genomic sites, of which 1057 were covered by multiple loci (8.8%).
+    Calculating F statistics...done.
+Scaff10x_282_arrow_ctg1: analyzed 14 loci; filtered 191 loci; 205 loci seen.
+    4004 genomic sites, of which 4 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_287_arrow_ctg1: analyzed 87 loci; filtered 643 loci; 730 loci seen.
+    23728 genomic sites, of which 1653 were covered by multiple loci (7.0%).
+    Calculating F statistics...done.
+Scaff10x_288_arrow_ctg1: analyzed 10 loci; filtered 87 loci; 97 loci seen.
+    3130 genomic sites, of which 344 were covered by multiple loci (11.0%).
+    Calculating F statistics...done.
+Scaff10x_289_arrow_ctg1: analyzed 512 loci; filtered 4004 loci; 4516 loci seen.
+    147114 genomic sites, of which 6144 were covered by multiple loci (4.2%).
+    Calculating F statistics...done.
+Scaff10x_290_arrow_ctg1: analyzed 17 loci; filtered 167 loci; 184 loci seen.
+    5310 genomic sites, of which 112 were covered by multiple loci (2.1%).
+    Calculating F statistics...done.
+Scaff10x_291_arrow_ctg1: analyzed 59 loci; filtered 509 loci; 568 loci seen.
+    14686 genomic sites, of which 2120 were covered by multiple loci (14.4%).
+    Calculating F statistics...done.
+Scaff10x_292_arrow_ctg1: analyzed 45 loci; filtered 472 loci; 517 loci seen.
+    13417 genomic sites, of which 345 were covered by multiple loci (2.6%).
+    Calculating F statistics...done.
+Scaff10x_294_arrow_ctg1: analyzed 60 loci; filtered 437 loci; 497 loci seen.
+    17664 genomic sites, of which 461 were covered by multiple loci (2.6%).
+    Calculating F statistics...done.
+Scaff10x_296_arrow_ctg1: analyzed 10 loci; filtered 160 loci; 170 loci seen.
+    2523 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_297_arrow_ctg1: analyzed 401 loci; filtered 3442 loci; 3843 loci seen.
+    120966 genomic sites, of which 2998 were covered by multiple loci (2.5%).
+    Calculating F statistics...done.
+Scaff10x_298_arrow_ctg1: analyzed 123 loci; filtered 881 loci; 1004 loci seen.
+    34727 genomic sites, of which 3700 were covered by multiple loci (10.7%).
+    Calculating F statistics...done.
+Scaff10x_299_arrow_ctg1: analyzed 9 loci; filtered 69 loci; 78 loci seen.
+    2792 genomic sites, of which 109 were covered by multiple loci (3.9%).
+    Calculating F statistics...done.
+Scaff10x_2_arrow_ctg1: analyzed 59 loci; filtered 616 loci; 675 loci seen.
+    16647 genomic sites, of which 194 were covered by multiple loci (1.2%).
+    Calculating F statistics...done.
+Scaff10x_300_arrow_ctg1: analyzed 20 loci; filtered 166 loci; 186 loci seen.
+    5872 genomic sites, of which 12 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_301_arrow_ctg1: analyzed 59 loci; filtered 431 loci; 490 loci seen.
+    17211 genomic sites, of which 921 were covered by multiple loci (5.4%).
+    Calculating F statistics...done.
+Scaff10x_302_arrow_ctg1: analyzed 78 loci; filtered 610 loci; 688 loci seen.
+    23149 genomic sites, of which 707 were covered by multiple loci (3.1%).
+    Calculating F statistics...done.
+Scaff10x_304_arrow_ctg1: analyzed 37 loci; filtered 230 loci; 267 loci seen.
+    10308 genomic sites, of which 510 were covered by multiple loci (4.9%).
+    Calculating F statistics...done.
+Scaff10x_308_arrow_ctg1: analyzed 24 loci; filtered 82 loci; 106 loci seen.
+    6078 genomic sites, of which 1133 were covered by multiple loci (18.6%).
+    Calculating F statistics...done.
+Scaff10x_309_arrow_ctg1: analyzed 6 loci; filtered 48 loci; 54 loci seen.
+    1695 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_310_arrow_ctg1: analyzed 37 loci; filtered 334 loci; 371 loci seen.
+    11738 genomic sites, of which 27 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_311_arrow_ctg1: analyzed 6 loci; filtered 44 loci; 50 loci seen.
+    2038 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_315_arrow_ctg1: analyzed 47 loci; filtered 250 loci; 297 loci seen.
+    14017 genomic sites, of which 36 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_316_arrow_ctg1: analyzed 31 loci; filtered 179 loci; 210 loci seen.
+    9638 genomic sites, of which 232 were covered by multiple loci (2.4%).
+    Calculating F statistics...done.
+Scaff10x_318_arrow_ctg1: analyzed 8 loci; filtered 197 loci; 205 loci seen.
+    2455 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_319_arrow_ctg1: analyzed 243 loci; filtered 1762 loci; 2005 loci seen.
+    70944 genomic sites, of which 2502 were covered by multiple loci (3.5%).
+    Calculating F statistics...done.
+Scaff10x_321_arrow_ctg1: analyzed 3 loci; filtered 65 loci; 68 loci seen.
+    1044 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_323_arrow_ctg1: analyzed 495 loci; filtered 3955 loci; 4450 loci seen.
+    142202 genomic sites, of which 5509 were covered by multiple loci (3.9%).
+    Calculating F statistics...done.
+Scaff10x_324_arrow_ctg1: analyzed 291 loci; filtered 2137 loci; 2428 loci seen.
+    84811 genomic sites, of which 3745 were covered by multiple loci (4.4%).
+    Calculating F statistics...done.
+Scaff10x_326_arrow_ctg1: analyzed 33 loci; filtered 189 loci; 222 loci seen.
+    8020 genomic sites, of which 1423 were covered by multiple loci (17.7%).
+    Calculating F statistics...done.
+Scaff10x_329_arrow_ctg1: analyzed 42 loci; filtered 315 loci; 357 loci seen.
+    13357 genomic sites, of which 233 were covered by multiple loci (1.7%).
+    Calculating F statistics...done.
+Scaff10x_32_arrow_ctg1: analyzed 1692 loci; filtered 12324 loci; 14016 loci seen.
+    494671 genomic sites, of which 18279 were covered by multiple loci (3.7%).
+    Calculating F statistics...done.
+Scaff10x_330_arrow_ctg1: analyzed 34 loci; filtered 276 loci; 310 loci seen.
+    10029 genomic sites, of which 24 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_332_arrow_ctg1: analyzed 55 loci; filtered 427 loci; 482 loci seen.
+    13782 genomic sites, of which 2212 were covered by multiple loci (16.0%).
+    Calculating F statistics...done.
+Scaff10x_333_arrow_ctg1: analyzed 19 loci; filtered 149 loci; 168 loci seen.
+    5655 genomic sites, of which 140 were covered by multiple loci (2.5%).
+    Calculating F statistics...done.
+Scaff10x_334_arrow_ctg1: analyzed 34 loci; filtered 270 loci; 304 loci seen.
+    10721 genomic sites, of which 88 were covered by multiple loci (0.8%).
+    Calculating F statistics...done.
+Scaff10x_335_arrow_ctg1: analyzed 17 loci; filtered 160 loci; 177 loci seen.
+    5224 genomic sites, of which 803 were covered by multiple loci (15.4%).
+    Calculating F statistics...done.
+Scaff10x_336_arrow_ctg1: analyzed 21 loci; filtered 192 loci; 213 loci seen.
+    6003 genomic sites, of which 8 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_338_arrow_ctg1: analyzed 41 loci; filtered 342 loci; 383 loci seen.
+    11178 genomic sites, of which 532 were covered by multiple loci (4.8%).
+    Calculating F statistics...done.
+Scaff10x_339_arrow_ctg1: analyzed 48 loci; filtered 269 loci; 317 loci seen.
+    14597 genomic sites, of which 571 were covered by multiple loci (3.9%).
+    Calculating F statistics...done.
+Scaff10x_33_arrow_ctg1: analyzed 1229 loci; filtered 9973 loci; 11202 loci seen.
+    346887 genomic sites, of which 16624 were covered by multiple loci (4.8%).
+    Calculating F statistics...done.
+Scaff10x_342_arrow_ctg1: analyzed 12 loci; filtered 135 loci; 147 loci seen.
+    3733 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_343_arrow_ctg1: analyzed 14 loci; filtered 116 loci; 130 loci seen.
+    3978 genomic sites, of which 408 were covered by multiple loci (10.3%).
+    Calculating F statistics...done.
+Scaff10x_345_arrow_ctg1: analyzed 28 loci; filtered 216 loci; 244 loci seen.
+    8641 genomic sites, of which 584 were covered by multiple loci (6.8%).
+    Calculating F statistics...done.
+Scaff10x_347_arrow_ctg1: analyzed 44 loci; filtered 221 loci; 265 loci seen.
+    13249 genomic sites, of which 629 were covered by multiple loci (4.7%).
+    Calculating F statistics...done.
+Scaff10x_348_arrow_ctg1: analyzed 13 loci; filtered 128 loci; 141 loci seen.
+    3879 genomic sites, of which 4 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_349_arrow_ctg1: analyzed 11 loci; filtered 139 loci; 150 loci seen.
+    3534 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_34_arrow_ctg1: analyzed 1214 loci; filtered 9954 loci; 11168 loci seen.
+    350137 genomic sites, of which 14226 were covered by multiple loci (4.1%).
+    Calculating F statistics...done.
+Scaff10x_350_arrow_ctg1: analyzed 5 loci; filtered 53 loci; 58 loci seen.
+    1584 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_351_arrow_ctg1: analyzed 67 loci; filtered 515 loci; 582 loci seen.
+    16369 genomic sites, of which 2028 were covered by multiple loci (12.4%).
+    Calculating F statistics...done.
+Scaff10x_353_arrow_ctg1: analyzed 498 loci; filtered 3468 loci; 3966 loci seen.
+    143003 genomic sites, of which 5385 were covered by multiple loci (3.8%).
+    Calculating F statistics...done.
+Scaff10x_354_arrow_ctg1: analyzed 202 loci; filtered 1290 loci; 1492 loci seen.
+    59607 genomic sites, of which 2052 were covered by multiple loci (3.4%).
+    Calculating F statistics...done.
+Scaff10x_355_arrow_ctg1: analyzed 317 loci; filtered 2076 loci; 2393 loci seen.
+    93649 genomic sites, of which 2675 were covered by multiple loci (2.9%).
+    Calculating F statistics...done.
+Scaff10x_357_arrow_ctg1: analyzed 34 loci; filtered 148 loci; 182 loci seen.
+    8386 genomic sites, of which 2188 were covered by multiple loci (26.1%).
+    Calculating F statistics...done.
+Scaff10x_358_arrow_ctg1: analyzed 56 loci; filtered 512 loci; 568 loci seen.
+    14013 genomic sites, of which 1610 were covered by multiple loci (11.5%).
+    Calculating F statistics...done.
+Scaff10x_359_arrow_ctg1: analyzed 5 loci; filtered 86 loci; 91 loci seen.
+    1694 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_35_arrow_ctg1: analyzed 1822 loci; filtered 13468 loci; 15290 loci seen.
+    522565 genomic sites, of which 21194 were covered by multiple loci (4.1%).
+    Calculating F statistics...done.
+Scaff10x_361_arrow_ctg1: analyzed 124 loci; filtered 960 loci; 1084 loci seen.
+    36838 genomic sites, of which 410 were covered by multiple loci (1.1%).
+    Calculating F statistics...done.
+Scaff10x_365_arrow_ctg1: analyzed 2 loci; filtered 39 loci; 41 loci seen.
+    620 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_366_arrow_ctg1: analyzed 18 loci; filtered 107 loci; 125 loci seen.
+    5110 genomic sites, of which 194 were covered by multiple loci (3.8%).
+    Calculating F statistics...done.
+Scaff10x_367_arrow_ctg1: analyzed 11 loci; filtered 107 loci; 118 loci seen.
+    2804 genomic sites, of which 8 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_36_arrow_ctg1: analyzed 2595 loci; filtered 20478 loci; 23073 loci seen.
+    753969 genomic sites, of which 32591 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_371_arrow_ctg1: analyzed 27 loci; filtered 179 loci; 206 loci seen.
+    7996 genomic sites, of which 547 were covered by multiple loci (6.8%).
+    Calculating F statistics...done.
+Scaff10x_373_arrow_ctg1: analyzed 35 loci; filtered 285 loci; 320 loci seen.
+    11260 genomic sites, of which 362 were covered by multiple loci (3.2%).
+    Calculating F statistics...done.
+Scaff10x_374_arrow_ctg1: analyzed 194 loci; filtered 1564 loci; 1758 loci seen.
+    58525 genomic sites, of which 2544 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_375_arrow_ctg1: analyzed 91 loci; filtered 795 loci; 886 loci seen.
+    26348 genomic sites, of which 515 were covered by multiple loci (2.0%).
+    Calculating F statistics...done.
+Scaff10x_377_arrow_ctg1: analyzed 33 loci; filtered 153 loci; 186 loci seen.
+    8112 genomic sites, of which 2131 were covered by multiple loci (26.3%).
+    Calculating F statistics...done.
+Scaff10x_378_arrow_ctg1: analyzed 38 loci; filtered 259 loci; 297 loci seen.
+    10316 genomic sites, of which 777 were covered by multiple loci (7.5%).
+    Calculating F statistics...done.
+Scaff10x_37_arrow_ctg1: analyzed 1464 loci; filtered 10704 loci; 12168 loci seen.
+    419151 genomic sites, of which 14881 were covered by multiple loci (3.6%).
+    Calculating F statistics...done.
+Scaff10x_380_arrow_ctg1: analyzed 134 loci; filtered 1305 loci; 1439 loci seen.
+    38474 genomic sites, of which 1410 were covered by multiple loci (3.7%).
+    Calculating F statistics...done.
+Scaff10x_382_arrow_ctg1: analyzed 18 loci; filtered 79 loci; 97 loci seen.
+    4954 genomic sites, of which 326 were covered by multiple loci (6.6%).
+    Calculating F statistics...done.
+Scaff10x_385_arrow_ctg1: analyzed 4 loci; filtered 23 loci; 27 loci seen.
+    1151 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_386_arrow_ctg1: analyzed 148 loci; filtered 1060 loci; 1208 loci seen.
+    42999 genomic sites, of which 1900 were covered by multiple loci (4.4%).
+    Calculating F statistics...done.
+Scaff10x_387_arrow_ctg1: analyzed 150 loci; filtered 1453 loci; 1603 loci seen.
+    46278 genomic sites, of which 956 were covered by multiple loci (2.1%).
+    Calculating F statistics...done.
+Scaff10x_388_arrow_ctg1: analyzed 211 loci; filtered 1636 loci; 1847 loci seen.
+    62043 genomic sites, of which 3234 were covered by multiple loci (5.2%).
+    Calculating F statistics...done.
+Scaff10x_38_arrow_ctg1: analyzed 232 loci; filtered 1582 loci; 1814 loci seen.
+    64459 genomic sites, of which 3756 were covered by multiple loci (5.8%).
+    Calculating F statistics...done.
+Scaff10x_391_arrow_ctg1: analyzed 22 loci; filtered 125 loci; 147 loci seen.
+    6865 genomic sites, of which 325 were covered by multiple loci (4.7%).
+    Calculating F statistics...done.
+Scaff10x_394_arrow_ctg1: analyzed 45 loci; filtered 268 loci; 313 loci seen.
+    11643 genomic sites, of which 1510 were covered by multiple loci (13.0%).
+    Calculating F statistics...done.
+Scaff10x_397_arrow_ctg1: analyzed 8 loci; filtered 50 loci; 58 loci seen.
+    2475 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_3_arrow_ctg1: analyzed 2774 loci; filtered 21294 loci; 24068 loci seen.
+    809532 genomic sites, of which 28876 were covered by multiple loci (3.6%).
+    Calculating F statistics...done.
+Scaff10x_400_arrow_ctg1: analyzed 31 loci; filtered 278 loci; 309 loci seen.
+    7803 genomic sites, of which 738 were covered by multiple loci (9.5%).
+    Calculating F statistics...done.
+Scaff10x_402_arrow_ctg1: analyzed 14 loci; filtered 92 loci; 106 loci seen.
+    2669 genomic sites, of which 534 were covered by multiple loci (20.0%).
+    Calculating F statistics...done.
+Scaff10x_403_arrow_ctg1: analyzed 19 loci; filtered 159 loci; 178 loci seen.
+    5197 genomic sites, of which 300 were covered by multiple loci (5.8%).
+    Calculating F statistics...done.
+Scaff10x_405_arrow_ctg1: analyzed 27 loci; filtered 170 loci; 197 loci seen.
+    6798 genomic sites, of which 684 were covered by multiple loci (10.1%).
+    Calculating F statistics...done.
+Scaff10x_406_arrow_ctg1: analyzed 28 loci; filtered 165 loci; 193 loci seen.
+    7595 genomic sites, of which 16 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_408_arrow_ctg1: analyzed 11 loci; filtered 110 loci; 121 loci seen.
+    3341 genomic sites, of which 4 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_409_arrow_ctg1: analyzed 47 loci; filtered 416 loci; 463 loci seen.
+    13643 genomic sites, of which 248 were covered by multiple loci (1.8%).
+    Calculating F statistics...done.
+Scaff10x_40_arrow_ctg1: analyzed 2 loci; filtered 19 loci; 21 loci seen.
+    459 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_410_arrow_ctg1: analyzed 51 loci; filtered 319 loci; 370 loci seen.
+    15542 genomic sites, of which 150 were covered by multiple loci (1.0%).
+    Calculating F statistics...done.
+Scaff10x_413_arrow_ctg1: analyzed 11 loci; filtered 199 loci; 210 loci seen.
+    3022 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_414_arrow_ctg1: analyzed 7 loci; filtered 40 loci; 47 loci seen.
+    2233 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_415_arrow_ctg1: analyzed 5 loci; filtered 38 loci; 43 loci seen.
+    1344 genomic sites, of which 73 were covered by multiple loci (5.4%).
+    Calculating F statistics...done.
+Scaff10x_416_arrow_ctg1: analyzed 60 loci; filtered 538 loci; 598 loci seen.
+    17932 genomic sites, of which 773 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_418_arrow_ctg1: analyzed 4 loci; filtered 30 loci; 34 loci seen.
+    1224 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_419_arrow_ctg1: analyzed 3 loci; filtered 15 loci; 18 loci seen.
+    1046 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_420_arrow_ctg1: analyzed 12 loci; filtered 90 loci; 102 loci seen.
+    4175 genomic sites, of which 4 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_421_arrow_ctg1: analyzed 4 loci; filtered 71 loci; 75 loci seen.
+    1202 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_423_arrow_ctg1: analyzed 4 loci; filtered 58 loci; 62 loci seen.
+    1280 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_424_arrow_ctg1: analyzed 9 loci; filtered 45 loci; 54 loci seen.
+    2263 genomic sites, of which 383 were covered by multiple loci (16.9%).
+    Calculating F statistics...done.
+Scaff10x_425_arrow_ctg1: analyzed 5 loci; filtered 53 loci; 58 loci seen.
+    1402 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_426_arrow_ctg1: analyzed 16 loci; filtered 53 loci; 69 loci seen.
+    4199 genomic sites, of which 260 were covered by multiple loci (6.2%).
+    Calculating F statistics...done.
+Scaff10x_427_arrow_ctg1: analyzed 16 loci; filtered 211 loci; 227 loci seen.
+    4674 genomic sites, of which 131 were covered by multiple loci (2.8%).
+    Calculating F statistics...done.
+Scaff10x_432_arrow_ctg1: analyzed 25 loci; filtered 225 loci; 250 loci seen.
+    6399 genomic sites, of which 8 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_433_arrow_ctg1: analyzed 16 loci; filtered 100 loci; 116 loci seen.
+    4931 genomic sites, of which 32 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_436_arrow_ctg1: analyzed 10 loci; filtered 46 loci; 56 loci seen.
+    3011 genomic sites, of which 12 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_438_arrow_ctg1: analyzed 4 loci; filtered 71 loci; 75 loci seen.
+    854 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_43_arrow_ctg1: analyzed 292 loci; filtered 2441 loci; 2733 loci seen.
+    85931 genomic sites, of which 2586 were covered by multiple loci (3.0%).
+    Calculating F statistics...done.
+Scaff10x_441_arrow_ctg1: analyzed 7 loci; filtered 84 loci; 91 loci seen.
+    1926 genomic sites, of which 241 were covered by multiple loci (12.5%).
+    Calculating F statistics...done.
+Scaff10x_443_arrow_ctg1: analyzed 35 loci; filtered 209 loci; 244 loci seen.
+    9279 genomic sites, of which 658 were covered by multiple loci (7.1%).
+    Calculating F statistics...done.
+Scaff10x_444_arrow_ctg1: analyzed 5 loci; filtered 68 loci; 73 loci seen.
+    1493 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_448_arrow_ctg1: analyzed 439 loci; filtered 3728 loci; 4167 loci seen.
+    131031 genomic sites, of which 5296 were covered by multiple loci (4.0%).
+    Calculating F statistics...done.
+Scaff10x_44_arrow_ctg1: analyzed 184 loci; filtered 1533 loci; 1717 loci seen.
+    54679 genomic sites, of which 2346 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_450_arrow_ctg1: analyzed 2 loci; filtered 28 loci; 30 loci seen.
+    710 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_452_arrow_ctg1: analyzed 50 loci; filtered 339 loci; 389 loci seen.
+    13366 genomic sites, of which 1464 were covered by multiple loci (11.0%).
+    Calculating F statistics...done.
+Scaff10x_454_arrow_ctg1: analyzed 20 loci; filtered 99 loci; 119 loci seen.
+    5079 genomic sites, of which 363 were covered by multiple loci (7.1%).
+    Calculating F statistics...done.
+Scaff10x_455_arrow_ctg1: analyzed 75 loci; filtered 640 loci; 715 loci seen.
+    23248 genomic sites, of which 1089 were covered by multiple loci (4.7%).
+    Calculating F statistics...done.
+Scaff10x_456_arrow_ctg1: analyzed 2 loci; filtered 27 loci; 29 loci seen.
+    676 genomic sites, of which 4 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_45_arrow_ctg1: analyzed 518 loci; filtered 3777 loci; 4295 loci seen.
+    147720 genomic sites, of which 9284 were covered by multiple loci (6.3%).
+    Calculating F statistics...done.
+Scaff10x_461_arrow_ctg1: analyzed 15 loci; filtered 93 loci; 108 loci seen.
+    4698 genomic sites, of which 8 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_465_arrow_ctg1: analyzed 3 loci; filtered 21 loci; 24 loci seen.
+    962 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_466_arrow_ctg1: analyzed 17 loci; filtered 122 loci; 139 loci seen.
+    4990 genomic sites, of which 709 were covered by multiple loci (14.2%).
+    Calculating F statistics...done.
+Scaff10x_468_arrow_ctg1: analyzed 323 loci; filtered 2033 loci; 2356 loci seen.
+    93223 genomic sites, of which 2929 were covered by multiple loci (3.1%).
+    Calculating F statistics...done.
+Scaff10x_469_arrow_ctg1: analyzed 8 loci; filtered 31 loci; 39 loci seen.
+    2839 genomic sites, of which 8 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_46_arrow_ctg1: analyzed 139 loci; filtered 1257 loci; 1396 loci seen.
+    41516 genomic sites, of which 1826 were covered by multiple loci (4.4%).
+    Calculating F statistics...done.
+Scaff10x_472_arrow_ctg1: analyzed 3 loci; filtered 17 loci; 20 loci seen.
+    803 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_473_arrow_ctg1: analyzed 113 loci; filtered 844 loci; 957 loci seen.
+    33550 genomic sites, of which 1548 were covered by multiple loci (4.6%).
+    Calculating F statistics...done.
+Scaff10x_475_arrow_ctg1: analyzed 87 loci; filtered 515 loci; 602 loci seen.
+    26087 genomic sites, of which 1098 were covered by multiple loci (4.2%).
+    Calculating F statistics...done.
+Scaff10x_476_arrow_ctg1: analyzed 7 loci; filtered 26 loci; 33 loci seen.
+    2074 genomic sites, of which 12 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_477_arrow_ctg1: analyzed 4 loci; filtered 81 loci; 85 loci seen.
+    1332 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_480_arrow_ctg1: analyzed 146 loci; filtered 920 loci; 1066 loci seen.
+    43370 genomic sites, of which 2281 were covered by multiple loci (5.3%).
+    Calculating F statistics...done.
+Scaff10x_482_arrow_ctg1: analyzed 13 loci; filtered 276 loci; 289 loci seen.
+    3389 genomic sites, of which 194 were covered by multiple loci (5.7%).
+    Calculating F statistics...done.
+Scaff10x_483_arrow_ctg1: analyzed 266 loci; filtered 2366 loci; 2632 loci seen.
+    78311 genomic sites, of which 3363 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_484_arrow_ctg1: analyzed 14 loci; filtered 54 loci; 68 loci seen.
+    3631 genomic sites, of which 8 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_486_arrow_ctg1: analyzed 13 loci; filtered 134 loci; 147 loci seen.
+    3911 genomic sites, of which 170 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_487_arrow_ctg1: analyzed 31 loci; filtered 208 loci; 239 loci seen.
+    8264 genomic sites, of which 1446 were covered by multiple loci (17.5%).
+    Calculating F statistics...done.
+Scaff10x_488_arrow_ctg1: analyzed 4 loci; filtered 26 loci; 30 loci seen.
+    1167 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_48_arrow_ctg1: analyzed 356 loci; filtered 2520 loci; 2876 loci seen.
+    105544 genomic sites, of which 2561 were covered by multiple loci (2.4%).
+    Calculating F statistics...done.
+Scaff10x_490_arrow_ctg1: analyzed 4 loci; filtered 19 loci; 23 loci seen.
+    1052 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_492_arrow_ctg1: analyzed 12 loci; filtered 108 loci; 120 loci seen.
+    3675 genomic sites, of which 291 were covered by multiple loci (7.9%).
+    Calculating F statistics...done.
+Scaff10x_494_arrow_ctg1: analyzed 84 loci; filtered 716 loci; 800 loci seen.
+    24017 genomic sites, of which 2276 were covered by multiple loci (9.5%).
+    Calculating F statistics...done.
+Scaff10x_495_arrow_ctg1: analyzed 287 loci; filtered 2359 loci; 2646 loci seen.
+    82926 genomic sites, of which 3244 were covered by multiple loci (3.9%).
+    Calculating F statistics...done.
+Scaff10x_496_arrow_ctg1: analyzed 77 loci; filtered 609 loci; 686 loci seen.
+    21977 genomic sites, of which 1467 were covered by multiple loci (6.7%).
+    Calculating F statistics...done.
+Scaff10x_4_arrow_ctg1: analyzed 1246 loci; filtered 8894 loci; 10140 loci seen.
+    357817 genomic sites, of which 15491 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_500_arrow_ctg1: analyzed 6 loci; filtered 53 loci; 59 loci seen.
+    2045 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_501_arrow_ctg1: analyzed 5 loci; filtered 50 loci; 55 loci seen.
+    1442 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_503_arrow_ctg1: analyzed 2 loci; filtered 32 loci; 34 loci seen.
+    630 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_504_arrow_ctg1: analyzed 96 loci; filtered 699 loci; 795 loci seen.
+    28872 genomic sites, of which 51 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_505_arrow_ctg1: analyzed 24 loci; filtered 199 loci; 223 loci seen.
+    7364 genomic sites, of which 146 were covered by multiple loci (2.0%).
+    Calculating F statistics...done.
+Scaff10x_506_arrow_ctg1: analyzed 19 loci; filtered 110 loci; 129 loci seen.
+    5533 genomic sites, of which 61 were covered by multiple loci (1.1%).
+    Calculating F statistics...done.
+Scaff10x_508_arrow_ctg1: analyzed 4 loci; filtered 72 loci; 76 loci seen.
+    1428 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_509_arrow_ctg1: analyzed 4 loci; filtered 70 loci; 74 loci seen.
+    1342 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_510_arrow_ctg1: analyzed 34 loci; filtered 286 loci; 320 loci seen.
+    10673 genomic sites, of which 120 were covered by multiple loci (1.1%).
+    Calculating F statistics...done.
+Scaff10x_513_arrow_ctg1: analyzed 2 loci; filtered 86 loci; 88 loci seen.
+    613 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_514_arrow_ctg1: analyzed 27 loci; filtered 158 loci; 185 loci seen.
+    7256 genomic sites, of which 257 were covered by multiple loci (3.5%).
+    Calculating F statistics...done.
+Scaff10x_516_arrow_ctg1: analyzed 24 loci; filtered 257 loci; 281 loci seen.
+    7460 genomic sites, of which 213 were covered by multiple loci (2.9%).
+    Calculating F statistics...done.
+Scaff10x_517_arrow_ctg1: analyzed 14 loci; filtered 59 loci; 73 loci seen.
+    3748 genomic sites, of which 704 were covered by multiple loci (18.8%).
+    Calculating F statistics...done.
+Scaff10x_518_arrow_ctg1: analyzed 7 loci; filtered 50 loci; 57 loci seen.
+    2239 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_51_arrow_ctg1: analyzed 940 loci; filtered 6515 loci; 7455 loci seen.
+    271786 genomic sites, of which 11548 were covered by multiple loci (4.2%).
+    Calculating F statistics...done.
+Scaff10x_520_arrow_ctg1: analyzed 3 loci; filtered 16 loci; 19 loci seen.
+    925 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_522_arrow_ctg1: analyzed 5 loci; filtered 66 loci; 71 loci seen.
+    1439 genomic sites, of which 7 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_523_arrow_ctg1: analyzed 15 loci; filtered 172 loci; 187 loci seen.
+    5157 genomic sites, of which 337 were covered by multiple loci (6.5%).
+    Calculating F statistics...done.
+Scaff10x_524_arrow_ctg1: analyzed 4 loci; filtered 36 loci; 40 loci seen.
+    1177 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_526_arrow_ctg1: analyzed 28 loci; filtered 291 loci; 319 loci seen.
+    9000 genomic sites, of which 554 were covered by multiple loci (6.2%).
+    Calculating F statistics...done.
+Scaff10x_529_arrow_ctg1: analyzed 34 loci; filtered 263 loci; 297 loci seen.
+    8843 genomic sites, of which 1786 were covered by multiple loci (20.2%).
+    Calculating F statistics...done.
+Scaff10x_52_arrow_ctg1: analyzed 1481 loci; filtered 11260 loci; 12741 loci seen.
+    425627 genomic sites, of which 17988 were covered by multiple loci (4.2%).
+    Calculating F statistics...done.
+Scaff10x_530_arrow_ctg1: analyzed 8 loci; filtered 27 loci; 35 loci seen.
+    2372 genomic sites, of which 741 were covered by multiple loci (31.2%).
+    Calculating F statistics...done.
+Scaff10x_533_arrow_ctg1: analyzed 7 loci; filtered 64 loci; 71 loci seen.
+    1873 genomic sites, of which 11 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_535_arrow_ctg1: analyzed 7 loci; filtered 57 loci; 64 loci seen.
+    2199 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_539_arrow_ctg1: analyzed 6 loci; filtered 32 loci; 38 loci seen.
+    1547 genomic sites, of which 173 were covered by multiple loci (11.2%).
+    Calculating F statistics...done.
+Scaff10x_540_arrow_ctg1: analyzed 5 loci; filtered 46 loci; 51 loci seen.
+    1464 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_541_arrow_ctg1: analyzed 4 loci; filtered 81 loci; 85 loci seen.
+    369 genomic sites, of which 260 were covered by multiple loci (70.5%).
+    Calculating F statistics...done.
+Scaff10x_542_arrow_ctg1: analyzed 7 loci; filtered 64 loci; 71 loci seen.
+    1949 genomic sites, of which 121 were covered by multiple loci (6.2%).
+    Calculating F statistics...done.
+Scaff10x_544_arrow_ctg1: analyzed 3 loci; filtered 19 loci; 22 loci seen.
+    766 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_546_arrow_ctg1: analyzed 2 loci; filtered 20 loci; 22 loci seen.
+    577 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_547_arrow_ctg1: analyzed 4 loci; filtered 40 loci; 44 loci seen.
+    1340 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_549_arrow_ctg1: analyzed 725 loci; filtered 5212 loci; 5937 loci seen.
+    210410 genomic sites, of which 12317 were covered by multiple loci (5.9%).
+    Calculating F statistics...done.
+Scaff10x_54_arrow_ctg1: analyzed 488 loci; filtered 3884 loci; 4372 loci seen.
+    140994 genomic sites, of which 4894 were covered by multiple loci (3.5%).
+    Calculating F statistics...done.
+Scaff10x_553_arrow_ctg1: analyzed 5 loci; filtered 61 loci; 66 loci seen.
+    1317 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_555_arrow_ctg1: analyzed 6 loci; filtered 39 loci; 45 loci seen.
+    2088 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_556_arrow_ctg1: analyzed 5 loci; filtered 50 loci; 55 loci seen.
+    902 genomic sites, of which 161 were covered by multiple loci (17.8%).
+    Calculating F statistics...done.
+Scaff10x_557_arrow_ctg1: analyzed 8 loci; filtered 37 loci; 45 loci seen.
+    2386 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_558_arrow_ctg1: analyzed 22 loci; filtered 78 loci; 100 loci seen.
+    6761 genomic sites, of which 493 were covered by multiple loci (7.3%).
+    Calculating F statistics...done.
+Scaff10x_561_arrow_ctg1: analyzed 4 loci; filtered 46 loci; 50 loci seen.
+    1138 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_565_arrow_ctg1: analyzed 3 loci; filtered 45 loci; 48 loci seen.
+    939 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_566_arrow_ctg1: analyzed 7 loci; filtered 51 loci; 58 loci seen.
+    2064 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_569_arrow_ctg1: analyzed 6 loci; filtered 39 loci; 45 loci seen.
+    1642 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_573_arrow_ctg1: analyzed 1127 loci; filtered 7945 loci; 9072 loci seen.
+    318304 genomic sites, of which 16325 were covered by multiple loci (5.1%).
+    Calculating F statistics...done.
+Scaff10x_574_arrow_ctg1: analyzed 83 loci; filtered 684 loci; 767 loci seen.
+    25507 genomic sites, of which 1102 were covered by multiple loci (4.3%).
+    Calculating F statistics...done.
+Scaff10x_575_arrow_ctg1: analyzed 3 loci; filtered 24 loci; 27 loci seen.
+    770 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_578_arrow_ctg1: analyzed 29 loci; filtered 221 loci; 250 loci seen.
+    8356 genomic sites, of which 423 were covered by multiple loci (5.1%).
+    Calculating F statistics...done.
+Scaff10x_580_arrow_ctg1: analyzed 8 loci; filtered 13 loci; 21 loci seen.
+    2109 genomic sites, of which 81 were covered by multiple loci (3.8%).
+    Calculating F statistics...done.
+Scaff10x_581_arrow_ctg1: analyzed 24 loci; filtered 134 loci; 158 loci seen.
+    7170 genomic sites, of which 767 were covered by multiple loci (10.7%).
+    Calculating F statistics...done.
+Scaff10x_582_arrow_ctg1: analyzed 2 loci; filtered 33 loci; 35 loci seen.
+    494 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_583_arrow_ctg1: analyzed 2 loci; filtered 32 loci; 34 loci seen.
+    762 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_585_arrow_ctg1: analyzed 5 loci; filtered 17 loci; 22 loci seen.
+    982 genomic sites, of which 121 were covered by multiple loci (12.3%).
+    Calculating F statistics...done.
+Scaff10x_586_arrow_ctg1: analyzed 10 loci; filtered 60 loci; 70 loci seen.
+    2779 genomic sites, of which 164 were covered by multiple loci (5.9%).
+    Calculating F statistics...done.
+Scaff10x_592_arrow_ctg1: analyzed 8 loci; filtered 35 loci; 43 loci seen.
+    2389 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_593_arrow_ctg1: analyzed 2 loci; filtered 21 loci; 23 loci seen.
+    511 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_596_arrow_ctg1: analyzed 5 loci; filtered 74 loci; 79 loci seen.
+    1643 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_598_arrow_ctg1: analyzed 97 loci; filtered 852 loci; 949 loci seen.
+    15454 genomic sites, of which 6457 were covered by multiple loci (41.8%).
+    Calculating F statistics...done.
+Scaff10x_59_arrow_ctg1: analyzed 653 loci; filtered 4498 loci; 5151 loci seen.
+    192167 genomic sites, of which 5526 were covered by multiple loci (2.9%).
+    Calculating F statistics...done.
+Scaff10x_5_arrow_ctg1: analyzed 17 loci; filtered 99 loci; 116 loci seen.
+    5364 genomic sites, of which 546 were covered by multiple loci (10.2%).
+    Calculating F statistics...done.
+Scaff10x_601_arrow_ctg1: analyzed 7 loci; filtered 59 loci; 66 loci seen.
+    1820 genomic sites, of which 300 were covered by multiple loci (16.5%).
+    Calculating F statistics...done.
+Scaff10x_602_arrow_ctg1: analyzed 16 loci; filtered 97 loci; 113 loci seen.
+    4976 genomic sites, of which 219 were covered by multiple loci (4.4%).
+    Calculating F statistics...done.
+Scaff10x_604_arrow_ctg1: analyzed 8 loci; filtered 41 loci; 49 loci seen.
+    1906 genomic sites, of which 495 were covered by multiple loci (26.0%).
+    Calculating F statistics...done.
+Scaff10x_608_arrow_ctg1: analyzed 5 loci; filtered 81 loci; 86 loci seen.
+    1368 genomic sites, of which 8 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_60_arrow_ctg1: analyzed 221 loci; filtered 1652 loci; 1873 loci seen.
+    66588 genomic sites, of which 3958 were covered by multiple loci (5.9%).
+    Calculating F statistics...done.
+Scaff10x_612_arrow_ctg1: analyzed 10 loci; filtered 146 loci; 156 loci seen.
+    2369 genomic sites, of which 273 were covered by multiple loci (11.5%).
+    Calculating F statistics...done.
+Scaff10x_615_arrow_ctg1: analyzed 86 loci; filtered 624 loci; 710 loci seen.
+    25050 genomic sites, of which 2044 were covered by multiple loci (8.2%).
+    Calculating F statistics...done.
+Scaff10x_618_arrow_ctg1: analyzed 4 loci; filtered 31 loci; 35 loci seen.
+    1150 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_61_arrow_ctg1: analyzed 56 loci; filtered 627 loci; 683 loci seen.
+    14713 genomic sites, of which 1665 were covered by multiple loci (11.3%).
+    Calculating F statistics...done.
+Scaff10x_620_arrow_ctg1: analyzed 13 loci; filtered 61 loci; 74 loci seen.
+    4378 genomic sites, of which 20 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_622_arrow_ctg1: analyzed 5 loci; filtered 23 loci; 28 loci seen.
+    1212 genomic sites, of which 393 were covered by multiple loci (32.4%).
+    Calculating F statistics...done.
+Scaff10x_623_arrow_ctg1: analyzed 11 loci; filtered 63 loci; 74 loci seen.
+    3174 genomic sites, of which 8 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_624_arrow_ctg1: analyzed 2 loci; filtered 11 loci; 13 loci seen.
+    582 genomic sites, of which 4 were covered by multiple loci (0.7%).
+    Calculating F statistics...done.
+Scaff10x_626_arrow_ctg1: analyzed 21 loci; filtered 132 loci; 153 loci seen.
+    5791 genomic sites, of which 711 were covered by multiple loci (12.3%).
+    Calculating F statistics...done.
+Scaff10x_627_arrow_ctg1: analyzed 5 loci; filtered 96 loci; 101 loci seen.
+    2219 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_628_arrow_ctg1: analyzed 72 loci; filtered 675 loci; 747 loci seen.
+    20343 genomic sites, of which 32 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_629_arrow_ctg1: analyzed 34 loci; filtered 242 loci; 276 loci seen.
+    10380 genomic sites, of which 127 were covered by multiple loci (1.2%).
+    Calculating F statistics...done.
+Scaff10x_62_arrow_ctg1: analyzed 37 loci; filtered 381 loci; 418 loci seen.
+    10625 genomic sites, of which 120 were covered by multiple loci (1.1%).
+    Calculating F statistics...done.
+Scaff10x_630_arrow_ctg1: analyzed 14 loci; filtered 59 loci; 73 loci seen.
+    3395 genomic sites, of which 547 were covered by multiple loci (16.1%).
+    Calculating F statistics...done.
+Scaff10x_633_arrow_ctg1: analyzed 6 loci; filtered 19 loci; 25 loci seen.
+    2738 genomic sites, of which 4 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_634_arrow_ctg1: analyzed 12 loci; filtered 62 loci; 74 loci seen.
+    3945 genomic sites, of which 278 were covered by multiple loci (7.0%).
+    Calculating F statistics...done.
+Scaff10x_636_arrow_ctg1: analyzed 6 loci; filtered 59 loci; 65 loci seen.
+    1789 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_639_arrow_ctg1: analyzed 2 loci; filtered 59 loci; 61 loci seen.
+    815 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_63_arrow_ctg1: analyzed 493 loci; filtered 4142 loci; 4635 loci seen.
+    146841 genomic sites, of which 4532 were covered by multiple loci (3.1%).
+    Calculating F statistics...done.
+Scaff10x_640_arrow_ctg1: analyzed 5 loci; filtered 32 loci; 37 loci seen.
+    1834 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_641_arrow_ctg1: analyzed 9 loci; filtered 54 loci; 63 loci seen.
+    2671 genomic sites, of which 4 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_642_arrow_ctg1: analyzed 3 loci; filtered 76 loci; 79 loci seen.
+    1398 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_64_arrow_ctg1: analyzed 213 loci; filtered 1596 loci; 1809 loci seen.
+    60483 genomic sites, of which 2261 were covered by multiple loci (3.7%).
+    Calculating F statistics...done.
+Scaff10x_654_arrow_ctg1: analyzed 5 loci; filtered 32 loci; 37 loci seen.
+    1699 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_655_arrow_ctg1: analyzed 6 loci; filtered 48 loci; 54 loci seen.
+    1698 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_656_arrow_ctg1: analyzed 4 loci; filtered 21 loci; 25 loci seen.
+    1223 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_65_arrow_ctg1: analyzed 641 loci; filtered 5189 loci; 5830 loci seen.
+    177016 genomic sites, of which 8037 were covered by multiple loci (4.5%).
+    Calculating F statistics...done.
+Scaff10x_660_arrow_ctg1: analyzed 3 loci; filtered 24 loci; 27 loci seen.
+    689 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_661_arrow_ctg1: analyzed 3 loci; filtered 30 loci; 33 loci seen.
+    903 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_662_arrow_ctg1: analyzed 6 loci; filtered 31 loci; 37 loci seen.
+    1876 genomic sites, of which 305 were covered by multiple loci (16.3%).
+    Calculating F statistics...done.
+Scaff10x_665_arrow_ctg1: analyzed 2 loci; filtered 11 loci; 13 loci seen.
+    665 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_668_arrow_ctg1: analyzed 7 loci; filtered 32 loci; 39 loci seen.
+    2245 genomic sites, of which 323 were covered by multiple loci (14.4%).
+    Calculating F statistics...done.
+Scaff10x_669_arrow_ctg1: analyzed 3 loci; filtered 21 loci; 24 loci seen.
+    699 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_670_arrow_ctg1: analyzed 5 loci; filtered 53 loci; 58 loci seen.
+    1672 genomic sites, of which 8 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_673_arrow_ctg1: analyzed 2 loci; filtered 30 loci; 32 loci seen.
+    322 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_674_arrow_ctg1: analyzed 4 loci; filtered 23 loci; 27 loci seen.
+    1350 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_675_arrow_ctg1: analyzed 4 loci; filtered 62 loci; 66 loci seen.
+    1124 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_676_arrow_ctg1: analyzed 2 loci; filtered 15 loci; 17 loci seen.
+    552 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_677_arrow_ctg1: analyzed 2 loci; filtered 8 loci; 10 loci seen.
+    645 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_678_arrow_ctg1: analyzed 8 loci; filtered 41 loci; 49 loci seen.
+    2254 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_679_arrow_ctg1: analyzed 10 loci; filtered 41 loci; 51 loci seen.
+    1959 genomic sites, of which 372 were covered by multiple loci (19.0%).
+    Calculating F statistics...done.
+Scaff10x_680_arrow_ctg1: analyzed 2 loci; filtered 22 loci; 24 loci seen.
+    452 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_681_arrow_ctg1: analyzed 2 loci; filtered 16 loci; 18 loci seen.
+    377 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_682_arrow_ctg1: analyzed 2 loci; filtered 32 loci; 34 loci seen.
+    687 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_684_arrow_ctg1: analyzed 4 loci; filtered 24 loci; 28 loci seen.
+    1414 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_685_arrow_ctg1: analyzed 3 loci; filtered 22 loci; 25 loci seen.
+    853 genomic sites, of which 481 were covered by multiple loci (56.4%).
+    Calculating F statistics...done.
+Scaff10x_686_arrow_ctg1: analyzed 2 loci; filtered 28 loci; 30 loci seen.
+    413 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_687_arrow_ctg1: analyzed 5 loci; filtered 39 loci; 44 loci seen.
+    1440 genomic sites, of which 8 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_688_arrow_ctg1: analyzed 2 loci; filtered 9 loci; 11 loci seen.
+    243 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_692_arrow_ctg1: analyzed 2 loci; filtered 38 loci; 40 loci seen.
+    394 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_695_arrow_ctg1: analyzed 2 loci; filtered 31 loci; 33 loci seen.
+    704 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_697_arrow_ctg1: analyzed 2 loci; filtered 19 loci; 21 loci seen.
+    664 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_699_arrow_ctg1: analyzed 39 loci; filtered 246 loci; 285 loci seen.
+    11159 genomic sites, of which 522 were covered by multiple loci (4.7%).
+    Calculating F statistics...done.
+Scaff10x_69_arrow_ctg1: analyzed 411 loci; filtered 3058 loci; 3469 loci seen.
+    121630 genomic sites, of which 2347 were covered by multiple loci (1.9%).
+    Calculating F statistics...done.
+Scaff10x_703_arrow_ctg1: analyzed 3 loci; filtered 43 loci; 46 loci seen.
+    831 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_706_arrow_ctg1: analyzed 3 loci; filtered 12 loci; 15 loci seen.
+    719 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_707_arrow_ctg1: analyzed 6 loci; filtered 41 loci; 47 loci seen.
+    1595 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_709_arrow_ctg1: analyzed 2 loci; filtered 15 loci; 17 loci seen.
+    950 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_70_arrow_ctg1: analyzed 304 loci; filtered 2192 loci; 2496 loci seen.
+    86092 genomic sites, of which 2180 were covered by multiple loci (2.5%).
+    Calculating F statistics...done.
+Scaff10x_710_arrow_ctg1: analyzed 2 loci; filtered 27 loci; 29 loci seen.
+    549 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_713_arrow_ctg1: analyzed 3 loci; filtered 41 loci; 44 loci seen.
+    809 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_714_arrow_ctg1: analyzed 4 loci; filtered 23 loci; 27 loci seen.
+    836 genomic sites, of which 218 were covered by multiple loci (26.1%).
+    Calculating F statistics...done.
+Scaff10x_715_arrow_ctg1: analyzed 4 loci; filtered 61 loci; 65 loci seen.
+    1279 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_717_arrow_ctg1: analyzed 7 loci; filtered 55 loci; 62 loci seen.
+    2429 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_718_arrow_ctg1: analyzed 40 loci; filtered 170 loci; 210 loci seen.
+    3907 genomic sites, of which 2973 were covered by multiple loci (76.1%).
+    Calculating F statistics...done.
+Scaff10x_720_arrow_ctg1: analyzed 2 loci; filtered 24 loci; 26 loci seen.
+    666 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_722_arrow_ctg1: analyzed 3 loci; filtered 34 loci; 37 loci seen.
+    935 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_727_arrow_ctg1: analyzed 2 loci; filtered 14 loci; 16 loci seen.
+    499 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_728_arrow_ctg1: analyzed 9 loci; filtered 12 loci; 21 loci seen.
+    2147 genomic sites, of which 553 were covered by multiple loci (25.8%).
+    Calculating F statistics...done.
+Scaff10x_72_arrow_ctg1: analyzed 411 loci; filtered 2730 loci; 3141 loci seen.
+    120158 genomic sites, of which 4230 were covered by multiple loci (3.5%).
+    Calculating F statistics...done.
+Scaff10x_732_arrow_ctg1: analyzed 2 loci; filtered 44 loci; 46 loci seen.
+    581 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_733_arrow_ctg1: analyzed 2 loci; filtered 7 loci; 9 loci seen.
+    645 genomic sites, of which 4 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_736_arrow_ctg1: analyzed 3 loci; filtered 36 loci; 39 loci seen.
+    868 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_737_arrow_ctg1: analyzed 3 loci; filtered 49 loci; 52 loci seen.
+    1164 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_73_arrow_ctg1: analyzed 1929 loci; filtered 15330 loci; 17259 loci seen.
+    552976 genomic sites, of which 24420 were covered by multiple loci (4.4%).
+    Calculating F statistics...done.
+Scaff10x_742_arrow_ctg1: analyzed 3 loci; filtered 35 loci; 38 loci seen.
+    842 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_744_arrow_ctg1: analyzed 3 loci; filtered 14 loci; 17 loci seen.
+    855 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_745_arrow_ctg1: analyzed 3 loci; filtered 51 loci; 54 loci seen.
+    481 genomic sites, of which 127 were covered by multiple loci (26.4%).
+    Calculating F statistics...done.
+Scaff10x_747_arrow_ctg1: analyzed 5 loci; filtered 15 loci; 20 loci seen.
+    1177 genomic sites, of which 379 were covered by multiple loci (32.2%).
+    Calculating F statistics...done.
+Scaff10x_748_arrow_ctg1: analyzed 4 loci; filtered 20 loci; 24 loci seen.
+    1198 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_749_arrow_ctg1: analyzed 5 loci; filtered 14 loci; 19 loci seen.
+    2186 genomic sites, of which 8 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_751_arrow_ctg1: analyzed 2 loci; filtered 19 loci; 21 loci seen.
+    596 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_753_arrow_ctg1: analyzed 3 loci; filtered 25 loci; 28 loci seen.
+    807 genomic sites, of which 4 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_756_arrow_ctg1: analyzed 2 loci; filtered 17 loci; 19 loci seen.
+    616 genomic sites, of which 4 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_760_arrow_ctg1: analyzed 3 loci; filtered 25 loci; 28 loci seen.
+    684 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_761_arrow_ctg1: analyzed 3 loci; filtered 52 loci; 55 loci seen.
+    923 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_764_arrow_ctg1: analyzed 8 loci; filtered 44 loci; 52 loci seen.
+    1999 genomic sites, of which 380 were covered by multiple loci (19.0%).
+    Calculating F statistics...done.
+Scaff10x_766_arrow_ctg1: analyzed 3 loci; filtered 38 loci; 41 loci seen.
+    839 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_767_arrow_ctg1: analyzed 2 loci; filtered 17 loci; 19 loci seen.
+    498 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_768_arrow_ctg1: analyzed 6 loci; filtered 26 loci; 32 loci seen.
+    2277 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_769_arrow_ctg1: analyzed 4 loci; filtered 14 loci; 18 loci seen.
+    1126 genomic sites, of which 370 were covered by multiple loci (32.9%).
+    Calculating F statistics...done.
+Scaff10x_76_arrow_ctg1: analyzed 224 loci; filtered 1424 loci; 1648 loci seen.
+    63577 genomic sites, of which 3529 were covered by multiple loci (5.6%).
+    Calculating F statistics...done.
+Scaff10x_772_arrow_ctg1: analyzed 2 loci; filtered 13 loci; 15 loci seen.
+    663 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_774_arrow_ctg1: analyzed 4 loci; filtered 32 loci; 36 loci seen.
+    1607 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_777_arrow_ctg1: analyzed 2 loci; filtered 9 loci; 11 loci seen.
+    550 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_778_arrow_ctg1: analyzed 2 loci; filtered 14 loci; 16 loci seen.
+    366 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_779_arrow_ctg1: analyzed 8 loci; filtered 15 loci; 23 loci seen.
+    1130 genomic sites, of which 404 were covered by multiple loci (35.8%).
+    Calculating F statistics...done.
+Scaff10x_77_arrow_ctg1: analyzed 417 loci; filtered 2801 loci; 3218 loci seen.
+    119505 genomic sites, of which 3921 were covered by multiple loci (3.3%).
+    Calculating F statistics...done.
+Scaff10x_780_arrow_ctg1: analyzed 4 loci; filtered 21 loci; 25 loci seen.
+    1156 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_781_arrow_ctg1: analyzed 3 loci; filtered 28 loci; 31 loci seen.
+    626 genomic sites, of which 423 were covered by multiple loci (67.6%).
+    Calculating F statistics...done.
+Scaff10x_782_arrow_ctg1: analyzed 3 loci; filtered 16 loci; 19 loci seen.
+    788 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_783_arrow_ctg1: analyzed 2 loci; filtered 11 loci; 13 loci seen.
+    434 genomic sites, of which 4 were covered by multiple loci (0.9%).
+    Calculating F statistics...done.
+Scaff10x_785_arrow_ctg1: analyzed 4 loci; filtered 3 loci; 7 loci seen.
+    608 genomic sites, of which 407 were covered by multiple loci (66.9%).
+    Calculating F statistics...done.
+Scaff10x_787_arrow_ctg1: analyzed 5 loci; filtered 56 loci; 61 loci seen.
+    1232 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_789_arrow_ctg1: analyzed 4 loci; filtered 11 loci; 15 loci seen.
+    1279 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_791_arrow_ctg1: analyzed 3 loci; filtered 10 loci; 13 loci seen.
+    963 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_794_arrow_ctg1: analyzed 7 loci; filtered 46 loci; 53 loci seen.
+    1930 genomic sites, of which 13 were covered by multiple loci (0.7%).
+    Calculating F statistics...done.
+Scaff10x_797_arrow_ctg1: analyzed 4 loci; filtered 41 loci; 45 loci seen.
+    1240 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_7_arrow_ctg1: analyzed 79 loci; filtered 479 loci; 558 loci seen.
+    22433 genomic sites, of which 811 were covered by multiple loci (3.6%).
+    Calculating F statistics...done.
+Scaff10x_804_arrow_ctg1: analyzed 6 loci; filtered 22 loci; 28 loci seen.
+    1783 genomic sites, of which 8 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_806_arrow_ctg1: analyzed 2 loci; filtered 7 loci; 9 loci seen.
+    438 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_811_arrow_ctg1: analyzed 7 loci; filtered 36 loci; 43 loci seen.
+    1370 genomic sites, of which 295 were covered by multiple loci (21.5%).
+    Calculating F statistics...done.
+Scaff10x_813_arrow_ctg1: analyzed 3 loci; filtered 17 loci; 20 loci seen.
+    701 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_814_arrow_ctg1: analyzed 2 loci; filtered 27 loci; 29 loci seen.
+    652 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_815_arrow_ctg1: analyzed 4 loci; filtered 34 loci; 38 loci seen.
+    953 genomic sites, of which 241 were covered by multiple loci (25.3%).
+    Calculating F statistics...done.
+Scaff10x_816_arrow_ctg1: analyzed 3 loci; filtered 21 loci; 24 loci seen.
+    913 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_818_arrow_ctg1: analyzed 6 loci; filtered 10 loci; 16 loci seen.
+    1754 genomic sites, of which 237 were covered by multiple loci (13.5%).
+    Calculating F statistics...done.
+Scaff10x_820_arrow_ctg1: analyzed 4 loci; filtered 24 loci; 28 loci seen.
+    1864 genomic sites, of which 8 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_821_arrow_ctg1: analyzed 4 loci; filtered 27 loci; 31 loci seen.
+    1102 genomic sites, of which 8 were covered by multiple loci (0.7%).
+    Calculating F statistics...done.
+Scaff10x_827_arrow_ctg1: analyzed 2 loci; filtered 24 loci; 26 loci seen.
+    657 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_828_arrow_ctg1: analyzed 2 loci; filtered 17 loci; 19 loci seen.
+    659 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_829_arrow_ctg1: analyzed 5 loci; filtered 40 loci; 45 loci seen.
+    1122 genomic sites, of which 149 were covered by multiple loci (13.3%).
+    Calculating F statistics...done.
+Scaff10x_82_arrow_ctg1: analyzed 2245 loci; filtered 18028 loci; 20273 loci seen.
+    647650 genomic sites, of which 25592 were covered by multiple loci (4.0%).
+    Calculating F statistics...done.
+Scaff10x_833_arrow_ctg1: analyzed 2 loci; filtered 18 loci; 20 loci seen.
+    438 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_834_arrow_ctg1: analyzed 3 loci; filtered 20 loci; 23 loci seen.
+    1131 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_835_arrow_ctg1: analyzed 6 loci; filtered 9 loci; 15 loci seen.
+    1727 genomic sites, of which 8 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_836_arrow_ctg1: analyzed 6 loci; filtered 27 loci; 33 loci seen.
+    1320 genomic sites, of which 8 were covered by multiple loci (0.6%).
+    Calculating F statistics...done.
+Scaff10x_83_arrow_ctg1: analyzed 1851 loci; filtered 14049 loci; 15900 loci seen.
+    537182 genomic sites, of which 22679 were covered by multiple loci (4.2%).
+    Calculating F statistics...done.
+Scaff10x_842_arrow_ctg1: analyzed 2 loci; filtered 44 loci; 46 loci seen.
+    745 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_843_arrow_ctg1: analyzed 2 loci; filtered 3 loci; 5 loci seen.
+    435 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_845_arrow_ctg1: analyzed 3 loci; filtered 28 loci; 31 loci seen.
+    972 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_846_arrow_ctg1: analyzed 3 loci; filtered 16 loci; 19 loci seen.
+    750 genomic sites, of which 4 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_847_arrow_ctg1: analyzed 2 loci; filtered 21 loci; 23 loci seen.
+    678 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_849_arrow_ctg1: analyzed 2 loci; filtered 17 loci; 19 loci seen.
+    943 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_84_arrow_ctg1: analyzed 91 loci; filtered 580 loci; 671 loci seen.
+    25077 genomic sites, of which 438 were covered by multiple loci (1.7%).
+    Calculating F statistics...done.
+Scaff10x_853_arrow_ctg1: analyzed 3 loci; filtered 22 loci; 25 loci seen.
+    859 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_854_arrow_ctg1: analyzed 3 loci; filtered 52 loci; 55 loci seen.
+    1202 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_858_arrow_ctg1: analyzed 7 loci; filtered 21 loci; 28 loci seen.
+    1452 genomic sites, of which 645 were covered by multiple loci (44.4%).
+    Calculating F statistics...done.
+Scaff10x_85_arrow_ctg1: analyzed 633 loci; filtered 5056 loci; 5689 loci seen.
+    180953 genomic sites, of which 7912 were covered by multiple loci (4.4%).
+    Calculating F statistics...done.
+Scaff10x_861_arrow_ctg1: analyzed 3 loci; filtered 9 loci; 12 loci seen.
+    1349 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_863_arrow_ctg1: analyzed 4 loci; filtered 19 loci; 23 loci seen.
+    1301 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_864_arrow_ctg1: analyzed 4 loci; filtered 31 loci; 35 loci seen.
+    1266 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_866_arrow_ctg1: analyzed 4 loci; filtered 17 loci; 21 loci seen.
+    1031 genomic sites, of which 359 were covered by multiple loci (34.8%).
+    Calculating F statistics...done.
+Scaff10x_869_arrow_ctg1: analyzed 4 loci; filtered 24 loci; 28 loci seen.
+    1362 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_872_arrow_ctg1: analyzed 3 loci; filtered 19 loci; 22 loci seen.
+    741 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_876_arrow_ctg1: analyzed 2 loci; filtered 27 loci; 29 loci seen.
+    468 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_878_arrow_ctg1: analyzed 13 loci; filtered 40 loci; 53 loci seen.
+    3801 genomic sites, of which 354 were covered by multiple loci (9.3%).
+    Calculating F statistics...done.
+Scaff10x_87_arrow_ctg1: analyzed 282 loci; filtered 1878 loci; 2160 loci seen.
+    84447 genomic sites, of which 3136 were covered by multiple loci (3.7%).
+    Calculating F statistics...done.
+Scaff10x_881_arrow_ctg1: analyzed 4 loci; filtered 36 loci; 40 loci seen.
+    1034 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_883_arrow_ctg1: analyzed 2 loci; filtered 24 loci; 26 loci seen.
+    479 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_889_arrow_ctg1: analyzed 2 loci; filtered 36 loci; 38 loci seen.
+    628 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_890_arrow_ctg1: analyzed 3 loci; filtered 12 loci; 15 loci seen.
+    920 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_892_arrow_ctg1: analyzed 3 loci; filtered 24 loci; 27 loci seen.
+    831 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_894_arrow_ctg1: analyzed 3 loci; filtered 26 loci; 29 loci seen.
+    838 genomic sites, of which 4 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_895_arrow_ctg1: analyzed 2 loci; filtered 32 loci; 34 loci seen.
+    630 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_897_arrow_ctg1: analyzed 4 loci; filtered 59 loci; 63 loci seen.
+    1185 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_89_arrow_ctg1: analyzed 944 loci; filtered 7027 loci; 7971 loci seen.
+    266302 genomic sites, of which 14519 were covered by multiple loci (5.5%).
+    Calculating F statistics...done.
+Scaff10x_8_arrow_ctg1: analyzed 946 loci; filtered 6901 loci; 7847 loci seen.
+    269738 genomic sites, of which 15302 were covered by multiple loci (5.7%).
+    Calculating F statistics...done.
+Scaff10x_901_arrow_ctg1: analyzed 3 loci; filtered 16 loci; 19 loci seen.
+    970 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_904_arrow_ctg1: analyzed 2 loci; filtered 31 loci; 33 loci seen.
+    911 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_906_arrow_ctg1: analyzed 4 loci; filtered 30 loci; 34 loci seen.
+    1359 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_914_arrow_ctg1: analyzed 2 loci; filtered 7 loci; 9 loci seen.
+    446 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_915_arrow_ctg1: analyzed 3 loci; filtered 10 loci; 13 loci seen.
+    873 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_918_arrow_ctg1: analyzed 3 loci; filtered 33 loci; 36 loci seen.
+    931 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_91_arrow_ctg1: analyzed 28 loci; filtered 287 loci; 315 loci seen.
+    8023 genomic sites, of which 240 were covered by multiple loci (3.0%).
+    Calculating F statistics...done.
+Scaff10x_922_arrow_ctg1: analyzed 2 loci; filtered 44 loci; 46 loci seen.
+    622 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_925_arrow_ctg1: analyzed 3 loci; filtered 22 loci; 25 loci seen.
+    1054 genomic sites, of which 4 were covered by multiple loci (0.4%).
+    Calculating F statistics...done.
+Scaff10x_926_arrow_ctg1: analyzed 4 loci; filtered 19 loci; 23 loci seen.
+    1164 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_927_arrow_ctg1: analyzed 6 loci; filtered 12 loci; 18 loci seen.
+    1801 genomic sites, of which 4 were covered by multiple loci (0.2%).
+    Calculating F statistics...done.
+Scaff10x_928_arrow_ctg1: analyzed 5 loci; filtered 36 loci; 41 loci seen.
+    1477 genomic sites, of which 291 were covered by multiple loci (19.7%).
+    Calculating F statistics...done.
+Scaff10x_930_arrow_ctg1: analyzed 3 loci; filtered 35 loci; 38 loci seen.
+    790 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_932_arrow_ctg1: analyzed 2 loci; filtered 45 loci; 47 loci seen.
+    279 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_933_arrow_ctg1: analyzed 7 loci; filtered 25 loci; 32 loci seen.
+    1896 genomic sites, of which 274 were covered by multiple loci (14.5%).
+    Calculating F statistics...done.
+Scaff10x_935_arrow_ctg1: analyzed 9 loci; filtered 28 loci; 37 loci seen.
+    2061 genomic sites, of which 335 were covered by multiple loci (16.3%).
+    Calculating F statistics...done.
+Scaff10x_938_arrow_ctg1: analyzed 2 loci; filtered 98 loci; 100 loci seen.
+    665 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_939_arrow_ctg1: analyzed 2 loci; filtered 18 loci; 20 loci seen.
+    699 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_93_arrow_ctg1: analyzed 12 loci; filtered 84 loci; 96 loci seen.
+    3486 genomic sites, of which 4 were covered by multiple loci (0.1%).
+    Calculating F statistics...done.
+Scaff10x_941_arrow_ctg1: analyzed 2 loci; filtered 11 loci; 13 loci seen.
+    461 genomic sites, of which 4 were covered by multiple loci (0.9%).
+    Calculating F statistics...done.
+Scaff10x_947_arrow_ctg1: analyzed 2 loci; filtered 38 loci; 40 loci seen.
+    633 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_950_arrow_ctg1: analyzed 3 loci; filtered 39 loci; 42 loci seen.
+    1368 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_953_arrow_ctg1: analyzed 6 loci; filtered 33 loci; 39 loci seen.
+    1359 genomic sites, of which 218 were covered by multiple loci (16.0%).
+    Calculating F statistics...done.
+Scaff10x_954_arrow_ctg1: analyzed 2 loci; filtered 12 loci; 14 loci seen.
+    593 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_956_arrow_ctg1: analyzed 5 loci; filtered 19 loci; 24 loci seen.
+    1459 genomic sites, of which 4 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_958_arrow_ctg1: analyzed 4 loci; filtered 5 loci; 9 loci seen.
+    682 genomic sites, of which 200 were covered by multiple loci (29.3%).
+    Calculating F statistics...done.
+Scaff10x_95_arrow_ctg1: analyzed 43 loci; filtered 345 loci; 388 loci seen.
+    12165 genomic sites, of which 548 were covered by multiple loci (4.5%).
+    Calculating F statistics...done.
+Scaff10x_975_arrow_ctg1: analyzed 4 loci; filtered 73 loci; 77 loci seen.
+    1406 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_976_arrow_ctg1: analyzed 2 loci; filtered 13 loci; 15 loci seen.
+    591 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_979_arrow_ctg1: analyzed 4 loci; filtered 55 loci; 59 loci seen.
+    1128 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_97_arrow_ctg1: analyzed 116 loci; filtered 980 loci; 1096 loci seen.
+    34237 genomic sites, of which 1504 were covered by multiple loci (4.4%).
+    Calculating F statistics...done.
+Scaff10x_981_arrow_ctg1: analyzed 2 loci; filtered 18 loci; 20 loci seen.
+    546 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_982_arrow_ctg1: analyzed 2 loci; filtered 18 loci; 20 loci seen.
+    624 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_985_arrow_ctg1: analyzed 8 loci; filtered 89 loci; 97 loci seen.
+    2534 genomic sites, of which 8 were covered by multiple loci (0.3%).
+    Calculating F statistics...done.
+Scaff10x_989_arrow_ctg1: analyzed 2 loci; filtered 11 loci; 13 loci seen.
+    319 genomic sites, of which 4 were covered by multiple loci (1.3%).
+    Calculating F statistics...done.
+Scaff10x_990_arrow_ctg1: analyzed 3 loci; filtered 14 loci; 17 loci seen.
+    729 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_994_arrow_ctg1: analyzed 2 loci; filtered 35 loci; 37 loci seen.
+    648 genomic sites, of which 0 were covered by multiple loci (0.0%).
+    Calculating F statistics...done.
+Scaff10x_996_arrow_ctg1: analyzed 3 loci; filtered 15 loci; 18 loci seen.
+    781 genomic sites, of which 4 were covered by multiple loci (0.5%).
+    Calculating F statistics...done.
+Scaff10x_999_arrow_ctg1: analyzed 5 loci; filtered 39 loci; 44 loci seen.
+    1375 genomic sites, of which 111 were covered by multiple loci (8.1%).
+    Calculating F statistics...done.
+Scaff10x_99_arrow_ctg1: analyzed 150 loci; filtered 1037 loci; 1187 loci seen.
+    42663 genomic sites, of which 2126 were covered by multiple loci (5.0%).
+    Calculating F statistics...done.
+END batch_progress
+
+BEGIN samples_per_loc_prefilters
+# Distribution of valid samples matched to a catalog locus prior to filtering.
+n_samples	n_loci
+1	267592
+2	56326
+3	23277
+4	14503
+5	9812
+6	8592
+7	5640
+8	6353
+9	4268
+10	5046
+11	3403
+12	4433
+13	2937
+14	4044
+15	2544
+16	3795
+17	2607
+18	3614
+19	2497
+20	3547
+21	2342
+22	3343
+23	2307
+24	3248
+25	2388
+26	3171
+27	2527
+28	3138
+29	2525
+30	3089
+31	2624
+32	2991
+33	2637
+34	3051
+35	2603
+36	3001
+37	2554
+38	2723
+39	2407
+40	2713
+41	2347
+42	2496
+43	2412
+44	2346
+45	2262
+46	2240
+47	2085
+48	2071
+49	1958
+50	1980
+51	1866
+52	1816
+53	1713
+54	1741
+55	1572
+56	1552
+57	1502
+58	1464
+59	1311
+60	1336
+61	1304
+62	1260
+63	1146
+64	1146
+65	1081
+66	1028
+67	1078
+68	966
+69	889
+70	891
+71	891
+72	795
+73	785
+74	796
+75	731
+76	691
+77	635
+78	659
+79	648
+80	552
+81	598
+82	549
+83	531
+84	503
+85	494
+86	458
+87	458
+88	442
+89	445
+90	426
+91	409
+92	402
+93	425
+94	406
+95	390
+96	356
+97	374
+98	336
+99	355
+100	293
+101	289
+102	337
+103	296
+104	317
+105	273
+106	257
+107	292
+108	321
+109	285
+110	251
+111	243
+112	259
+113	248
+114	253
+115	226
+116	236
+117	243
+118	230
+119	231
+120	243
+121	209
+122	239
+123	238
+124	220
+125	200
+126	263
+127	202
+128	202
+129	204
+130	201
+131	205
+132	201
+133	216
+134	202
+135	183
+136	189
+137	179
+138	203
+139	195
+140	187
+141	218
+142	170
+143	194
+144	204
+145	193
+146	175
+147	175
+148	199
+149	195
+150	194
+151	188
+152	178
+153	182
+154	164
+155	167
+156	185
+157	164
+158	164
+159	158
+160	160
+161	167
+162	170
+163	162
+164	154
+165	166
+166	160
+167	185
+168	164
+169	168
+170	159
+171	203
+172	177
+173	160
+174	171
+175	172
+176	146
+177	144
+178	140
+179	157
+180	150
+181	152
+182	166
+183	143
+184	143
+185	174
+186	139
+187	166
+188	144
+189	147
+190	149
+191	166
+192	152
+193	153
+194	141
+195	152
+196	138
+197	150
+198	162
+199	143
+200	153
+201	148
+202	136
+203	114
+204	161
+205	144
+206	144
+207	143
+208	137
+209	135
+210	127
+211	166
+212	122
+213	159
+214	156
+215	152
+216	143
+217	145
+218	127
+219	126
+220	118
+221	136
+222	137
+223	129
+224	131
+225	146
+226	142
+227	133
+228	138
+229	136
+230	127
+231	113
+232	131
+233	131
+234	137
+235	127
+236	130
+237	144
+238	131
+239	116
+240	153
+241	128
+242	116
+243	126
+244	136
+245	145
+246	133
+247	136
+248	137
+249	137
+250	126
+251	154
+252	117
+253	134
+254	130
+255	99
+256	107
+257	122
+258	128
+259	116
+260	122
+261	115
+262	112
+263	121
+264	121
+265	95
+266	106
+267	122
+268	136
+269	109
+270	120
+271	129
+272	107
+273	99
+274	109
+275	108
+276	100
+277	99
+278	92
+279	93
+280	93
+281	105
+282	100
+283	87
+284	90
+285	96
+286	87
+287	113
+288	102
+289	91
+290	115
+291	82
+292	87
+293	80
+294	92
+295	91
+296	99
+297	87
+298	94
+299	98
+300	90
+301	96
+302	92
+303	88
+304	102
+305	95
+306	89
+307	81
+308	80
+309	80
+310	63
+311	83
+312	84
+313	58
+314	62
+315	75
+316	74
+317	90
+318	77
+319	69
+320	64
+321	69
+322	82
+323	79
+324	78
+325	94
+326	79
+327	80
+328	93
+329	74
+330	72
+331	69
+332	77
+333	81
+334	69
+335	85
+336	67
+337	82
+338	84
+339	85
+340	60
+341	90
+342	68
+343	78
+344	90
+345	62
+346	77
+347	68
+348	97
+349	79
+350	68
+351	67
+352	69
+353	77
+354	71
+355	70
+356	71
+357	73
+358	81
+359	69
+360	61
+361	65
+362	67
+363	79
+364	74
+365	66
+366	66
+367	79
+368	74
+369	72
+370	75
+371	70
+372	88
+373	73
+374	80
+375	69
+376	73
+377	78
+378	65
+379	67
+380	94
+381	68
+382	72
+383	90
+384	69
+385	83
+386	65
+387	68
+388	68
+389	71
+390	64
+391	83
+392	68
+393	73
+394	73
+395	60
+396	72
+397	60
+398	74
+399	59
+400	70
+401	64
+402	102
+403	66
+404	71
+405	73
+406	76
+407	65
+408	76
+409	102
+410	68
+411	72
+412	87
+413	68
+414	90
+415	82
+416	76
+417	71
+418	76
+419	80
+420	61
+421	90
+422	65
+423	71
+424	66
+425	75
+426	80
+427	69
+428	80
+429	71
+430	88
+431	88
+432	77
+433	84
+434	98
+435	74
+436	77
+437	77
+438	82
+439	84
+440	93
+441	88
+442	79
+443	84
+444	66
+445	69
+446	80
+447	81
+448	85
+449	79
+450	82
+451	78
+452	79
+453	69
+454	89
+455	83
+456	79
+457	88
+458	68
+459	71
+460	80
+461	75
+462	79
+463	74
+464	69
+465	83
+466	63
+467	66
+468	84
+469	65
+470	72
+471	79
+472	76
+473	73
+474	80
+475	70
+476	64
+477	92
+478	64
+479	66
+480	82
+481	65
+482	71
+483	78
+484	74
+485	74
+486	81
+487	78
+488	95
+489	76
+490	70
+491	79
+492	78
+493	80
+494	72
+495	69
+496	74
+497	90
+498	90
+499	71
+500	80
+501	98
+502	87
+503	73
+504	85
+505	77
+506	82
+507	82
+508	71
+509	65
+510	95
+511	108
+512	80
+513	74
+514	79
+515	70
+516	90
+517	95
+518	84
+519	79
+520	84
+521	88
+522	68
+523	93
+524	92
+525	93
+526	93
+527	104
+528	80
+529	83
+530	90
+531	89
+532	100
+533	92
+534	104
+535	110
+536	101
+537	113
+538	115
+539	100
+540	91
+541	111
+542	99
+543	109
+544	113
+545	113
+546	100
+547	96
+548	127
+549	105
+550	99
+551	103
+552	109
+553	102
+554	113
+555	144
+556	124
+557	122
+558	131
+559	137
+560	146
+561	112
+562	147
+563	151
+564	135
+565	180
+566	146
+567	162
+568	178
+569	184
+570	161
+571	169
+572	192
+573	197
+574	199
+575	202
+576	202
+577	215
+578	239
+579	219
+580	233
+581	261
+582	319
+583	337
+584	332
+585	324
+586	285
+587	297
+588	267
+589	257
+590	265
+591	293
+592	328
+593	350
+594	368
+595	404
+596	429
+597	505
+598	531
+599	582
+600	685
+601	699
+602	823
+603	947
+604	1128
+605	1240
+606	1711
+607	2422
+608	4561
+609	5320
+END samples_per_loc_prefilters
+
+BEGIN missing_samples_per_loc_prefilters
+# Distribution of missing samples for each catalog locus prior to filtering.
+# Absent samples at locus	Count
+0	5320
+1	4561
+2	2422
+3	1711
+4	1240
+5	1128
+6	947
+7	823
+8	699
+9	685
+10	582
+11	531
+12	505
+13	429
+14	404
+15	368
+16	350
+17	328
+18	293
+19	265
+20	257
+21	267
+22	297
+23	285
+24	324
+25	332
+26	337
+27	319
+28	261
+29	233
+30	219
+31	239
+32	215
+33	202
+34	202
+35	199
+36	197
+37	192
+38	169
+39	161
+40	184
+41	178
+42	162
+43	146
+44	180
+45	135
+46	151
+47	147
+48	112
+49	146
+50	137
+51	131
+52	122
+53	124
+54	144
+55	113
+56	102
+57	109
+58	103
+59	99
+60	105
+61	127
+62	96
+63	100
+64	113
+65	113
+66	109
+67	99
+68	111
+69	91
+70	100
+71	115
+72	113
+73	101
+74	110
+75	104
+76	92
+77	100
+78	89
+79	90
+80	83
+81	80
+82	104
+83	93
+84	93
+85	92
+86	93
+87	68
+88	88
+89	84
+90	79
+91	84
+92	95
+93	90
+94	70
+95	79
+96	74
+97	80
+98	108
+99	95
+100	65
+101	71
+102	82
+103	82
+104	77
+105	85
+106	73
+107	87
+108	98
+109	80
+110	71
+111	90
+112	90
+113	74
+114	69
+115	72
+116	80
+117	78
+118	79
+119	70
+120	76
+121	95
+122	78
+123	81
+124	74
+125	74
+126	78
+127	71
+128	65
+129	82
+130	66
+131	64
+132	92
+133	64
+134	70
+135	80
+136	73
+137	76
+138	79
+139	72
+140	65
+141	84
+142	66
+143	63
+144	83
+145	69
+146	74
+147	79
+148	75
+149	80
+150	71
+151	68
+152	88
+153	79
+154	83
+155	89
+156	69
+157	79
+158	78
+159	82
+160	79
+161	85
+162	81
+163	80
+164	69
+165	66
+166	84
+167	79
+168	88
+169	93
+170	84
+171	82
+172	77
+173	77
+174	74
+175	98
+176	84
+177	77
+178	88
+179	88
+180	71
+181	80
+182	69
+183	80
+184	75
+185	66
+186	71
+187	65
+188	90
+189	61
+190	80
+191	76
+192	71
+193	76
+194	82
+195	90
+196	68
+197	87
+198	72
+199	68
+200	102
+201	76
+202	65
+203	76
+204	73
+205	71
+206	66
+207	102
+208	64
+209	70
+210	59
+211	74
+212	60
+213	72
+214	60
+215	73
+216	73
+217	68
+218	83
+219	64
+220	71
+221	68
+222	68
+223	65
+224	83
+225	69
+226	90
+227	72
+228	68
+229	94
+230	67
+231	65
+232	78
+233	73
+234	69
+235	80
+236	73
+237	88
+238	70
+239	75
+240	72
+241	74
+242	79
+243	66
+244	66
+245	74
+246	79
+247	67
+248	65
+249	61
+250	69
+251	81
+252	73
+253	71
+254	70
+255	71
+256	77
+257	69
+258	67
+259	68
+260	79
+261	97
+262	68
+263	77
+264	62
+265	90
+266	78
+267	68
+268	90
+269	60
+270	85
+271	84
+272	82
+273	67
+274	85
+275	69
+276	81
+277	77
+278	69
+279	72
+280	74
+281	93
+282	80
+283	79
+284	94
+285	78
+286	79
+287	82
+288	69
+289	64
+290	69
+291	77
+292	90
+293	74
+294	75
+295	62
+296	58
+297	84
+298	83
+299	63
+300	80
+301	80
+302	81
+303	89
+304	95
+305	102
+306	88
+307	92
+308	96
+309	90
+310	98
+311	94
+312	87
+313	99
+314	91
+315	92
+316	80
+317	87
+318	82
+319	115
+320	91
+321	102
+322	113
+323	87
+324	96
+325	90
+326	87
+327	100
+328	105
+329	93
+330	93
+331	92
+332	99
+333	100
+334	108
+335	109
+336	99
+337	107
+338	129
+339	120
+340	109
+341	136
+342	122
+343	106
+344	95
+345	121
+346	121
+347	112
+348	115
+349	122
+350	116
+351	128
+352	122
+353	107
+354	99
+355	130
+356	134
+357	117
+358	154
+359	126
+360	137
+361	137
+362	136
+363	133
+364	145
+365	136
+366	126
+367	116
+368	128
+369	153
+370	116
+371	131
+372	144
+373	130
+374	127
+375	137
+376	131
+377	131
+378	113
+379	127
+380	136
+381	138
+382	133
+383	142
+384	146
+385	131
+386	129
+387	137
+388	136
+389	118
+390	126
+391	127
+392	145
+393	143
+394	152
+395	156
+396	159
+397	122
+398	166
+399	127
+400	135
+401	137
+402	143
+403	144
+404	144
+405	161
+406	114
+407	136
+408	148
+409	153
+410	143
+411	162
+412	150
+413	138
+414	152
+415	141
+416	153
+417	152
+418	166
+419	149
+420	147
+421	144
+422	166
+423	139
+424	174
+425	143
+426	143
+427	166
+428	152
+429	150
+430	157
+431	140
+432	144
+433	146
+434	172
+435	171
+436	160
+437	177
+438	203
+439	159
+440	168
+441	164
+442	185
+443	160
+444	166
+445	154
+446	162
+447	170
+448	167
+449	160
+450	158
+451	164
+452	164
+453	185
+454	167
+455	164
+456	182
+457	178
+458	188
+459	194
+460	195
+461	199
+462	175
+463	175
+464	193
+465	204
+466	194
+467	170
+468	218
+469	187
+470	195
+471	203
+472	179
+473	189
+474	183
+475	202
+476	216
+477	201
+478	205
+479	201
+480	204
+481	202
+482	202
+483	263
+484	200
+485	220
+486	238
+487	239
+488	209
+489	243
+490	231
+491	230
+492	243
+493	236
+494	226
+495	253
+496	248
+497	259
+498	243
+499	251
+500	285
+501	321
+502	292
+503	257
+504	273
+505	317
+506	296
+507	337
+508	289
+509	293
+510	355
+511	336
+512	374
+513	356
+514	390
+515	406
+516	425
+517	402
+518	409
+519	426
+520	445
+521	442
+522	458
+523	458
+524	494
+525	503
+526	531
+527	549
+528	598
+529	552
+530	648
+531	659
+532	635
+533	691
+534	731
+535	796
+536	785
+537	795
+538	891
+539	891
+540	889
+541	966
+542	1078
+543	1028
+544	1081
+545	1146
+546	1146
+547	1260
+548	1304
+549	1336
+550	1311
+551	1464
+552	1502
+553	1552
+554	1572
+555	1741
+556	1713
+557	1816
+558	1866
+559	1980
+560	1958
+561	2071
+562	2085
+563	2240
+564	2262
+565	2346
+566	2412
+567	2496
+568	2347
+569	2713
+570	2407
+571	2723
+572	2554
+573	3001
+574	2603
+575	3051
+576	2637
+577	2991
+578	2624
+579	3089
+580	2525
+581	3138
+582	2527
+583	3171
+584	2388
+585	3248
+586	2307
+587	3343
+588	2342
+589	3547
+590	2497
+591	3614
+592	2607
+593	3795
+594	2544
+595	4044
+596	2937
+597	4433
+598	3403
+599	5046
+600	4268
+601	6353
+602	5640
+603	8592
+604	9812
+605	14503
+606	23277
+607	56326
+608	267592
+END missing_samples_per_loc_prefilters
+
+BEGIN snps_per_loc_prefilters
+# Distribution of the number of SNPs per catalog locus prior to filtering.
+n_snps	n_loci
+0	414296
+1	30539
+2	24513
+3	20868
+4	17581
+5	14879
+6	12409
+7	10365
+8	8812
+9	7410
+10	6239
+11	5391
+12	4558
+13	4096
+14	3580
+15	3206
+16	2940
+17	2652
+18	2527
+19	2366
+20	2174
+21	2068
+22	1926
+23	1840
+24	1755
+25	1619
+26	1599
+27	1535
+28	1376
+29	1320
+30	1225
+31	1238
+32	1210
+33	1135
+34	1023
+35	963
+36	851
+37	849
+38	819
+39	789
+40	709
+41	670
+42	636
+43	576
+44	576
+45	556
+46	482
+47	428
+48	430
+49	394
+50	361
+51	350
+52	307
+53	307
+54	290
+55	240
+56	230
+57	237
+58	173
+59	196
+60	179
+61	156
+62	136
+63	163
+64	141
+65	141
+66	108
+67	116
+68	130
+69	105
+70	95
+71	94
+72	91
+73	63
+74	77
+75	57
+76	69
+77	55
+78	52
+79	45
+80	36
+81	42
+82	58
+83	45
+84	35
+85	24
+86	25
+87	33
+88	14
+89	18
+90	20
+91	26
+92	24
+93	14
+94	14
+95	17
+96	18
+97	14
+98	11
+99	10
+100	10
+101	10
+102	10
+103	10
+104	6
+105	6
+106	7
+107	9
+108	4
+109	2
+110	5
+111	8
+113	7
+114	3
+115	4
+117	6
+118	1
+119	2
+120	2
+121	2
+122	1
+124	3
+125	3
+126	2
+127	2
+129	1
+130	4
+136	2
+137	1
+140	1
+141	1
+157	1
+END snps_per_loc_prefilters
+
+BEGIN samples_per_loc_postfilters
+# Distribution of valid samples matched to a catalog locus after filtering.
+n_samples	n_loci
+2	2945
+4	1620
+5	960
+6	64
+7	25
+12	419
+13	334
+14	331
+15	456
+16	261
+17	1022
+18	61
+19	218
+20	123
+21	119
+22	102
+23	33
+24	338
+25	406
+26	543
+27	980
+28	325
+29	306
+30	178
+31	143
+32	134
+33	148
+34	138
+35	84
+36	83
+37	61
+38	71
+39	61
+40	54
+41	62
+42	67
+43	63
+44	91
+45	58
+46	51
+47	36
+48	39
+49	47
+50	36
+51	32
+52	32
+53	25
+54	38
+55	27
+56	38
+57	34
+58	33
+59	45
+60	56
+61	58
+62	46
+63	134
+64	130
+65	131
+66	120
+67	133
+68	103
+69	152
+70	137
+71	143
+72	172
+73	248
+74	168
+75	180
+76	207
+77	287
+78	207
+79	227
+80	213
+81	217
+82	242
+83	288
+84	337
+85	337
+86	257
+87	191
+88	128
+89	129
+90	149
+91	127
+92	135
+93	143
+94	151
+95	184
+96	158
+97	178
+98	166
+99	196
+100	205
+101	221
+102	193
+103	245
+104	270
+105	291
+106	295
+107	312
+108	308
+109	302
+110	229
+111	118
+112	73
+113	71
+114	63
+115	81
+116	68
+117	79
+118	75
+119	91
+120	119
+121	131
+122	145
+123	145
+124	158
+125	122
+126	105
+127	84
+128	73
+129	53
+130	68
+131	43
+132	44
+133	46
+134	52
+135	34
+136	63
+137	47
+138	36
+139	49
+140	51
+141	54
+142	47
+143	37
+144	38
+145	36
+146	31
+147	42
+148	36
+149	27
+150	38
+151	26
+152	40
+153	33
+154	42
+155	36
+156	37
+157	36
+158	38
+159	39
+160	42
+161	43
+162	49
+163	56
+164	54
+165	45
+166	59
+167	50
+168	59
+169	70
+170	57
+171	48
+172	58
+173	62
+174	58
+175	67
+176	58
+177	61
+178	58
+179	68
+180	62
+181	59
+182	67
+183	82
+184	61
+185	63
+186	64
+187	74
+188	65
+189	58
+190	68
+191	62
+192	58
+193	71
+194	76
+195	59
+196	59
+197	67
+198	68
+199	66
+200	71
+201	73
+202	71
+203	73
+204	76
+205	71
+206	78
+207	62
+208	63
+209	66
+210	76
+211	92
+212	78
+213	84
+214	81
+215	55
+216	60
+217	51
+218	42
+219	42
+220	46
+221	47
+222	37
+223	37
+224	37
+225	45
+226	40
+227	50
+228	52
+229	36
+230	37
+231	47
+232	33
+233	42
+234	48
+235	43
+236	32
+237	46
+238	47
+239	43
+240	37
+241	40
+242	27
+243	43
+244	36
+245	30
+246	37
+247	47
+248	42
+249	45
+250	28
+251	41
+252	32
+253	32
+254	25
+255	42
+256	31
+257	39
+258	32
+259	26
+260	34
+261	30
+262	38
+263	23
+264	32
+265	35
+266	38
+267	37
+268	28
+269	26
+270	27
+271	38
+272	35
+273	34
+274	37
+275	49
+276	35
+277	28
+278	29
+279	36
+280	30
+281	27
+282	45
+283	32
+284	43
+285	35
+286	32
+287	35
+288	36
+289	34
+290	25
+291	42
+292	39
+293	43
+294	43
+295	38
+296	55
+297	41
+298	47
+299	43
+300	46
+301	44
+302	54
+303	53
+304	34
+305	45
+306	42
+307	30
+308	52
+309	46
+310	46
+311	45
+312	33
+313	37
+314	34
+315	28
+316	28
+317	46
+318	34
+319	38
+320	35
+321	42
+322	48
+323	35
+324	34
+325	37
+326	39
+327	43
+328	46
+329	45
+330	40
+331	38
+332	37
+333	34
+334	36
+335	36
+336	29
+337	30
+338	34
+339	41
+340	32
+341	32
+342	32
+343	31
+344	35
+345	44
+346	28
+347	30
+348	28
+349	39
+350	28
+351	27
+352	32
+353	40
+354	31
+355	36
+356	23
+357	32
+358	32
+359	24
+360	30
+361	37
+362	41
+363	30
+364	28
+365	33
+366	28
+367	39
+368	35
+369	40
+370	29
+371	35
+372	36
+373	39
+374	39
+375	33
+376	34
+377	40
+378	45
+379	26
+380	36
+381	39
+382	42
+383	34
+384	26
+385	36
+386	29
+387	29
+388	35
+389	40
+390	29
+391	35
+392	31
+393	34
+394	34
+395	29
+396	33
+397	30
+398	40
+399	43
+400	28
+401	39
+402	34
+403	35
+404	49
+405	39
+406	49
+407	46
+408	55
+409	48
+410	31
+411	35
+412	40
+413	49
+414	36
+415	40
+416	49
+417	51
+418	43
+419	56
+420	40
+421	42
+422	42
+423	46
+424	46
+425	58
+426	53
+427	59
+428	40
+429	63
+430	57
+431	58
+432	52
+433	64
+434	48
+435	47
+436	50
+437	55
+438	33
+439	50
+440	36
+441	47
+442	47
+443	35
+444	52
+445	54
+446	43
+447	45
+448	43
+449	50
+450	49
+451	41
+452	31
+453	53
+454	44
+455	57
+456	53
+457	53
+458	54
+459	61
+460	63
+461	64
+462	59
+463	63
+464	68
+465	58
+466	60
+467	66
+468	68
+469	59
+470	79
+471	62
+472	69
+473	65
+474	58
+475	60
+476	56
+477	60
+478	66
+479	66
+480	58
+481	73
+482	79
+483	82
+484	69
+485	80
+486	68
+487	65
+488	66
+489	71
+490	57
+491	48
+492	37
+493	30
+494	40
+495	32
+496	23
+497	30
+498	30
+499	22
+500	22
+501	32
+502	30
+503	23
+504	24
+505	19
+506	17
+507	23
+508	25
+509	24
+510	31
+511	31
+512	30
+513	22
+514	35
+515	23
+516	36
+517	39
+518	31
+519	31
+520	33
+521	27
+522	31
+523	40
+524	32
+525	35
+526	30
+527	34
+528	38
+529	35
+530	31
+531	29
+532	33
+533	36
+534	48
+535	55
+536	44
+537	37
+538	53
+539	43
+540	47
+541	53
+542	53
+543	50
+544	56
+545	60
+546	51
+547	65
+548	59
+549	68
+550	58
+551	70
+552	72
+553	86
+554	70
+555	105
+556	89
+557	90
+558	102
+559	109
+560	102
+561	89
+562	138
+563	99
+564	119
+565	127
+566	122
+567	156
+568	161
+569	162
+570	137
+571	170
+572	197
+573	187
+574	198
+575	204
+576	188
+577	219
+578	232
+579	204
+580	243
+581	281
+582	318
+583	348
+584	337
+585	336
+586	313
+587	306
+588	273
+589	257
+590	280
+591	272
+592	305
+593	346
+594	341
+595	392
+596	415
+597	482
+598	507
+599	586
+600	668
+601	682
+602	836
+603	951
+604	1110
+605	1278
+606	1685
+607	2353
+608	4503
+609	5320
+END samples_per_loc_postfilters
+
+BEGIN missing_samples_per_loc_postfilters
+# Distribution of missing samples for each catalog locus after filtering.
+# Absent samples at locus	Count
+0	5320
+1	4503
+2	2353
+3	1685
+4	1278
+5	1110
+6	951
+7	836
+8	682
+9	668
+10	586
+11	507
+12	482
+13	415
+14	392
+15	341
+16	346
+17	305
+18	272
+19	280
+20	257
+21	273
+22	306
+23	313
+24	336
+25	337
+26	348
+27	318
+28	281
+29	243
+30	204
+31	232
+32	219
+33	188
+34	204
+35	198
+36	187
+37	197
+38	170
+39	137
+40	162
+41	161
+42	156
+43	122
+44	127
+45	119
+46	99
+47	138
+48	89
+49	102
+50	109
+51	102
+52	90
+53	89
+54	105
+55	70
+56	86
+57	72
+58	70
+59	58
+60	68
+61	59
+62	65
+63	51
+64	60
+65	56
+66	50
+67	53
+68	53
+69	47
+70	43
+71	53
+72	37
+73	44
+74	55
+75	48
+76	36
+77	33
+78	29
+79	31
+80	35
+81	38
+82	34
+83	30
+84	35
+85	32
+86	40
+87	31
+88	27
+89	33
+90	31
+91	31
+92	39
+93	36
+94	23
+95	35
+96	22
+97	30
+98	31
+99	31
+100	24
+101	25
+102	23
+103	17
+104	19
+105	24
+106	23
+107	30
+108	32
+109	22
+110	22
+111	30
+112	30
+113	23
+114	32
+115	40
+116	30
+117	37
+118	48
+119	57
+120	71
+121	66
+122	65
+123	68
+124	80
+125	69
+126	82
+127	79
+128	73
+129	58
+130	66
+131	66
+132	60
+133	56
+134	60
+135	58
+136	65
+137	69
+138	62
+139	79
+140	59
+141	68
+142	66
+143	60
+144	58
+145	68
+146	63
+147	59
+148	64
+149	63
+150	61
+151	54
+152	53
+153	53
+154	57
+155	44
+156	53
+157	31
+158	41
+159	49
+160	50
+161	43
+162	45
+163	43
+164	54
+165	52
+166	35
+167	47
+168	47
+169	36
+170	50
+171	33
+172	55
+173	50
+174	47
+175	48
+176	64
+177	52
+178	58
+179	57
+180	63
+181	40
+182	59
+183	53
+184	58
+185	46
+186	46
+187	42
+188	42
+189	40
+190	56
+191	43
+192	51
+193	49
+194	40
+195	36
+196	49
+197	40
+198	35
+199	31
+200	48
+201	55
+202	46
+203	49
+204	39
+205	49
+206	35
+207	34
+208	39
+209	28
+210	43
+211	40
+212	30
+213	33
+214	29
+215	34
+216	34
+217	31
+218	35
+219	29
+220	40
+221	35
+222	29
+223	29
+224	36
+225	26
+226	34
+227	42
+228	39
+229	36
+230	26
+231	45
+232	40
+233	34
+234	33
+235	39
+236	39
+237	36
+238	35
+239	29
+240	40
+241	35
+242	39
+243	28
+244	33
+245	28
+246	30
+247	41
+248	37
+249	30
+250	24
+251	32
+252	32
+253	23
+254	36
+255	31
+256	40
+257	32
+258	27
+259	28
+260	39
+261	28
+262	30
+263	28
+264	44
+265	35
+266	31
+267	32
+268	32
+269	32
+270	41
+271	34
+272	30
+273	29
+274	36
+275	36
+276	34
+277	37
+278	38
+279	40
+280	45
+281	46
+282	43
+283	39
+284	37
+285	34
+286	35
+287	48
+288	42
+289	35
+290	38
+291	34
+292	46
+293	28
+294	28
+295	34
+296	37
+297	33
+298	45
+299	46
+300	46
+301	52
+302	30
+303	42
+304	45
+305	34
+306	53
+307	54
+308	44
+309	46
+310	43
+311	47
+312	41
+313	55
+314	38
+315	43
+316	43
+317	39
+318	42
+319	25
+320	34
+321	36
+322	35
+323	32
+324	35
+325	43
+326	32
+327	45
+328	27
+329	30
+330	36
+331	29
+332	28
+333	35
+334	49
+335	37
+336	34
+337	35
+338	38
+339	27
+340	26
+341	28
+342	37
+343	38
+344	35
+345	32
+346	23
+347	38
+348	30
+349	34
+350	26
+351	32
+352	39
+353	31
+354	42
+355	25
+356	32
+357	32
+358	41
+359	28
+360	45
+361	42
+362	47
+363	37
+364	30
+365	36
+366	43
+367	27
+368	40
+369	37
+370	43
+371	47
+372	46
+373	32
+374	43
+375	48
+376	42
+377	33
+378	47
+379	37
+380	36
+381	52
+382	50
+383	40
+384	45
+385	37
+386	37
+387	37
+388	47
+389	46
+390	42
+391	42
+392	51
+393	60
+394	55
+395	81
+396	84
+397	78
+398	92
+399	76
+400	66
+401	63
+402	62
+403	78
+404	71
+405	76
+406	73
+407	71
+408	73
+409	71
+410	66
+411	68
+412	67
+413	59
+414	59
+415	76
+416	71
+417	58
+418	62
+419	68
+420	58
+421	65
+422	74
+423	64
+424	63
+425	61
+426	82
+427	67
+428	59
+429	62
+430	68
+431	58
+432	61
+433	58
+434	67
+435	58
+436	62
+437	58
+438	48
+439	57
+440	70
+441	59
+442	50
+443	59
+444	45
+445	54
+446	56
+447	49
+448	43
+449	42
+450	39
+451	38
+452	36
+453	37
+454	36
+455	42
+456	33
+457	40
+458	26
+459	38
+460	27
+461	36
+462	42
+463	31
+464	36
+465	38
+466	37
+467	47
+468	54
+469	51
+470	49
+471	36
+472	47
+473	63
+474	34
+475	52
+476	46
+477	44
+478	43
+479	68
+480	53
+481	73
+482	84
+483	105
+484	122
+485	158
+486	145
+487	145
+488	131
+489	119
+490	91
+491	75
+492	79
+493	68
+494	81
+495	63
+496	71
+497	73
+498	118
+499	229
+500	302
+501	308
+502	312
+503	295
+504	291
+505	270
+506	245
+507	193
+508	221
+509	205
+510	196
+511	166
+512	178
+513	158
+514	184
+515	151
+516	143
+517	135
+518	127
+519	149
+520	129
+521	128
+522	191
+523	257
+524	337
+525	337
+526	288
+527	242
+528	217
+529	213
+530	227
+531	207
+532	287
+533	207
+534	180
+535	168
+536	248
+537	172
+538	143
+539	137
+540	152
+541	103
+542	133
+543	120
+544	131
+545	130
+546	134
+547	46
+548	58
+549	56
+550	45
+551	33
+552	34
+553	38
+554	27
+555	38
+556	25
+557	32
+558	32
+559	36
+560	47
+561	39
+562	36
+563	51
+564	58
+565	91
+566	63
+567	67
+568	62
+569	54
+570	61
+571	71
+572	61
+573	83
+574	84
+575	138
+576	148
+577	134
+578	143
+579	178
+580	306
+581	325
+582	980
+583	543
+584	406
+585	338
+586	33
+587	102
+588	119
+589	123
+590	218
+591	61
+592	1022
+593	261
+594	456
+595	331
+596	334
+597	419
+602	25
+603	64
+604	960
+605	1620
+607	2945
+END missing_samples_per_loc_postfilters
+
+BEGIN snps_per_loc_postfilters
+# Distribution of the number of SNPs per catalog locus (after filtering).
+n_snps	n_loci
+0	20654
+1	5814
+2	4233
+3	3654
+4	3357
+5	3146
+6	2858
+7	2783
+8	2678
+9	2550
+10	2201
+11	2123
+12	1935
+13	1847
+14	1659
+15	1529
+16	1400
+17	1273
+18	1114
+19	951
+20	915
+21	763
+22	641
+23	603
+24	531
+25	438
+26	375
+27	335
+28	298
+29	268
+30	235
+31	230
+32	170
+33	142
+34	139
+35	105
+36	96
+37	92
+38	63
+39	67
+40	43
+41	41
+42	38
+43	38
+44	32
+45	39
+46	32
+47	22
+48	19
+49	14
+50	16
+51	11
+52	12
+53	9
+54	3
+55	8
+56	9
+57	8
+58	5
+59	2
+60	2
+62	4
+64	4
+65	3
+67	1
+68	1
+69	1
+72	1
+78	1
+81	1
+85	1
+END snps_per_loc_postfilters
