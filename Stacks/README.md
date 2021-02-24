@@ -6,7 +6,11 @@
 
 # *De novo* analysis
 ## Preparing the working directory and the data
-1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts``` and another called ```populations```. At the end you should have the same tree structure as the one of the ```Example/``` folder. Your raw data should look like the ones in the ```Example/raw/``` folder if they are not demultiplexed, otherwise you should have 2 files per sample (one for forward reads R1 and one for reverse reads R2).
+1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts``` and another called ```populations```. At the end you should have the same tree structure as the one of the ```Example/``` folder.
+
+You can remove the folders ```genome```, ```alignments```, ```stacks.ref``` and ```tests.ref``` from the tree structure, they only concern the reference-based analysis (except if you want to do both type of analysis).
+
+Your raw data should look like the ones in the ```Example/raw/``` folder if they are not demultiplexed, otherwise you should have 2 files per sample (one for forward reads R1 and one for reverse reads R2).
 
 2. Do the step 3 of the protocol. Depending on the technique you used in order to sequenced your samples you can have indexes in addition to your barcodes. If it is the case you should have barcodes files looking like this (without the first line):
 ```python
@@ -95,19 +99,21 @@ You can find a script example in the ```Example/scripts/``` folder, it is named 
 ## Preparing, demultiplexing and filtering the data
 1. Do the steps 1 to 9 of the protocol as explained above (points 1 to 5 of the *De novo* analysis part of this document).
 
+You can remove the folders ```stacks.denovo``` and ```tests.denovo``` from the tree structure they only concern the *De novo* analysis.
+
 2. Do the steps 12 and 13 of the protocol. In order to run the *bwa index* command on the VSC you can use a script looking like ```Example/scripts/index_bwa_trem.pbs```
 
 Be careful to the prefix you are choosing for the output database, you will need it after (```-p bwa/tre_ber``` in the script)
 
 ## Working on a subset of samples for parameter testing
-3. It was the step 15-B of the protocol but the pstacks command that is needed no longer works. So, the only way to test the parameters is to do it with the *de novo* method as above (points 7 to 9).
+3. It was the step 15-B of the protocol but the *pstacks* command that is needed no longer works. In any case in the reference-based analysis this step is not used to choose parameters, it just allows to check the quality of the data further.
 
 ## Running Stacks on the full dataset
 4. Do the steps 16 and 17-B-(i). In order to align your samples on your reference genome with the *bwa mem* command on the VSC you can use a script looking like ```Example/scripts/alignment_bwa_trem.pbs```
 
 5. Do the steps 17-B-(ii) and (iii) of the protocol.
 
-6. As I explained above the *pstacks* command no longer exist. Hence, you can not do the steps 17-B-(iv) to (vii) of the protocol. Instead you need to use the *gstacks* command like in the script ```Example/scripts/stacks_bwa_trem.pbs```.
+6. As I explained above the *pstacks* command no longer exist. Hence, you cannot do the steps 17-B-(iv) to (vii) of the protocol. Instead you need to use the *gstacks* command like in the script ```Example/scripts/stacks_bwa_trem.pbs```.
 
 ## Filtering genotypes and exporting the data
-7. Finally, as the *De nove* analysis, you can do the step 21 of the protocol (points 12 of the *De novo* analysis part of this document).
+7. Finally, as the *De novo* analysis, you can do the step 21 of the protocol (points 12 of the *De novo* analysis part of this document).
