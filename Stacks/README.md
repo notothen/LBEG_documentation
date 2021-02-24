@@ -105,6 +105,10 @@ You can remove the folders ```stacks.denovo``` and ```tests.denovo``` from the t
 
 Be careful to the prefix you are choosing for the output database, you will need it after (```-p bwa/tre_ber``` in the script)
 
+At the end you should have 5 different files in the ```Example/genome/bwa/``` folder with the following suffixes: *.amb, .ann, .bwt, .pac, .sa*
+
+You will find only the first 2 as example, the others were to heavy.
+
 ## Working on a subset of samples for parameter testing
 3. It was the step 15-B of the protocol but the *pstacks* command that is needed no longer works. In any case in the reference-based analysis this step is not used to choose parameters, it just allows to check the quality of the data further.
 
