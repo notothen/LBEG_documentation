@@ -6,7 +6,7 @@
 
 # *De novo* analysis
 ## Preparing the working directory and the data
-1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts```. At the end you should have the same tree structure as the one of the ```Example/``` folder. Your raw data should look like the ones in the ```Example/raw/``` folder if they are not demultiplexed, otherwise you should have 2 files per sample (one for forward reads R1 and one for reverse reads R2).
+1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts``` and another called ```populations```. At the end you should have the same tree structure as the one of the ```Example/``` folder. Your raw data should look like the ones in the ```Example/raw/``` folder if they are not demultiplexed, otherwise you should have 2 files per sample (one for forward reads R1 and one for reverse reads R2).
 
 2. Do the step 3 of the protocol. Depending on the technique you used in order to sequenced your samples you can have indexes in addition to your barcodes. If it is the case you should have barcodes files looking like this (without the first line):
 ```python
@@ -35,6 +35,7 @@ qsub ./scripts/process_radtags_trem_lib1.pbs
 5. As suggested in the step 9 of the protocol you can check the proportion of retained reads (and the number of retained reads per sample) in the log file in order to see if some samples should be discarded (because of too low or too high retained reads). You will find it in the ```cleaned/``` directory along with the fastq files of your cleaned reads (= demultiplexed + filtered) like in the ```Example/cleaned/``` folder.
 
 6. **Warning**: If you are working with paired-end sequencing data **don't do the step 11** of the protocol. It is no longer necessary because, since the writing of the protocol, an option has been added to specify that the data are paired.
+
 Also, don't do the steps 12 and 13 of the protocol as you are working on *de novo* analysis.
 
 ## Working on a subset of samples for parameter testing
@@ -45,7 +46,10 @@ Also, don't do the steps 12 and 13 of the protocol as you are working on *de nov
 (steps (v) and (vi) are not mandatory)
 
 9. Do the steps (vii) and (viii) from the step 15 of the protocol.
-/!\ Warning: the explainations in the protocol are longer working. You need to follow these steps instead:
+
+/!\ **Warning**: the explainations in the protocol are longer working. 
+
+You need to follow these steps instead:
 - copy and paste the scripts present in the folder ```/staging/leuven/stg_00026/Useful_scripts/Stacks``` in your own ```scripts/``` folder
 - open the script ```Make_plot_number_loci_shared.sh``` and follow the instructions at the beginning of the script (changing the path for the input data and the path to the script ```plot_R_graphs_number_loci_shared.r```)
 - open the script ```Make_plot_snps_per_locus.sh``` and do the same manipulation as above
@@ -54,6 +58,7 @@ Also, don't do the steps 12 and 13 of the protocol as you are working on *de nov
 bash script_name
 ```
 - look at the 2 graphs generated and choose the better value for the parameters of your dataset
+
 At the end you should have 4 files:
 - 2 PDF files corresponding to the graphs
 - 2 text files containing the tables used to generate the graphs
