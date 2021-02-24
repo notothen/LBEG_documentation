@@ -62,6 +62,7 @@ At the end you should have 4 files:
 10. Do the steps 16 and 17-A-(i) of the protocol.
 
 11. For the rest of the steps (17-A-(ii) to (vii)) you can choose to follow the protocol or to run only one command for the integrality of the steps. Indeed, in the protocol the authors use the commands in a decomposed way: ustacks, cstacks and sstacks but it's the same as running the denovo_map command (it's just easier to parallelize the jobs). If you want to run directly the denovo_map command you can do a script as the one called ```denovo_map_all_trem.pbs``` in the ```Example/scripts/``` folder.
+
 At the end you will have:
 - 5 files called ```catalog....```
 - 2 files called ```gstacks....```
@@ -69,6 +70,7 @@ At the end you will have:
 - 1 file called ```tsv2bam.log```
 - 6 files called ```populations....```
 - 5 files for each sample
+
 You can see some of the results files in the ```Example/stacks.denovo/``` folder
 
 (You can do steps 18 to 20 of the protocol but they are not necessary)
