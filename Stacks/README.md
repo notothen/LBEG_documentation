@@ -97,6 +97,8 @@ You can find a script example in the ```Example/scripts/``` folder, it is named 
 
 2. Do the steps 12 and 13 of the protocol. In order to run the *bwa index* command on the VSC you can use a script looking like ```Example/scripts/index_bwa_trem.pbs```
 
+Be careful to the prefix you are choosing for the output database, you will need it after (```-p bwa/tre_ber``` in the script)
+
 ## Working on a subset of samples for parameter testing
 3. It was the step 15-B of the protocol but the pstacks command that is needed no longer works. So, the only way to test the parameters is to do it with the *de novo* method as above (points 7 to 9).
 
