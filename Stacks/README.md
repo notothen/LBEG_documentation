@@ -77,10 +77,12 @@ You can see some of the results files in the ```Example/stacks.denovo/``` folder
 
 ## Filtering genotypes and exporting the data
 12. Do the step 21 of the protocol. You can add a lot of different options in order to filter the genotypes or to have different output formats. You will find all these options and their descriptions at this link: https://catchenlab.life.illinois.edu/stacks/comp/populations.php
+
 Some interesting options are:
 - --min-mac
 - --min-maf
 - --write-single-snp
+
 And, of course, choose carefully the file output options in order to have the files you need for your downstream analysis.
 You can find a script example in the ```Example/scripts/``` folder, it is named ```populations_all_trem.pbs```
 
