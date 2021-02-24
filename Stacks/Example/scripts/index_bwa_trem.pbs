@@ -1,0 +1,26 @@
+#! /bin/bash -l 
+#PBS -l nodes=1:ppn=10 
+#PBS -l walltime=10:00:00 
+#PBS -l pmem=10gb 
+#PBS -m abe 
+#PBS -M enora.geslain@student.kuleuven.be 
+#PBS -N bwa_index_trem 
+#PBS -A llp_lbeg
+
+cd /Example/genome/;
+
+# Programs needed
+module purge
+module load BWA/0.7.17-foss-2018a
+
+date;
+
+# Variable initialisation
+GENOME=/Example/genome/fTreBer1_1.curated_primary.20200227.fa
+
+# Script
+bwa index -p bwa/tre_ber $GENOME &> bwa/bwa_index_trem.oe; 
+
+date;
+
+exit 0;
