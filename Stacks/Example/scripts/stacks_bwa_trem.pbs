@@ -1,0 +1,33 @@
+#! /bin/bash -l 
+#PBS -l nodes=3:ppn=30 
+#PBS -l walltime=48:00:00 
+#PBS -l pmem=6gb 
+#PBS -m abe 
+#PBS -M enora.geslain@student.kuleuven.be 
+#PBS -N bwa_gstacks_trem
+#PBS -A llp_lbeg
+
+cd /Example/stacks.ref/;
+
+# Programs needed
+module purge
+module load Stacks/2.5-foss-2018a
+
+date;
+
+# Variable initialisation
+OUTPUT=./
+POPMAP=../info/popmap.tsv
+BAM_DIR=../alignments/
+	
+# Script
+gstacks \
+-I $BAM_DIR \
+-M $POPMAP \
+-O $OUTPUT \
+-t 90 \
+&> gstacks_bwa_trem.oe;
+
+date;
+
+exit 0;
