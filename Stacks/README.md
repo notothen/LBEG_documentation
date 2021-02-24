@@ -115,6 +115,8 @@ You will find only the first 2 as example, the others were to heavy.
 ## Running Stacks on the full dataset
 4. Do the steps 16 and 17-B-(i). In order to align your samples on your reference genome with the *bwa mem* command on the VSC you can use a script looking like ```Example/scripts/alignment_bwa_trem.pbs```
 
+After the alignment you should have 1 bam file per sample. In the ```Example/alignments/``` folder the file is empty because it was to heavy.
+
 5. Do the steps 17-B-(ii) and (iii) of the protocol.
 
 6. As I explained above the *pstacks* command no longer exist. Hence, you cannot do the steps 17-B-(iv) to (vii) of the protocol. Instead you need to use the *gstacks* command like in the script ```Example/scripts/stacks_bwa_trem.pbs```.
