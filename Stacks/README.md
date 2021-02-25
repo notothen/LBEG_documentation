@@ -5,7 +5,9 @@
 ### You can find the script and data examples at this link: https://github.com/Enorya/LBEG_documentation/tree/main/Stacks
 
 # *De novo* analysis
+<p align="center">
 <img src="https://github.com/Enorya/LBEG_documentation/blob/main/Stacks/Denovo_pipeline.jpg" alt="denovo_pipeline" width="500"/>
+</p>
 ## Preparing the working directory and the data ![#C55A11](https://via.placeholder.com/15/C55A11/000000?text=+)
 1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts``` and another called ```populations```. At the end you should have the same tree structure as the one of the ```Example/``` folder.
 
@@ -97,7 +99,9 @@ And, of course, choose carefully the file output options in order to have the fi
 You can find a script example in the ```Example/scripts/``` folder, it is named ```populations_all_trem.pbs```
 
 # Reference-based analysis
+<p align="center">
 <img src="https://github.com/Enorya/LBEG_documentation/blob/main/Stacks/Reference-based_pipeline.jpg" alt="reference-based_pipeline" width="300"/>
+</p>
 ## Preparing, demultiplexing and filtering the data ![#2F5597](https://via.placeholder.com/15/2F5597/000000?text=+)
 1. Do the steps 1 to 9 of the protocol as explained above (points 1 to 5 of the *De novo* analysis part of this document).
 
