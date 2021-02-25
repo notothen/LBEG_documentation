@@ -5,7 +5,7 @@
 ### You can find the script and data examples at this link: https://github.com/Enorya/LBEG_documentation/tree/main/Stacks
 
 # *De novo* analysis
-<span style="color:orange">some ## Preparing the working directory and the data text</span>
+<span style="color:orange">## Preparing the working directory and the data</span>
 1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts``` and another called ```populations```. At the end you should have the same tree structure as the one of the ```Example/``` folder.
 
 You can remove the folders ```genome```, ```alignments```, ```stacks.ref``` and ```tests.ref``` from the tree structure, they only concern the reference-based analysis (except if you want to do both type of analysis).
