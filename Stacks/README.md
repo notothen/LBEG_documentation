@@ -5,7 +5,7 @@
 ### You can find the script and data examples at this link: https://github.com/Enorya/LBEG_documentation/tree/main/Stacks
 
 # *De novo* analysis
-## Preparing the working directory and the data
+<span style="color:orange">some ## Preparing the working directory and the data text</span>
 1. Do the steps 1 and 2 of the protocol. In addition to the requested directories, create one named ```scripts``` and another called ```populations```. At the end you should have the same tree structure as the one of the ```Example/``` folder.
 
 You can remove the folders ```genome```, ```alignments```, ```stacks.ref``` and ```tests.ref``` from the tree structure, they only concern the reference-based analysis (except if you want to do both type of analysis).
@@ -122,4 +122,4 @@ After the alignment you should have 1 bam file per sample. In the ```Example/ali
 6. As I explained above the *pstacks* command no longer exist. Hence, you cannot do the steps 17-B-(iv) to (vii) of the protocol. Instead you need to use the *gstacks* command like in the script ```Example/scripts/stacks_bwa_trem.pbs```.
 
 ## Filtering genotypes and exporting the data
-7. Finally, as the *De novo* analysis, you can do the step 21 of the protocol (points 12 of the *De novo* analysis part of this document).
+7. Finally, as the *De novo* analysis, you can do the step 21 of the protocol (point 12 of the *De novo* analysis part of this document).
