@@ -26,7 +26,7 @@ You can see a complete example in the ```Example/info/``` repertory
 
 3. Do the step 4 of the protocol. You will find an example of a popmap file in ```Example/info/```
 
-## Demultiplexing and filtering (trimming) the reads
+## Demultiplexing and filtering (trimming) the reads ![#2F5597](https://via.placeholder.com/15/2F5597/000000?text=+)
 4. Do the step 7 and 8 of the protocol. In order to run the *process_radtags* command on the VSC you can use a script looking like ```Example/scripts/process_radtags_trem_lib1.pbs``` and you can launch it by writing the following command in your working directory:
 
 ```bash
@@ -42,7 +42,7 @@ qsub ./scripts/process_radtags_trem_lib1.pbs
 
 Also, don't do the steps 12 and 13 of the protocol as you are working on *de novo* analysis.
 
-## Working on a subset of samples for parameter testing
+## Working on a subset of samples for parameter testing ![#548235](https://via.placeholder.com/15/548235/000000?text=+)
 7. Do the step 14 of the protocol. I suggest you choose a subset of individuals representative of your entire dataset (like individuals from different locations) and take the ones with a high number of retained reads. You can find an example here: ```Example/info/popmap.test_samples.tsv```
 
 8. Do the steps (i) to (iv) from the step 15 of the protocol (warning: **A** is for **de novo** analysis and **B** for **reference-based** analysis). You will find the scripts in order to run the denovo_map command and the populations command (for M=n=1 and 2) in ```Example/scripts/``` (You can launch them with the same command as the step 4 with ```qsub``` before the name of the script).
@@ -67,7 +67,7 @@ At the end you should have 4 files:
 - 2 PDF files corresponding to the graphs
 - 2 text files containing the tables used to generate the graphs
 
-## Running Stacks on the full dataset
+## Running Stacks on the full dataset ![#7B02BE](https://via.placeholder.com/15/7B02BE/000000?text=+)
 10. Do the steps 16 and 17-A-(i) of the protocol.
 
 11. For the rest of the steps (17-A-(ii) to (vii)) you can choose to follow the protocol or to run only one command for the integrality of the steps. Indeed, in the protocol the authors use the commands in a decomposed way: ustacks, cstacks and sstacks but it's the same as running the denovo_map command (it's just easier to parallelize the jobs). If you want to run directly the denovo_map command you can do a script as the one called ```denovo_map_all_trem.pbs``` in the ```Example/scripts/``` folder.
@@ -84,7 +84,7 @@ You can see some of the results files in the ```Example/stacks.denovo/``` folder
 
 (You can do steps 18 to 20 of the protocol but they are not necessary)
 
-## Filtering genotypes and exporting the data
+## Filtering genotypes and exporting the data ![#BF9000](https://via.placeholder.com/15/BF9000/000000?text=+)
 12. Do the step 21 of the protocol. You can add a lot of different options in order to filter the genotypes or to have different output formats. You will find all these options and their descriptions at this link: https://catchenlab.life.illinois.edu/stacks/comp/populations.php
 
 Some interesting options are:
@@ -96,7 +96,7 @@ And, of course, choose carefully the file output options in order to have the fi
 You can find a script example in the ```Example/scripts/``` folder, it is named ```populations_all_trem.pbs```
 
 # Reference-based analysis
-## Preparing, demultiplexing and filtering the data
+## Preparing, demultiplexing and filtering the data ![#B4C7E7](https://via.placeholder.com/15/B4C7E7/000000?text=+)
 1. Do the steps 1 to 9 of the protocol as explained above (points 1 to 5 of the *De novo* analysis part of this document).
 
 You can remove the folders ```stacks.denovo``` and ```tests.denovo``` from the tree structure they only concern the *De novo* analysis.
@@ -109,10 +109,10 @@ At the end you should have 5 different files in the ```Example/genome/bwa/``` fo
 
 You will find only the first 2 as example, the others were to heavy.
 
-## Working on a subset of samples for parameter testing
+## Working on a subset of samples for parameter testing ![#B4C7E7](https://via.placeholder.com/15/B4C7E7/000000?text=+)
 3. It was the step 15-B of the protocol but the *pstacks* command that is needed no longer works. In any case in the reference-based analysis this step is not used to choose parameters, it just allows to check the quality of the data further.
 
-## Running Stacks on the full dataset
+## Running Stacks on the full dataset ![#B4C7E7](https://via.placeholder.com/15/B4C7E7/000000?text=+)
 4. Do the steps 16 and 17-B-(i). In order to align your samples on your reference genome with the *bwa mem* command on the VSC you can use a script looking like ```Example/scripts/alignment_bwa_trem.pbs```
 
 After the alignment you should have 1 bam file per sample. In the ```Example/alignments/``` folder the file is empty because it was to heavy.
@@ -121,5 +121,5 @@ After the alignment you should have 1 bam file per sample. In the ```Example/ali
 
 6. As I explained above the *pstacks* command no longer exist. Hence, you cannot do the steps 17-B-(iv) to (vii) of the protocol. Instead you need to use the *gstacks* command like in the script ```Example/scripts/stacks_bwa_trem.pbs```.
 
-## Filtering genotypes and exporting the data
+## Filtering genotypes and exporting the data ![#B4C7E7](https://via.placeholder.com/15/B4C7E7/000000?text=+)
 7. Finally, as the *De novo* analysis, you can do the step 21 of the protocol (point 12 of the *De novo* analysis part of this document).
