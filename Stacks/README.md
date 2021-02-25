@@ -96,7 +96,7 @@ And, of course, choose carefully the file output options in order to have the fi
 You can find a script example in the ```Example/scripts/``` folder, it is named ```populations_all_trem.pbs```
 
 # Reference-based analysis
-## Preparing, demultiplexing and filtering the data ![#B4C7E7](https://via.placeholder.com/15/B4C7E7/000000?text=+)
+## Preparing, demultiplexing and filtering the data ![#2F5597](https://via.placeholder.com/15/2F5597/000000?text=+)
 1. Do the steps 1 to 9 of the protocol as explained above (points 1 to 5 of the *De novo* analysis part of this document).
 
 You can remove the folders ```stacks.denovo``` and ```tests.denovo``` from the tree structure they only concern the *De novo* analysis.
@@ -109,10 +109,10 @@ At the end you should have 5 different files in the ```Example/genome/bwa/``` fo
 
 You will find only the first 2 as example, the others were to heavy.
 
-## Working on a subset of samples for parameter testing ![#B4C7E7](https://via.placeholder.com/15/B4C7E7/000000?text=+)
+## Working on a subset of samples for parameter testing
 3. It was the step 15-B of the protocol but the *pstacks* command that is needed no longer works. In any case in the reference-based analysis this step is not used to choose parameters, it just allows to check the quality of the data further.
 
-## Running Stacks on the full dataset ![#B4C7E7](https://via.placeholder.com/15/B4C7E7/000000?text=+)
+## Running Stacks on the full dataset ![#7B02BE](https://via.placeholder.com/15/7B02BE/000000?text=+)
 4. Do the steps 16 and 17-B-(i). In order to align your samples on your reference genome with the *bwa mem* command on the VSC you can use a script looking like ```Example/scripts/alignment_bwa_trem.pbs```
 
 After the alignment you should have 1 bam file per sample. In the ```Example/alignments/``` folder the file is empty because it was to heavy.
@@ -121,5 +121,5 @@ After the alignment you should have 1 bam file per sample. In the ```Example/ali
 
 6. As I explained above the *pstacks* command no longer exist. Hence, you cannot do the steps 17-B-(iv) to (vii) of the protocol. Instead you need to use the *gstacks* command like in the script ```Example/scripts/stacks_bwa_trem.pbs```.
 
-## Filtering genotypes and exporting the data ![#B4C7E7](https://via.placeholder.com/15/B4C7E7/000000?text=+)
+## Filtering genotypes and exporting the data ![#BF9000](https://via.placeholder.com/15/BF9000/000000?text=+)
 7. Finally, as the *De novo* analysis, you can do the step 21 of the protocol (point 12 of the *De novo* analysis part of this document).
