@@ -4,7 +4,7 @@
 ### Reference: https://ipyrad.readthedocs.io and Eaton DAR & Overcast I. "ipyrad: Interactive assembly and analysis of RADseq datasets." Bioinformatics (2020).
 ### You can find the script and data examples at this link: https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad
 
-# *De novo* analysis
+# ipyrad analysis
 
 ## Preparing the working directory and the data
 1. Create a new directory with a meaningful name (like "Trematomus_analysis_ipyrad") in order to put all your analysis with ipyrad in it.
@@ -20,3 +20,18 @@ For the example dataset you will see that there is 8 different libraries and in 
 1. Use the command `ipyrad -n meaningful_name` (this name will be used to name your outputs).
 2. Open your new params file (it will have a name such as "params-meaningful_name.txt" and look like the one in the `Example` folder) with your favourite text editor (nano for example).
 3. You now need to change the parameters at your convenience. Some parameters are mandatory, [here](https://ipyrad.readthedocs.io/en/latest/7-outline.html#seven-steps) you will see the mandatory parameters for each step of the pipeline marked with an asterisk.
+For example, we want to do a *De novo* analysis so we are going to put "denovo" to the fifth parameter line.
+At the beginning it can give the impression that there is too much parameters but don't panic! You can just let the default parameters for your first run and you will have the opportunity to do multiple other runs changing the parameters values.
+
+## Running the analysis
+You have 2 possibilities:
+1. You can run the complete pipeline using the command `ipyrad -p params-meaningful_name.txt -s 1234567 -c 108 --MPI`
+2. You can run the pipeline step by step giving the number of the step that you want to launch `ipyrad -p params-meaningful_name.txt -s 1 -c 108 --MPI`
+You can notice the options `--MPI` and `-c 108`, those first option indicate that you are going to parallelize your job (doing different steps at the same moment) and the second give the number of cores you will use in order to parallelize this job (it should correspond to the number of cores you have allocated for your job on the cluster)
+You will find a script example in the folder `Example/scripts/` 
+
+*I would recommend to do first the step 1 and 2, do some statistics on your samples in order to exclude some if needed and then go for the rest of the steps together*
+
+# Branching your analysis
+
+##
