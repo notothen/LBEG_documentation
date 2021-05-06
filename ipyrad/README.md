@@ -39,7 +39,7 @@ You will find a script example in the folder `Example/scripts/`
 2. Change some parameters in your new params file
 3. Run the pipeline again from any step you want but add --force at the end of the command like this: `ipyrad -p params-new_meaningful_name.txt -s 567 -c 108 --MPI --force`
 
-## Branching in order to redo some analysis excluding some individuals
+## Branching in order to redo some analysis selectioning/excluding some individuals
 You have different possibilities depending on the number of samples you want to keep:
 1. You want to keep a very few number of samples, give the name of the samples you want to keep when creating the new params file, like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name 1A0 1B0 1C0` (here 1A0, 1B0 and 1C0 are three different samples)
 2. You want to exclude a very few number of samples, give the name of the samples you want to exclude and add a dash when creating the new params file, like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name - 1A0 1B0 1C0`
