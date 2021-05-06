@@ -41,7 +41,16 @@ You will find a script example in the folder `Example/scripts/`
 
 ## Branching in order to redo some analysis excluding some individuals
 You have different possibilities depending on the number of samples you want to keep:
-1. You want to keep a very few number of samples to retain, give the name of the samples you want to keep when creating the new params file, like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name 1A0 1B0 1C0` (here 1A0, 1B0 and 1C0 are three different samples)
+1. You want to keep a very few number of samples, give the name of the samples you want to keep when creating the new params file, like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name 1A0 1B0 1C0` (here 1A0, 1B0 and 1C0 are three different samples)
+2. You want to exclude a very few number of samples, give the name of the samples you want to exclude and add a dash when creating the new params file, like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name - 1A0 1B0 1C0`
+3. You want to keep a very large number of samples, give a text file containing a list of the samples you want to keep which should look like this (you can find an example in the folder `Example/info/`):
+```bash
+1A0
+1B0
+1C0
+```
+Then you can create a new params file with the branching method like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name list_of_samples.txt`
+
 **/!\ Warning**: if you didn't change the parameter "project dir" the results of your new analysis will be in the a new directory (named after your assembly name like "new_meaningful_name" here) inside your project directory
 
 # 
