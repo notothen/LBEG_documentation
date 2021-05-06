@@ -10,7 +10,7 @@
 1. Create a new directory with a meaningful name (like "Trematomus_analysis_ipyrad") in order to put all your analysis with ipyrad in it.
 2. Move in that new directory and create 4 folders: "scripts", "raw", "info" and a folder with a meaningful name in order to put your results (like "trematomus_results"). 
 3. If you are working with paired-end data make sure that the name of your raw files have the exact mentions `_R1_` and `_R2_` to differentiate forward and reverse reads (You will see examples in the folder `Example/raw/`). Otherwise the software is not going to differentiate the reads.
-4. Depending on the barcoding technique you used you will need to create either 1 file or more files containing the barcodes. Look at the documentation in this [location](https://ipyrad.readthedocs.io/en/latest/5-demultiplexing.html#barcodes-file) to find out how to create your barcodes file(s). When they will be created put them in the `info` folder.
+4. Depending on the barcoding technique you used you will need to create either 1 file or more files containing the barcodes. Look at the documentation in this [location](https://ipyrad.readthedocs.io/en/latest/5-demultiplexing.html#barcodes-file) to find out how to create your barcodes file(s). When they will be created put them in the `info` folder. Take a look at the [demultiplexing with i7]() part of this document if you need to use this technique.
 For the example dataset you will see that there is 8 different libraries and in each library the same set of double barcodes was used. Because of that the demultiplexing was done in 2 steps for each library. First, the reads were demultiplexed using the inline barcodes (8 different) and then, they were demultiplexed again using, this time, the i7 index present in the line preceding the read's sequence (12 differents). 
 
 ## Connecting to the miniconda3 environment (to be able to use ipyrad)
@@ -32,6 +32,11 @@ You will find a script example in the folder `Example/scripts/`
 
 *I would recommend to do first the step 1 and 2, do some statistics on your samples in order to exclude some if needed and then go for the rest of the steps together*
 
+# Demultiplexing with i7
+
+## Open jupyter-notebook
+1. Connect to the VSC using NoMachine
+
 # Branching your analysis
 
 ## Branching in order to redo some analysis changing some parameters
@@ -52,5 +57,3 @@ You have different possibilities depending on the number of samples you want to 
 Then you can create a new params file with the branching method like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name list_of_samples.txt`
 
 **/!\ Warning**: if you didn't change the parameter "project dir" the results of your new analysis will be in the a new directory (named after your assembly name like "new_meaningful_name" here) inside your project directory
-
-# 
