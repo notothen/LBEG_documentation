@@ -34,4 +34,8 @@ You will find a script example in the folder `Example/scripts/`
 
 # Branching your analysis
 
-##
+1. Using the command `ipyrad -p params-meaningful_name.txt -b new_meaningful_name`
+2. Change some parameters in your new params file
+3. Run the pipeline again from any step you want but add --force at the end of the command like this: `ipyrad -p params-new_meaningful_name.txt -s 567 -c 108 --MPI --force`
+
+/!\ Warning: if you didn't change the parameter "project dir" the results of your new analysis will be in the a new directory (named after your assembly name like "new_meaningful_name" here) inside your project directory
