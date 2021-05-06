@@ -10,7 +10,7 @@
 1. Create a new directory with a meaningful name (like "Trematomus_analysis_ipyrad") in order to put all your analysis with ipyrad in it.
 2. Move in that new directory and create 4 folders: "scripts", "raw", "info" and a folder with a meaningful name in order to put your results (like "trematomus_results"). 
 3. If you are working with paired-end data make sure that the name of your raw files have the exact mentions `_R1_` and `_R2_` to differentiate forward and reverse reads (You will see examples in the folder `Example/raw/`). Otherwise the software is not going to differentiate the reads.
-4. Depending on the barcoding technique you used you will need to create either 1 file or more files containing the barcodes. Look at the documentation in this [location](https://ipyrad.readthedocs.io/en/latest/5-demultiplexing.html#barcodes-file) to find out how to create your barcodes file(s). When they will be created put them in the `info` folder. Take a look at the [demultiplexing with i7]() part of this document if you need to use this technique.
+4. Depending on the barcoding technique you used you will need to create either 1 file or more files containing the barcodes. Look at the documentation in this [location](https://ipyrad.readthedocs.io/en/latest/5-demultiplexing.html#barcodes-file) to find out how to create your barcodes file(s). When they will be created put them in the `info` folder. Take a look at the [demultiplexing with i7](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#demultiplexing-with-i7) part of this document if you need to use this technique.
 For the example dataset you will see that there is 8 different libraries and in each library the same set of double barcodes was used. Because of that the demultiplexing was done in 2 steps for each library. First, the reads were demultiplexed using the inline barcodes (8 different) and then, they were demultiplexed again using, this time, the i7 index present in the line preceding the read's sequence (12 differents). 
 
 ## Connecting to the miniconda3 environment (to be able to use ipyrad)
@@ -36,6 +36,51 @@ You will find a script example in the folder `Example/scripts/`
 
 ## Open jupyter-notebook
 1. Connect to the VSC using NoMachine
+2. Open a terminal and begin an interactive session like this: `qsub -I -l nodes=1:ppn=10 -l walltime=3:00:00 -l pmem=10gb -A llp_lbeg`
+3. Move to the directory you want to work in: `cd /path/to/your/folder`
+4. Activate the conda environment in order to run ipyrad and jupyter-notebook like this: `conda activate /staging/leuven/stg_00026/Softwares/miniconda3`
+5. Launch jupyter-notebook with: `jupyter-notebook --ip name_of_the_core --port your_vsc_number` (when looking at your terminal you will see something like `vsc34088@r22i27n08` where "name_of_the_core" corresponds to "r22i27n08" and "your_vsc_number" corresponds to "34088")
+6. Some text will appear, that's normal, don't panic! At the end you will see something like: 
+```bash
+To access the notebook, open this file in a browser:
+        file:///vsc-hard-mounts/leuven-user/340/vsc34088/.local/share/jupyter/runtime/nbserver-4368-open.html
+```
+copy the link and paste it in chrome browser, this will open the jupyter-notebook.
+7. You will see the different folders of files of your working directory and click on the button called "IPython Clusters" in the top left of your screen. In the column "# of engines" put the same number of cores you asked for your interactive session and click "Start"
+8. Move back to "Files" and create a new "Python 3 notebook" clicking on the button "New" in the top roght of the screen.
+You are now in a jupyter-notebook file!
+
+## Demultiplex your i7 index
+1. Import the different modules needed in the first cell like this:
+```python
+## imports
+import ipyrad as ip
+import ipyrad.analysis as ipa
+import ipyparallel as ipp
+import toyplot
+```
+2. You can add a new cell and verify on how many cores you are running with this:
+```python
+ipyclient = ipp.Client()
+print("Connected to {} cores".format(len(ipyclient)))
+```
+3. Add a new cell and do the different steps for the demultiplexing: setting up the parameters (assembly name, project dir, path of the fastq files, path of the barcode file, datatype), setting hackers params to demultiplex on i7 index, run the demultiplexing.
+```python
+# demux trem i7s to plate1 and plate2
+all_trem = ip.Assembly("trem_lib3_inl3_i7")
+all_trem.params.project_dir = "/staging/leuven/stg_00026/enora/trem_ipyrad/new_trem/demux_i7"
+all_trem.params.raw_fastq_path = "/staging/leuven/stg_00026/enora/trem_ipyrad/new_trem/new_trem_lib3_fastqs/inline3_R*_.fastq.gz"
+all_trem.params.barcodes_path = "/staging/leuven/stg_00026/enora/trem_ipyrad/info/trem_i7_barcodes_inline3_lib3.txt"
+all_trem.params.datatype = "pairddrad"
+
+# important: set hackers params to demux on i7
+all_trem.hackersonly.demultiplex_on_i7_tags = True
+all_trem.hackersonly.merge_technical_replicates = True
+
+# run step 1 to demux
+all_trem.run("1", ipyclient=ipyclient, force=True)
+```
+
 
 # Branching your analysis
 
