@@ -59,6 +59,8 @@ import ipyrad.analysis as ipa
 import ipyparallel as ipp
 import toyplot
 ```
+**Tip**: To execute the cell rapidly you can press *Ctrl + Enter*
+
 2. You can add a new cell and verify on how many cores you are running with this:
 ```python
 ipyclient = ipp.Client()
@@ -80,7 +82,7 @@ all_trem.hackersonly.merge_technical_replicates = True
 # run step 1 to demux
 all_trem.run("1", ipyclient=ipyclient, force=True)
 ```
-
+You will find an example file in the folder `Example/scripts/` (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
 
 # Branching your analysis
 
@@ -102,3 +104,40 @@ You have different possibilities depending on the number of samples you want to 
 Then you can create a new params file with the branching method like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name list_of_samples.txt`
 
 **/!\ Warning**: if you didn't change the parameter "project dir" the results of your new analysis will be in the a new directory (named after your assembly name like "new_meaningful_name" here) inside your project directory
+
+# ipyrad analysis toolkit
+
+You can use the analysis toolkit of ipyrad with any kind of VCF files but in order to use them you first need to convert those files into hdf5 format.
+
+## Converting VCF files into hdf5 files
+1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook)
+2. Import the different modules needed in the first cell:
+```python
+import ipyrad.analysis as ipa
+import pandas as pd
+```
+3.Compress your VCF file using those commands in a second cell:
+```python
+%%bash
+
+# compress the VCF file if not already done (creates .vcf.gz)
+bgzip data.vcf
+
+# recompress the final file (create .vcf.gz)
+bgzip data.cleaned.vcf
+```
+4. Convert your file to hdf5 in a third cell:
+```python
+# init a conversion tool
+converter = ipa.vcf_to_hdf5(
+    name="meaningful_name",
+    data="/path/to/your/file.vcf.gz",
+    ld_block_size=20000,
+)
+
+# run the converter
+converter.run()
+```
+You will find an example file in the folder `Example/ipyrad_analysis_toolkit/conversion/` (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
+
+## PCA analysis
