@@ -141,3 +141,43 @@ converter.run()
 You will find an example file in the folder `Example/ipyrad_analysis_toolkit/conversion/` (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
 
 ## PCA analysis
+1. 1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook)
+2. Import the different modules needed in the first cell:
+```python
+import ipyrad.analysis as ipa
+import pandas as pd
+import toyplot
+import toyplot.pdf
+```
+3. In the second cell, setup the path to your vcf file converted to hdf5 format:
+```python
+# the path to your .snps.hdf5 database file
+data = "/staging/leuven/stg_00026/enora/trem_ipyrad/new_trem/trem_default_popfile_outfiles/trem_default_popfile.snps.hdf5"
+```
+4. If you want to separate your samples into different populations, you will need to group your individuals in the third cell like this:
+```python
+# group individuals into populations
+    imap = {
+        "bor": ["P_bor_JRI_01", "P_bor_KGI_03"],
+	"ber": ["T_ber_JRI_02", "T_ber_JRI_03", "T_ber_JRI_04", "T_ber_JRI_05", "T_ber_JRI_06_RS", "T_ber_JRI_06_b_RS"],
+	"eul": ["Standart_2_lib1", "Standart_2_lib2", "Standart_2_lib3", "Standart_2_lib4", "Standart_2_lib5"],
+	"tok": ["T_loe_PS96_369", "T_loe_PS96_370", "T_loe_PS96_371", "T_tok_PS96_173", "T_tok_PS96_345"],
+    }
+```
+You also have the opportunity to require a minimum percentage of samples that should have data in each group like this:
+```python
+# require that 50% of samples have data in each group
+minmap = {i: 0.5 for i in imap}
+```
+5. You now need to launch the PCA analysis like this:
+```python
+# init pca object with input data and (optional) parameter options
+    pca = ipa.pca(
+        data=data,
+        imap=imap,
+        minmap=minmap,
+        mincov=0.75,
+        impute_method="sample",
+    )
+```
+The mincov parameter is optional you can have more informations [here](https://ipyrad.readthedocs.io/en/stable/API-analysis/cookbook-pca.html#Enter-data-file-and-params)
