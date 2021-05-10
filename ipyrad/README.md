@@ -204,5 +204,28 @@ pca.draw(0, 1, outfile="PCA-trem_default_axes0-1.pdf");
 You will find an example file in the folder Example/ipyrad_analysis_toolkit/pca/ (Warning: open it using jupyter-notebook otherwise it will not be readable)
 
 ## Treemix analysis
-1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook). If your data are in VCF format you need to convert them into hdf5 using those [explanations](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#converting-vcf-files-into-hdf5-files)
-2. 
+1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook) but instead of connecting to the miniconda3 environment, connect to the treemix environment with this command: `source activate /staging/leuven/stg_00026/Softwares/miniconda3/envs/treemix/`.
+If your data are in VCF format you need to convert them into hdf5 using those [explanations](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#converting-vcf-files-into-hdf5-files).
+2. Import the different modules needed in the first cell:
+```python
+import ipyrad.analysis as ipa
+import toytree
+import toyplot
+```
+3. Do step 3 and 4 as with the [PCA analysis](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#pca-analysis)
+4. You now need to launch the PCA analysis like this:
+```python
+tmx = ipa.treemix(
+    data=data,
+    imap=imap,
+    minmap=minmap,
+    seed=123456,
+    root="bor",
+    m=2,
+)
+```
+The m parameter corresponds to the number of migrations you are allowing for your analysis.
+5. Run the Treemix analysis using this command:
+```python
+tmx.run()
+```
