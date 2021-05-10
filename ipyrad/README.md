@@ -201,3 +201,4 @@ This commands will generate a plot with 25 replicates of the PCA (for the seed y
 ```python
 pca.draw(0, 1, outfile="PCA-trem_default_axes0-1.pdf");
 ```
+You will find an example file in the folder Example/ipyrad_analysis_toolkit/pca/ (Warning: open it using jupyter-notebook otherwise it will not be readable)
