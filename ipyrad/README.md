@@ -141,7 +141,7 @@ converter.run()
 You will find an example file in the folder `Example/ipyrad_analysis_toolkit/conversion/` (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
 
 ## PCA analysis
-1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook)
+1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook). If your data are in VCF format you need to convert them into hdf5 using those [explanations](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#converting-vcf-files-into-hdf5-files)
 2. Import the different modules needed in the first cell:
 ```python
 import ipyrad.analysis as ipa
@@ -202,3 +202,7 @@ This commands will generate a plot with 25 replicates of the PCA (for the seed y
 pca.draw(0, 1, outfile="PCA-trem_default_axes0-1.pdf");
 ```
 You will find an example file in the folder Example/ipyrad_analysis_toolkit/pca/ (Warning: open it using jupyter-notebook otherwise it will not be readable)
+
+## Treemix analysis
+1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook). If your data are in VCF format you need to convert them into hdf5 using those [explanations](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#converting-vcf-files-into-hdf5-files)
+2. 
