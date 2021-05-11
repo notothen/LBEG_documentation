@@ -200,7 +200,8 @@ This command will plot the PCA results for the first 2 axes (numerotation of the
 pca.run(nreplicates=25, seed=12345);
 pca.draw(0, 1);
 ```
-This commands will generate a plot with 25 replicates of the PCA (for the seed you can write any random number, it is just a marker for the analysis).
+This commands will generate a plot with 25 replicates of the PCA (for the seed you can write any random number, it is just a marker for the analysis). With this command you will end up with the plot like the following where the fuzzy points correspond to the replicates:
+<img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/PCArepli_example.png" alt="treemix plot"/>
 
 9. Finally, you can save your plot in PDF format using:
 ```python
