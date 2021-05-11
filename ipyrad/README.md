@@ -207,7 +207,7 @@ This commands will generate a plot with 25 replicates of the PCA (for the seed y
 ```python
 pca.draw(0, 1, outfile="PCA-trem_default_axes0-1.pdf");
 ```
-You will find an example file in the folder Example/ipyrad_analysis_toolkit/pca/ (Warning: open it using jupyter-notebook otherwise it will not be readable)
+You will find an example file in the folder `Example/ipyrad_analysis_toolkit/pca/` (Warning: open it using jupyter-notebook otherwise it will not be readable)
 
 ## Treemix analysis
 1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook) but instead of connecting to the miniconda3 environment, connect to the treemix environment with this command: `source activate /staging/leuven/stg_00026/Softwares/miniconda3/envs/treemix/`.
