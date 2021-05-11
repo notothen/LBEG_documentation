@@ -181,22 +181,26 @@ minmap = {i: 0.5 for i in imap}
     )
 ```
 The mincov parameter is optional you can have more informations on it [here](https://ipyrad.readthedocs.io/en/stable/API-analysis/cookbook-pca.html#Enter-data-file-and-params). You can also change the impute_method, there is three methods described at this [link](https://ipyrad.readthedocs.io/en/stable/API-analysis/cookbook-pca.html#Subsampling-with-replication).
+
 6. Run the PCA using this command:
 ```python
 pca.run()
 ```
 You have the possibility to write the PC axes to a CSV file following the instructions [here](https://ipyrad.readthedocs.io/en/stable/API-analysis/cookbook-pca.html#Run-PCA).
+
 7. Draw the results using:
 ```python
 pca.draw(0, 1);
 ```
 This command will plot the PCA results for the first 2 axes (numerotation of the axes begin at 0).
+
 8. The PCA analysis of ipyrad toolkit take one random SNPs on each locus for the plotting in order to have unlinked SNPs. Adding some parameters can replicate the analysis on different sets of random SNPs like this:
 ```python
 pca.run(nreplicates=25, seed=12345);
 pca.draw(0, 1);
 ```
 This commands will generate a plot with 25 replicates of the PCA (for the seed you can write any random number, it is just a marker for the analysis).
+
 9. Finally, you can save your plot in PDF format using:
 ```python
 pca.draw(0, 1, outfile="PCA-trem_default_axes0-1.pdf");
