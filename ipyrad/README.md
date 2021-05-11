@@ -225,7 +225,9 @@ tmx = ipa.treemix(
     m=2,
 )
 ```
-The m parameter corresponds to the number of migrations you are allowing for your analysis.
+The m parameter corresponds to the number of migrations you are allowing for your analysis. You will end up with a plot looking like:
+<img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/treemix_plot_example.png" alt="treemix plot"/>
+
 5. Run the Treemix analysis using this command:
 ```python
 tmx.run()
