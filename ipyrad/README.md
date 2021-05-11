@@ -311,4 +311,4 @@ for i in range(9):
 ```python
 toyplot.pdf.render(canvas, "treemix-m3.pdf")
 ```
-You will find an example file in the folder Example/ipyrad_analysis_toolkit/treemix/ (Warning: open it using jupyter-notebook otherwise it will not be readable)
+You will find an example file in the folder `Example/ipyrad_analysis_toolkit/treemix/` (Warning: open it using jupyter-notebook otherwise it will not be readable)
