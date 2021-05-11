@@ -211,6 +211,7 @@ If your data are in VCF format you need to convert them into hdf5 using those [e
 import ipyrad.analysis as ipa
 import toytree
 import toyplot
+import toyplot.pdf
 ```
 3. Do step 3 and 4 as with the [PCA analysis](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#pca-analysis)
 4. You now need to launch the PCA analysis like this:
@@ -229,3 +230,75 @@ The m parameter corresponds to the number of migrations you are allowing for you
 ```python
 tmx.run()
 ```
+6. Draw the resulting tree:
+```python
+tmx.draw_tree()
+```
+7. Draw the covariance matrix:
+```python
+tmx.draw_cov()
+```
+8. In order to find the best value for the number of migration events `m` first initialize your treemix analysis:
+```python
+tmx = ipa.treemix(
+    data=data,
+    imap=imap,
+    minmap=minmap,
+    seed=1234,
+    root="bor",
+)
+```
+Then iterate your run with different values of `m`:
+```python
+tests = {}
+nadmix = [0, 1, 2, 3, 4, 5, 6]
+
+for adm in nadmix:
+    tmx.params.m = adm
+    tmx.run()
+    tests[adm] = tmx.results.llik
+```
+Finally, plot the likelihood for these different values of `m`:
+```python
+toyplot.plot(
+    nadmix,
+    [tests[i] for i in nadmix],
+    width=350,
+    height=275,
+    stroke_width=3,
+    xlabel="n admixture edges",
+    ylabel="ln(likelihood)",
+);
+```
+You will end up with a plot like the following one, all you have to do is choose the value at which the curve starts to flatten out.
+9. You can then run again your analysis with the correct value but also replicating on different set of random SNPs like this:
+```python
+# initialize a gridded canvas to plot trees on
+canvas = toyplot.Canvas(width=600, height=700)
+
+# iterate on different set of random SNPs (9 here)
+for i in range(9):
+
+    # init a treemix analysis object with a random seed
+    tmx = ipa.treemix(
+        data=data,
+        imap=imap,
+        minmap=minmap,
+        root="bor",
+        global_=True,
+        m=3,
+        quiet=True
+    )
+
+    # run model fit
+    tmx.run()
+
+    # select a plot grid axis and add tree to axes
+    axes = canvas.cartesian(grid=(3, 3, i))
+    tmx.draw_tree(axes)
+```
+10. Finally, you can save your plot in PDF format using:
+```python
+toyplot.pdf.render(canvas, "treemix-m3.pdf")
+```
+You will find an example file in the folder Example/ipyrad_analysis_toolkit/treemix/ (Warning: open it using jupyter-notebook otherwise it will not be readable)
