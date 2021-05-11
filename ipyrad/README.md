@@ -25,7 +25,7 @@ At the beginning it can give the impression that there is too much parameters bu
 
 ## Running the analysis
 You have 2 possibilities:
-1. You can run the complete pipeline using the command `ipyrad -p params-meaningful_name.txt -s 1234567 -c 108 --MPI` (an example PBS script is available in the folder `Example/scripts`
+1. You can run the complete pipeline using the command `ipyrad -p params-meaningful_name.txt -s 1234567 -c 108 --MPI`
 2. You can run the pipeline step by step giving the number of the step that you want to launch `ipyrad -p params-meaningful_name.txt -s 1 -c 108 --MPI`
 You can notice the options `--MPI` and `-c 108`, those first option indicate that you are going to parallelize your job (doing different steps at the same moment) and the second give the number of cores you will use in order to parallelize this job (it should correspond to the number of cores you have allocated for your job on the cluster)
 You will find a script example in the folder `Example/scripts/` 
