@@ -116,7 +116,7 @@ You can use the analysis toolkit of ipyrad with any kind of VCF files but in ord
 import ipyrad.analysis as ipa
 import pandas as pd
 ```
-3.Compress your VCF file using those commands in a second cell:
+3. Compress your VCF file using those commands in a second cell:
 ```python
 %%bash
 
@@ -192,7 +192,8 @@ You have the possibility to write the PC axes to a CSV file following the instru
 ```python
 pca.draw(0, 1);
 ```
-This command will plot the PCA results for the first 2 axes (numerotation of the axes begin at 0).
+This command will plot the PCA results for the first 2 axes (numerotation of the axes begin at 0). You will end up with a plot like this one:
+<img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/PCA_example.png" alt="treemix plot"/>
 
 8. The PCA analysis of ipyrad toolkit take one random SNPs on each locus for the plotting in order to have unlinked SNPs. Adding some parameters can replicate the analysis on different sets of random SNPs like this:
 ```python
