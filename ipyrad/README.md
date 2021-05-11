@@ -271,6 +271,7 @@ toyplot.plot(
 );
 ```
 You will end up with a plot like the following one, all you have to do is choose the value at which the curve starts to flatten out.
+<img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/likelihood_for_m_plot.png" alt="likelihood for different values of m"/>
 9. You can then run again your analysis with the correct value but also replicating on different set of random SNPs like this:
 ```python
 # initialize a gridded canvas to plot trees on
