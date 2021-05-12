@@ -15,11 +15,11 @@
 For the example dataset there is 8 different libraries and in each library the same set of double barcodes was used. Because of that the demultiplexing was done in 2 steps for each library. First, the reads were demultiplexed using the inline barcodes (8 different) with this [barcodes file](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/info/inline_barcodes.tsv). Then, they were demultiplexed again using, the i7 index present in the line preceding the read's sequence (12 differents) with the files named `i7_index_inline?_lib1.txt` in this [location](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad/Example/info)
 
 ## Connecting to the miniconda3 environment (to be able to use ipyrad)
-1. `source activate /staging/leuven/stg_00026/Softwares/miniconda3/`
+1. Execute this command to connect to the environment: `source activate /staging/leuven/stg_00026/Softwares/miniconda3/`
 
 ## Creating the parameter file (params file) and change it
 1. Use the command `ipyrad -n meaningful_name` (this name will be used to name your outputs).
-2. Open your new params file (it will have a name such as "params-meaningful_name.txt" and look like the one in the `Example` folder) with your favourite text editor (nano for example).
+2. Open your new params file (its name will be "params-meaningful_name.txt", see the [example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/params-new_trem.txt)) with your favourite text editor (nano for example).
 3. You now need to change the parameters at your convenience. Some parameters are mandatory, [here](https://ipyrad.readthedocs.io/en/latest/7-outline.html#seven-steps) you will see the mandatory parameters for each step of the pipeline marked with an asterisk.
 For example, we want to do a *De novo* analysis so we are going to put "denovo" to the fifth parameter line.
 At the beginning it can give the impression that there is too much parameters but don't panic! You can just let the default parameters for your first run and you will have the opportunity to do multiple other runs changing the parameters values.
