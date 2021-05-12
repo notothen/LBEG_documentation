@@ -52,9 +52,9 @@ To access the notebook, open this file in a browser:
 ```
 Copy-paste the link in chrome browser, this will open the jupyter-notebook.
 
-7. You will see the different folders or files of your working directory. Click on the button called "IPython Clusters" in the top left of your screen. In the column "# of engines" put the same number of cores you asked for your interactive session and click "Start".
+7. You will see the different folders or files of your working directory. Click on the button called `IPython Clusters` in the top left of your screen. In the column `# of engines` put the same number of cores you asked for your interactive session and click `Start`.
 
-8. Move back to "Files" and create a new "Python 3 notebook" clicking on the button "New" in the top right of the screen.
+8. Move back to `Files` and create a new `Python 3 notebook` clicking on the button `New` in the top right of the screen.
 
 **You are now in a jupyter-notebook file!**
 
