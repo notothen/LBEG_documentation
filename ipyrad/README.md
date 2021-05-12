@@ -4,6 +4,9 @@
 ### Reference: https://ipyrad.readthedocs.io and Eaton DAR & Overcast I. "ipyrad: Interactive assembly and analysis of RADseq datasets." Bioinformatics (2020).
 ### You can find the script and data examples at this link: https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad
 
+Ipyrad is a pipeline which allows to call SNPs on different kind of data (rad, ddrad, gbs) but it also allows to do downstream analysis on the resulting SNPs calling (PCA, Structure analysis, phylogenetic analysis...)
+<img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/explanation_graph.png" alt="ipyrad's functioning"/>
+
 # ipyrad analysis
 
 ## Preparing the working directory and the data
