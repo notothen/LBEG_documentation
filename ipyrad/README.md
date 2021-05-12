@@ -43,7 +43,7 @@ See the [script example](https://github.com/Enorya/LBEG_documentation/blob/main/
 4. Activate the conda environment in order to run ipyrad and jupyter-notebook: `conda activate /staging/leuven/stg_00026/Softwares/miniconda3`
 5. Launch jupyter-notebook: `jupyter-notebook --ip name_of_the_core --port vsc_number`
 
-(when looking at your terminal you will see something like `vsc34088@r22i27n08` where "name_of_the_core" corresponds to "r22i27n08" and "vsc_number" corresponds to "34088")
+(when looking at your terminal you will see something like `vsc34088@r22i27n08` where "name_of_the_core" corresponds to `r22i27n08` and "vsc_number" corresponds to `34088`)
 
 6. Some text will appear, that's normal, don't panic! At the end you will see a message: 
 ```bash
