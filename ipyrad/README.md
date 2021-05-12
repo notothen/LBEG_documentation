@@ -159,7 +159,6 @@ See the [example](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad/
 import ipyrad.analysis as ipa
 import pandas as pd
 import toyplot
-import toyplot.pdf
 ```
 3. Add a new cell and setup the path to your vcf file converted to hdf5 format:
 ```python
@@ -218,17 +217,21 @@ pca.draw(0, 1, outfile="PCA-trem_default_axes0-1.pdf");
 See the [example](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad/Example/ipyrad_analysis_toolkit/pca/pca_script.ipynb) (Warning: open it using jupyter-notebook otherwise it will not be readable)
 
 ## Treemix analysis
-1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook) but instead of connecting to the miniconda3 environment, connect to the treemix environment with this command: `source activate /staging/leuven/stg_00026/Softwares/miniconda3/envs/treemix/`.
+1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook) but instead of connecting to the *miniconda3* environment, connect to the *treemix* environment:
+
+`source activate /staging/leuven/stg_00026/Softwares/miniconda3/envs/treemix/`
+
 If your data are in VCF format you need to convert them into hdf5 using those [explanations](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#converting-vcf-files-into-hdf5-files).
-2. Import the different modules needed in the first cell:
+
+2. In the first cell, import the different modules needed:
 ```python
 import ipyrad.analysis as ipa
 import toytree
 import toyplot
 import toyplot.pdf
 ```
-3. Do step 3 and 4 as with the [PCA analysis](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#pca-analysis)
-4. You now need to launch the PCA analysis like this:
+3. Do step 3 and 4 as with the [PCA analysis](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#pca-analysis).
+4. Add a new cell and initiate the Treemix analysis:
 ```python
 tmx = ipa.treemix(
     data=data,
@@ -239,10 +242,9 @@ tmx = ipa.treemix(
     m=2,
 )
 ```
-The m parameter corresponds to the number of migrations you are allowing for your analysis. You will end up with a plot looking like:
-<img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/treemix_plot_example.png" alt="treemix plot"/>
+The `m` parameter corresponds to the number of migration events you are allowing for your analysis.
 
-5. Run the Treemix analysis using this command:
+5. Add a new cell and run the Treemix analysis:
 ```python
 tmx.run()
 ```
@@ -250,11 +252,14 @@ tmx.run()
 ```python
 tmx.draw_tree()
 ```
-7. Draw the covariance matrix:
+You will get a plot like the following:
+<img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/treemix_plot_example.png" alt="treemix plot"/>
+
+7. If you want you can add a new cell and draw a covariance matrix:
 ```python
 tmx.draw_cov()
 ```
-8. In order to find the best value for the number of migration events `m` first initialize your treemix analysis:
+8. In order to find the best value for the number of migration events `m` add a new cell and initiate a new treemix analysis:
 ```python
 tmx = ipa.treemix(
     data=data,
@@ -264,7 +269,7 @@ tmx = ipa.treemix(
     root="bor",
 )
 ```
-Then iterate your run with different values of `m`:
+Then add a new cell and iterate your run with different values of `m`:
 ```python
 tests = {}
 nadmix = [0, 1, 2, 3, 4, 5, 6]
@@ -274,7 +279,7 @@ for adm in nadmix:
     tmx.run()
     tests[adm] = tmx.results.llik
 ```
-Finally, plot the likelihood for these different values of `m`:
+Finally, add a new cell again and plot the likelihood for these different values of `m`:
 ```python
 toyplot.plot(
     nadmix,
@@ -286,18 +291,18 @@ toyplot.plot(
     ylabel="ln(likelihood)",
 );
 ```
-You will end up with a plot like the following one, all you have to do is choose the value at which the curve starts to flatten out.
+You will get a plot like the following one. All you have to do is choose the value at which the curve starts to flatten out.
 <img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/likelihood_for_m_plot.png" alt="likelihood for different values of m"/>
 
-9. You can then run again your analysis with the correct value but also replicating on different set of random SNPs like this:
+9. Add a new cell and run again your analysis with the correct value but, this time, replicating on different set of random SNPs:
 ```python
-# initialize a gridded canvas to plot trees on
+# Initiate a gridded canvas to plot trees on
 canvas = toyplot.Canvas(width=600, height=700)
 
-# iterate on different set of random SNPs (9 here)
+# Iterate on different set of random SNPs (9 here)
 for i in range(9):
 
-    # init a treemix analysis object with a random seed
+    # Initiate a treemix analysis object with a random seed
     tmx = ipa.treemix(
         data=data,
         imap=imap,
@@ -308,15 +313,15 @@ for i in range(9):
         quiet=True
     )
 
-    # run model fit
+    # Run model fit
     tmx.run()
 
-    # select a plot grid axis and add tree to axes
+    # Select a plot grid axis and add tree to axes
     axes = canvas.cartesian(grid=(3, 3, i))
     tmx.draw_tree(axes)
 ```
-10. Finally, you can save your plot in PDF format using:
+10. Add a new cell and save your plot in PDF format:
 ```python
 toyplot.pdf.render(canvas, "treemix-m3.pdf")
 ```
-You will find an example file in the folder `Example/ipyrad_analysis_toolkit/treemix/` (Warning: open it using jupyter-notebook otherwise it will not be readable)
+See the [example](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad/Example/ipyrad_analysis_toolkit/treemix/treemix_script.ipynb) (Warning: open it using jupyter-notebook otherwise it will not be readable)
