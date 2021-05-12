@@ -28,6 +28,7 @@ At the beginning it can give the impression that there is too much parameters bu
 There is 2 possibilities:
 1. Run the complete pipeline using the command `ipyrad -p params-meaningful_name.txt -s 1234567 -c 108 --MPI`
 2. Run the pipeline step by step giving the number of the step you want to launch
+
 `ipyrad -p params-meaningful_name.txt -s 1 -c 108 --MPI`
 
 You can notice the options `--MPI` and `-c 108`. The former indicates that you are going to parallelize your job (doing different steps at the same time). The latter gives the number of cores you will use for your job (it should correspond to the number of cores you have allocated for your job on the cluster).
