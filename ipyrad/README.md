@@ -94,9 +94,9 @@ See the [example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/
 # Branching your analysis
 
 ## Branching in order to redo some analysis changing some parameters
-1. Using the command `ipyrad -p params-meaningful_name.txt -b new_meaningful_name`
-2. Change some parameters in your new params file
-3. Run the pipeline again from any step you want but add --force at the end of the command like this: `ipyrad -p params-new_meaningful_name.txt -s 567 -c 108 --MPI --force`
+1. Use the command: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name`
+2. Change some parameters in your new params file.
+3. Run the pipeline again from any step you want but add `--force` at the end of the command: `ipyrad -p params-new_meaningful_name.txt -s 567 -c 108 --MPI --force`
 
 ## Branching in order to redo some analysis selectioning/excluding some individuals
 You have different possibilities depending on the number of samples you want to keep:
