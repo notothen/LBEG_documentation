@@ -99,18 +99,20 @@ See the [example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/
 3. Run the pipeline again from any step you want but add `--force` at the end of the command: `ipyrad -p params-new_meaningful_name.txt -s 567 -c 108 --MPI --force`
 
 ## Branching in order to redo some analysis selectioning/excluding some individuals
-You have different possibilities depending on the number of samples you want to keep:
-1. You want to keep a very few number of samples, give the name of the samples you want to keep when creating the new params file, like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name 1A0 1B0 1C0` (here 1A0, 1B0 and 1C0 are three different samples)
-2. You want to exclude a very few number of samples, give the name of the samples you want to exclude and add a dash when creating the new params file, like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name - 1A0 1B0 1C0`
-3. You want to keep a very large number of samples, give a text file containing a list of the samples you want to keep which should look like this (you can find an example in the folder `Example/info/`):
-```bash
-1A0
-1B0
-1C0
-```
-Then you can create a new params file with the branching method like this: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name list_of_samples.txt`
+There is 3 possibilities depending on the number of samples you want to keep:
+1. To keep a very few number of samples: give the name of the samples you want to keep when creating the new params file (here 1A0, 1B0 and 1C0 are three different samples)
 
-**/!\ Warning**: if you didn't change the parameter "project dir" the results of your new analysis will be in the a new directory (named after your assembly name like "new_meaningful_name" here) inside your project directory
+`ipyrad -p params-meaningful_name.txt -b new_meaningful_name 1A0 1B0 1C0`
+
+2. To exclude a very few number of samples: give the name of the samples you want to exclude and add a dash when creating the new params file
+
+`ipyrad -p params-meaningful_name.txt -b new_meaningful_name - 1A0 1B0 1C0`
+
+3. To keep a very large number of samples: give a text file containing a list of the samples you want to keep (see the [example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/info/samples_to_keep.txt)) when creating the new params file
+
+`ipyrad -p params-meaningful_name.txt -b new_meaningful_name list_of_samples.txt`
+
+**/!\ Warning**: if you didn't change the parameter *project dir* the results of your new analysis will be in a new directory (named after your assembly name like `new_meaningful_name` here) inside your project directory (here `meaningful_name`).
 
 # ipyrad analysis toolkit
 
