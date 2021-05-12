@@ -116,7 +116,7 @@ There is 3 possibilities depending on the number of samples you want to keep:
 
 # ipyrad analysis toolkit
 
-You can use the analysis toolkit of ipyrad with any kind of VCF files but in order to use them you first need to convert those files into hdf5 format.
+You can use the analysis toolkit of ipyrad with any kind of VCF files but in order to use them you first need to convert those files into hdf5 format. If you used ipyrad to do your analysis you will already have outputs in hdf5 format.
 
 ## Converting VCF files into hdf5 files
 1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook)
