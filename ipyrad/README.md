@@ -8,10 +8,11 @@
 
 ## Preparing the working directory and the data
 1. Create a new directory with a meaningful name (like "Trematomus_analysis_ipyrad") in order to put all your analysis with ipyrad in it.
-2. Move in that new directory and create 4 folders: "scripts", "raw", "info" and a folder with a meaningful name in order to put your results (like "trematomus_results"). 
-3. If you are working with paired-end data make sure that the name of your raw files have the exact mentions `_R1_` and `_R2_` to differentiate forward and reverse reads (You will see examples in the folder `Example/raw/`). Otherwise the software is not going to differentiate the reads.
+2. Move in that new directory and create 4 folders: `scripts`, `raw`, `info` and a folder with a meaningful name in order to put your results (like "trematomus_results"). 
+3. If you are working with paired-end data make sure the names of your raw files have the exact mentions `_R1_` and `_R2_` to differentiate forward and reverse reads (You will see examples in the folder `Example/raw/`). It is mandatory, otherwise the software is not going to differentiate the reads.
 4. Depending on the barcoding technique you used you will need to create either 1 file or more files containing the barcodes. Look at the documentation in this [location](https://ipyrad.readthedocs.io/en/latest/5-demultiplexing.html#barcodes-file) to find out how to create your barcodes file(s). When they will be created put them in the `info` folder. Take a look at the [demultiplexing with i7](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#demultiplexing-with-i7) part of this document if you need to use this technique.
-For the example dataset you will see that there is 8 different libraries and in each library the same set of double barcodes was used. Because of that the demultiplexing was done in 2 steps for each library. First, the reads were demultiplexed using the inline barcodes (8 different) and then, they were demultiplexed again using, this time, the i7 index present in the line preceding the read's sequence (12 differents). 
+
+For the example dataset there is 8 different libraries and in each library the same set of double barcodes was used. Because of that the demultiplexing was done in 2 steps for each library. First, the reads were demultiplexed using the inline barcodes (8 different) with this [barcodes file](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/info/inline_barcodes.tsv). Then, they were demultiplexed again using, the i7 index present in the line preceding the read's sequence (12 differents) with the files named `i7_index_inline?_lib1.txt` in this [location](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad/Example/info)
 
 ## Connecting to the miniconda3 environment (to be able to use ipyrad)
 1. `source activate /staging/leuven/stg_00026/Softwares/miniconda3/`
