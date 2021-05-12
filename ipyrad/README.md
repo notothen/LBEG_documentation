@@ -153,22 +153,20 @@ converter.run()
 See the [example](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad/Example/ipyrad_analysis_toolkit/conversion/conversion.ipynb) (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
 
 ## PCA analysis
-1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook). If your data are in VCF format you need to convert them into hdf5 using those [explanations](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#converting-vcf-files-into-hdf5-files)
-2. Import the different modules needed in the first cell:
+1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook). If your data are in VCF format you need to convert them into hdf5 using those [explanations](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#converting-vcf-files-into-hdf5-files).
+2. In the first cell, import the different modules needed:
 ```python
 import ipyrad.analysis as ipa
 import pandas as pd
 import toyplot
 import toyplot.pdf
 ```
-3. In the second cell, setup the path to your vcf file converted to hdf5 format:
+3. Add a new cell and setup the path to your vcf file converted to hdf5 format:
 ```python
-# the path to your .snps.hdf5 database file
 data = "/staging/leuven/stg_00026/enora/trem_ipyrad/new_trem/trem_default_popfile_outfiles/trem_default_popfile.snps.hdf5"
 ```
-4. If you want to separate your samples into different populations, you will need to group your individuals in the third cell like this:
+4. If you want to separate your samples into different populations, add a new cell and setup your populations:
 ```python
-# group individuals into populations
     imap = {
         "bor": ["P_bor_JRI_01", "P_bor_KGI_03"],
 	"ber": ["T_ber_JRI_02", "T_ber_JRI_03", "T_ber_JRI_04", "T_ber_JRI_05", "T_ber_JRI_06_RS", "T_ber_JRI_06_b_RS"],
@@ -176,14 +174,12 @@ data = "/staging/leuven/stg_00026/enora/trem_ipyrad/new_trem/trem_default_popfil
 	"tok": ["T_loe_PS96_369", "T_loe_PS96_370", "T_loe_PS96_371", "T_tok_PS96_173", "T_tok_PS96_345"],
     }
 ```
-You also have the opportunity to require a minimum percentage of samples that should have data in each group like this:
+You also have the opportunity to require a minimum percentage of samples that should have data in each group:
 ```python
-# require that 50% of samples have data in each group
 minmap = {i: 0.5 for i in imap}
 ```
-5. You now need to launch the PCA analysis like this:
+5. Add a new cell and initiate the PCA analysis:
 ```python
-# init pca object with input data and (optional) parameter options
     pca = ipa.pca(
         data=data,
         imap=imap,
@@ -192,34 +188,34 @@ minmap = {i: 0.5 for i in imap}
         impute_method="sample",
     )
 ```
-The mincov parameter is optional you can have more informations on it [here](https://ipyrad.readthedocs.io/en/stable/API-analysis/cookbook-pca.html#Enter-data-file-and-params). You can also change the impute_method, there is three methods described at this [link](https://ipyrad.readthedocs.io/en/stable/API-analysis/cookbook-pca.html#Subsampling-with-replication).
+mincov parameter is optional you can have more informations [here](https://ipyrad.readthedocs.io/en/stable/API-analysis/cookbook-pca.html#Enter-data-file-and-params). You can also change the impute_method, there is three methods described at this [link](https://ipyrad.readthedocs.io/en/stable/API-analysis/cookbook-pca.html#Subsampling-with-replication).
 
-6. Run the PCA using this command:
+6. Add a new cell and run the PCA:
 ```python
 pca.run()
 ```
 You have the possibility to write the PC axes to a CSV file following the instructions [here](https://ipyrad.readthedocs.io/en/stable/API-analysis/cookbook-pca.html#Run-PCA).
 
-7. Draw the results using:
+7. Draw the resulting plot adding in the same cell:
 ```python
 pca.draw(0, 1);
 ```
-This command will plot the PCA results for the first 2 axes (numerotation of the axes begin at 0). You will end up with a plot like this one:
+This command will plot the PCA results for the first 2 axes (numerotation of the axes begin at 0). You will end up with a plot looking like:
 <img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/PCA_example.png" alt="treemix plot"/>
 
-8. The PCA analysis of ipyrad toolkit take one random SNPs on each locus for the plotting in order to have unlinked SNPs. Adding some parameters can replicate the analysis on different sets of random SNPs like this:
+8. The PCA analysis of ipyrad toolkit take one random SNP on each locus for the plotting in order to have unlinked SNPs. You can replicate the analysis on different sets of random SNPs adding some parameters:
 ```python
 pca.run(nreplicates=25, seed=12345);
 pca.draw(0, 1);
 ```
-This commands will generate a plot with 25 replicates of the PCA (for the seed you can write any random number, it is just a marker for the analysis). With this command you will end up with the plot like the following where the fuzzy points correspond to the replicates:
+These commands will generate a plot with 25 replicates of the PCA (for the seed you can write any random number, it is just a marker for the analysis). With this command you will get a plot looking like the following, where the fuzzy points correspond to the replicates:
 <img src="https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/images/PCArepli_example.png" alt="treemix plot"/>
 
-9. Finally, you can save your plot in PDF format using:
+9. Finally, you can add a new cell to save your plot in PDF format:
 ```python
 pca.draw(0, 1, outfile="PCA-trem_default_axes0-1.pdf");
 ```
-You will find an example file in the folder `Example/ipyrad_analysis_toolkit/pca/` (Warning: open it using jupyter-notebook otherwise it will not be readable)
+See the [example](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad/Example/ipyrad_analysis_toolkit/pca/pca_script.ipynb) (Warning: open it using jupyter-notebook otherwise it will not be readable)
 
 ## Treemix analysis
 1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook) but instead of connecting to the miniconda3 environment, connect to the treemix environment with this command: `source activate /staging/leuven/stg_00026/Softwares/miniconda3/envs/treemix/`.
