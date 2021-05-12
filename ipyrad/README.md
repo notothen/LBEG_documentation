@@ -82,14 +82,14 @@ trem.params.raw_fastq_path = "/Example/raw/trem_lib1_inl1_R*_.fastq.gz"
 trem.params.barcodes_path = "/Example/info/i7_index_inline1_lib1.txt"
 trem.params.datatype = "pairddrad"
 
-# Set hackers params to demux on i7
+# Set hackers params to demultiplex on i7 index
 trem.hackersonly.demultiplex_on_i7_tags = True
 trem.hackersonly.merge_technical_replicates = True
 
-# run step 1 to demux
+# Run the demultiplexing (step 1)
 all_trem.run("1", ipyclient=ipyclient, force=True)
 ```
-You will find an example file in the folder `Example/scripts/` (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
+See the [example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/scripts/demultiplexing_library1_inline1.ipynb) (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
 
 # Branching your analysis
 
