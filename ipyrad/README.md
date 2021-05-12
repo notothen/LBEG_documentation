@@ -25,13 +25,14 @@ For the example dataset there is 8 different libraries and in each library the s
 At the beginning it can give the impression that there is too much parameters but don't panic! You can just let the default parameters for your first run and you will have the opportunity to do multiple other runs changing the parameters values with the [branching](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#branching-your-analysis).
 
 ## Running the analysis
-You have 2 possibilities:
-1. You can run the complete pipeline using the command `ipyrad -p params-meaningful_name.txt -s 1234567 -c 108 --MPI`
-2. You can run the pipeline step by step giving the number of the step that you want to launch `ipyrad -p params-meaningful_name.txt -s 1 -c 108 --MPI`
-You can notice the options `--MPI` and `-c 108`, those first option indicate that you are going to parallelize your job (doing different steps at the same moment) and the second give the number of cores you will use in order to parallelize this job (it should correspond to the number of cores you have allocated for your job on the cluster)
-You will find a script example in the folder `Example/scripts/` 
+There is 2 possibilities:
+1. Run the complete pipeline using the command `ipyrad -p params-meaningful_name.txt -s 1234567 -c 108 --MPI`
+2. Run the pipeline step by step giving the number of the step you want to launch `ipyrad -p params-meaningful_name.txt -s 1 -c 108 --MPI`
 
-*I would recommend to do first the step 1 and 2, do some statistics on your samples in order to exclude some if needed and then go for the rest of the steps together*
+You can notice the options `--MPI` and `-c 108`. The former indicates that you are going to parallelize your job (doing different steps at the same time). The latter gives the number of cores you will use for your job (it should correspond to the number of cores you have allocated for your job on the cluster).
+See the [script example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/scripts/trem_s12.pbs) for a submission on the cluster.
+
+*I would recommend to do step 1 and 2, then do some statistics on your samples in order to exclude some if needed (using the [branching method](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#branching-in-order-to-redo-some-analysis-selectioningexcluding-some-individuals)) and after that, go for the rest of the steps together.*
 
 # Demultiplexing with i7
 
