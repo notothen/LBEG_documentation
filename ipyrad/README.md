@@ -27,9 +27,7 @@ At the beginning it can give the impression that there is too much parameters bu
 ## Running the analysis
 There is 2 possibilities:
 1. Run the complete pipeline using the command `ipyrad -p params-meaningful_name.txt -s 1234567 -c 108 --MPI`
-2. Run the pipeline step by step giving the number of the step you want to launch
-
-`ipyrad -p params-meaningful_name.txt -s 1 -c 108 --MPI`
+2. Run the pipeline step by step giving the number of the step you want to launch `ipyrad -p params-meaningful_name.txt -s 1 -c 108 --MPI`
 
 You can notice the options `--MPI` and `-c 108`. The former indicates that you are going to parallelize your job (doing different steps at the same time). The latter gives the number of cores you will use for your job (it should correspond to the number of cores you have allocated for your job on the cluster).
 See the [script example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/scripts/trem_s12.pbs) for a submission on the cluster.
@@ -40,19 +38,25 @@ See the [script example](https://github.com/Enorya/LBEG_documentation/blob/main/
 
 ## Open jupyter-notebook
 1. Connect to the VSC using NoMachine
-2. Open a terminal and begin an interactive session like this: `qsub -I -l nodes=1:ppn=10 -l walltime=3:00:00 -l pmem=10gb -A llp_lbeg`
+2. Open a terminal and begin an interactive session (you can change the walltime): `qsub -I -l nodes=1:ppn=10 -l walltime=3:00:00 -l pmem=10gb -A llp_lbeg`
 3. Move to the directory you want to work in: `cd /path/to/your/folder`
-4. Activate the conda environment in order to run ipyrad and jupyter-notebook like this: `conda activate /staging/leuven/stg_00026/Softwares/miniconda3`
-5. Launch jupyter-notebook with: `jupyter-notebook --ip name_of_the_core --port your_vsc_number` (when looking at your terminal you will see something like `vsc34088@r22i27n08` where "name_of_the_core" corresponds to "r22i27n08" and "your_vsc_number" corresponds to "34088")
-6. Some text will appear, that's normal, don't panic! At the end you will see something like: 
+4. Activate the conda environment in order to run ipyrad and jupyter-notebook: `conda activate /staging/leuven/stg_00026/Softwares/miniconda3`
+5. Launch jupyter-notebook: `jupyter-notebook --ip name_of_the_core --port vsc_number`
+
+(when looking at your terminal you will see something like `vsc34088@r22i27n08` where "name_of_the_core" corresponds to "r22i27n08" and "vsc_number" corresponds to "34088")
+
+6. Some text will appear, that's normal, don't panic! At the end you will see a message: 
 ```bash
 To access the notebook, open this file in a browser:
         file:///vsc-hard-mounts/leuven-user/340/vsc34088/.local/share/jupyter/runtime/nbserver-4368-open.html
 ```
-copy the link and paste it in chrome browser, this will open the jupyter-notebook.
-7. You will see the different folders of files of your working directory and click on the button called "IPython Clusters" in the top left of your screen. In the column "# of engines" put the same number of cores you asked for your interactive session and click "Start"
-8. Move back to "Files" and create a new "Python 3 notebook" clicking on the button "New" in the top roght of the screen.
-You are now in a jupyter-notebook file!
+Copy-paste the link in chrome browser, this will open the jupyter-notebook.
+
+7. You will see the different folders or files of your working directory. Click on the button called "IPython Clusters" in the top left of your screen. In the column "# of engines" put the same number of cores you asked for your interactive session and click "Start".
+
+8. Move back to "Files" and create a new "Python 3 notebook" clicking on the button "New" in the top right of the screen.
+
+**You are now in a jupyter-notebook file!**
 
 ## Demultiplex your i7 index
 1. Import the different modules needed in the first cell like this:
