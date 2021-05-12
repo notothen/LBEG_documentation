@@ -59,9 +59,8 @@ Copy-paste the link in chrome browser, this will open the jupyter-notebook.
 **You are now in a jupyter-notebook file!**
 
 ## Demultiplex your i7 index
-1. Import the different modules needed in the first cell like this:
+1. In the first cell, import the different modules needed:
 ```python
-## imports
 import ipyrad as ip
 import ipyrad.analysis as ipa
 import ipyparallel as ipp
@@ -69,23 +68,23 @@ import toyplot
 ```
 **Tip**: To execute the cell rapidly you can press *Ctrl + Enter*
 
-2. You can add a new cell and verify on how many cores you are running with this:
+2. Add a new cell and verify on how many cores you are running:
 ```python
 ipyclient = ipp.Client()
 print("Connected to {} cores".format(len(ipyclient)))
 ```
-3. Add a new cell and do the different steps for the demultiplexing: setting up the parameters (assembly name, project dir, path of the fastq files, path of the barcode file, datatype), setting hackers params to demultiplex on i7 index, run the demultiplexing.
+3. Add a new cell and do the different steps for the demultiplexing: set up the parameters (assembly name, project dir, path of the fastq files, path of the barcodes file, datatype), set hackers parameters to demultiplex on i7 index, run the demultiplexing.
 ```python
-# demux trem i7s to plate1 and plate2
-all_trem = ip.Assembly("trem_lib3_inl3_i7")
-all_trem.params.project_dir = "/staging/leuven/stg_00026/enora/trem_ipyrad/new_trem/demux_i7"
-all_trem.params.raw_fastq_path = "/staging/leuven/stg_00026/enora/trem_ipyrad/new_trem/new_trem_lib3_fastqs/inline3_R*_.fastq.gz"
-all_trem.params.barcodes_path = "/staging/leuven/stg_00026/enora/trem_ipyrad/info/trem_i7_barcodes_inline3_lib3.txt"
-all_trem.params.datatype = "pairddrad"
+# Set up your parameters
+trem = ip.Assembly("trem_lib1_inl1_i7")
+trem.params.project_dir = "/Example/trematomus_results/trem_lib1_inl1_i7"
+trem.params.raw_fastq_path = "/Example/raw/trem_lib1_inl1_R*_.fastq.gz"
+trem.params.barcodes_path = "/Example/info/i7_index_inline1_lib1.txt"
+trem.params.datatype = "pairddrad"
 
-# important: set hackers params to demux on i7
-all_trem.hackersonly.demultiplex_on_i7_tags = True
-all_trem.hackersonly.merge_technical_replicates = True
+# Set hackers params to demux on i7
+trem.hackersonly.demultiplex_on_i7_tags = True
+trem.hackersonly.merge_technical_replicates = True
 
 # run step 1 to demux
 all_trem.run("1", ipyclient=ipyclient, force=True)
