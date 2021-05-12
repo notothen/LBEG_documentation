@@ -1,0 +1,26 @@
+#!/bin/sh
+
+#PBS -l nodes=1:ppn=36
+#PBS -l walltime=10:00:00
+#PBS -l mem=5gb
+#PBS -m abe
+#PBS -M enora.geslain@student.kuleuven.be
+#PBS -N trem_trimming
+#PBS -A llp_lbeg
+
+# Move to your directory
+cd /staging/leuven/stg_00026/enora/trem_ipyrad/;
+
+# Programs needed
+conda activate /staging/leuven/stg_00026/Softwares/miniconda3/
+module purge
+module load OpenMPI/3.1.1-GCC-6.4.0-2.28-CUDA-10.1.105
+
+date;
+
+# Script
+ipyrad -p params-trem.txt -s 12 -c 36 --MPI
+
+date;
+
+exit 0;
