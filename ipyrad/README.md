@@ -37,7 +37,7 @@ See the [script example](https://github.com/Enorya/LBEG_documentation/blob/main/
 
 *I would recommend to do step 1 and 2, then do some statistics on your samples in order to exclude some if needed (using the [branching method](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#branching-in-order-to-redo-some-analysis-selectioningexcluding-some-individuals)) and after that, go for the rest of the steps together.*
 
-# Demultiplexing with i7 ![#BDD7EE](https://via.placeholder.com/20/F8CBAD/000000?text=+)
+# Demultiplexing with i7 ![#BDD7EE](https://via.placeholder.com/20/BDD7EE/000000?text=+)
 
 ## Open jupyter-notebook
 1. Connect to the VSC using NoMachine
@@ -94,7 +94,7 @@ all_trem.run("1", ipyclient=ipyclient, force=True)
 ```
 See the [example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/scripts/demultiplexing_library1_inline1.ipynb) (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
 
-# Branching your analysis ![#C5E0B4](https://via.placeholder.com/20/F8CBAD/000000?text=+)
+# Branching your analysis ![#C5E0B4](https://via.placeholder.com/20/C5E0B4/000000?text=+)
 
 ## Branching in order to redo some analysis changing some parameters
 1. Use the command: `ipyrad -p params-meaningful_name.txt -b new_meaningful_name`
@@ -117,7 +117,7 @@ There is 3 possibilities depending on the number of samples you want to keep:
 
 **/!\ Warning**: if you didn't change the parameter *project dir* the results of your new analysis will be in a new directory (named after your assembly name like `new_meaningful_name` here) inside your project directory (here `meaningful_name`).
 
-# ipyrad analysis toolkit ![#D3A2FC](https://via.placeholder.com/20/F8CBAD/000000?text=+)
+# ipyrad analysis toolkit ![#D3A2FC](https://via.placeholder.com/20/D3A2FC/000000?text=+)
 
 You can use the analysis toolkit of ipyrad with any kind of VCF files but in order to use them you first need to convert those files into hdf5 format. If you used ipyrad to do your analysis you will already have outputs in hdf5 format.
 
