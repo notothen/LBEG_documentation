@@ -119,35 +119,38 @@ There is 3 possibilities depending on the number of samples you want to keep:
 You can use the analysis toolkit of ipyrad with any kind of VCF files but in order to use them you first need to convert those files into hdf5 format. If you used ipyrad to do your analysis you will already have outputs in hdf5 format.
 
 ## Converting VCF files into hdf5 files
-1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook)
-2. Import the different modules needed in the first cell:
+1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook).
+2. In the first cell, import the different modules needed:
 ```python
 import ipyrad.analysis as ipa
 import pandas as pd
 ```
-3. Compress your VCF file using those commands in a second cell:
+3. Add a new cell and compress your VCF file:
 ```python
 %%bash
 
-# compress the VCF file if not already done (creates .vcf.gz)
-bgzip data.vcf
+# Load necessary modules
+module purge
+module load BCFtools/1.9-foss-2018a
 
-# recompress the final file (create .vcf.gz)
-bgzip data.cleaned.vcf
+cd /path/to/the/directory/containing/your/file/
+
+# Compress the VCF file (creates .vcf.gz)
+bgzip /path/to/your/file.vcf
 ```
-4. Convert your file to hdf5 in a third cell:
+4. Add a new cell and convert your file to hdf5:
 ```python
-# init a conversion tool
+# Initialize a conversion tool
 converter = ipa.vcf_to_hdf5(
     name="meaningful_name",
     data="/path/to/your/file.vcf.gz",
     ld_block_size=20000,
 )
 
-# run the converter
+# Run the converter
 converter.run()
 ```
-You will find an example file in the folder `Example/ipyrad_analysis_toolkit/conversion/` (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
+See the [example](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad/Example/ipyrad_analysis_toolkit/conversion/conversion.ipynb) (**Warning**: open it using jupyter-notebook otherwise it will not be readable)
 
 ## PCA analysis
 1. Open a jupyter-notebook in your working directory following the steps [here](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#open-jupyter-notebook). If your data are in VCF format you need to convert them into hdf5 using those [explanations](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#converting-vcf-files-into-hdf5-files)
