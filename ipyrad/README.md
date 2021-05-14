@@ -22,7 +22,7 @@ For the example dataset there is 8 different libraries and in each library the s
 
 ## Creating the parameter file (params file) and change it
 1. Use the command `ipyrad -n meaningful_name` (this name will be used to name your outputs).
-2. Open your new params file (its name will be "params-meaningful_name.txt", see the [example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/params-new_trem.txt)) with your favourite text editor (nano for example).
+2. Open your new params file (its name will be "params-meaningful_name.txt", see the [example](https://github.com/Enorya/LBEG_documentation/blob/main/ipyrad/Example/params-trem.txt)) with your favourite text editor (nano for example).
 3. Change the parameters at your convenience. Some parameters are mandatory, [here](https://ipyrad.readthedocs.io/en/latest/7-outline.html#seven-steps) you will see, for each step of the pipeline, the mandatory parameters marked with an asterisk.
 
 At the beginning it can give the impression that there is too much parameters but don't panic! You can just let the default parameters for your first run and you will have the opportunity to do multiple other runs changing the parameters values with the [branching](https://github.com/Enorya/LBEG_documentation/tree/main/ipyrad#branching-your-analysis).
