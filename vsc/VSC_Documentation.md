@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # VSC Documentation for LBEG
 
 #### By Henrik Christiansen, last update on 12/10/2021
