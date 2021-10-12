@@ -4,10 +4,10 @@
 #### All information available on github: [github.com/Enorya/LBEG_documentation](https://github.com/Enorya/LBEG_documentation/tree/main/vsc) 
 
 ## Introduction
-For computationally intensive tasks we use the Flemish Supercomputer Cluster (hereafter VSC). Detailed instructions on VSC usage can be found [here](https://vlaams-supercomputing-centrum-vscdocumentation.readthedocs-hosted.com/en/latest/index.html)
+For computationally intensive tasks we use the Flemish Supercomputer Cluster (hereafter VSC). Detailed instructions on VSC usage can be found [here](https://vlaams-supercomputing-centrum-vscdocumentation.readthedocs-hosted.com/en/latest/index.html).
 
 ## Account
-Before using the VSC you need to get a VSC account. Following the explanations [here](https://vlaams-supercomputing-centrum-vscdocumentation.readthedocs-hosted.com/en/latest/access/getting_access.html#)
+Before using the VSC you need to get a VSC account. Following the explanations [here](https://vlaams-supercomputing-centrum-vscdocumentation.readthedocs-hosted.com/en/latest/access/getting_access.html#).
 
 ## Credits
 When you have an account, you also need credits to run analyses on the VSC. We have a VSC project group called "llp_lbeg" which is used for billing credits. When running jobs you need to specify this group in the PBS header or when requesting interactive jobs: ```-A llp_lbeg```
@@ -28,8 +28,17 @@ The VSC sends out a monthly project users overview to the project leaders (curre
 
 ## Storage
 
+We have two storage folders on the VSC:
 
+- ```/staging/leuven/stg_00026```
 
+- ```/archive/leuven/arc_00026```
+
+These localities differ in the sense that ```staging``` is the "normal" working space (in addition to your personal home, data, and scratch folders). The ```archive``` directory is for long-term storage of raw data/final output files and **not** for ongoing work (this directory is slower to work with & more expensive!).
+
+Storage space on the VSC is costly (much more expensive than credits), so use it wisely!
+
+The VSC now bills ```staging``` usage on a monthly basis and sends out monthly overviews on the space used to the project lead(ers). The ```archive``` directory is still billed annually. New space can be ordered [here](https://admin.kuleuven.be/icts/onderzoek/hpc/extend_storage).
 
 ## Good practices/first things to do for troubleshooting
 
